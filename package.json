@@ -10,9 +10,15 @@
     "data": "tsx scripts/extractArtworks.ts"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.379.0",
     "next": "14.2.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
@@ -21,6 +27,7 @@
     "@types/sparql-http-client": "^3.0.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "is-port-reachable": "^4.0.0",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "sparql-http-client": "^3.0.0",
@@ -28,7 +35,6 @@
     "tsx": "^4.11.0",
     "typescript": "^5.4.5",
     "zod": "^3.23.8",
-    "zod-to-ts": "^1.2.0",
-    "is-port-reachable": "^4.0.0"
+    "zod-to-ts": "^1.2.0"
   }
 }

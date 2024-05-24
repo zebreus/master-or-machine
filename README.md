@@ -12,6 +12,10 @@ tsx scripts/extractArtworks.ts
 
 This will put the output in `data/artworks.ts`.
 
+## Develop the website
+
+For now, we use [shadcn/ui](https://ui.shadcn.com/) for styling. The first template was created using v0.dev .
+
 ## Run the website
 
 First, run the development server:
