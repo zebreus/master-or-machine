@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "data": "tsx scripts/extractArtworks.ts"
+    "data": "tsx scripts/extractArtworks.ts",
+    "artwork_by_movement": "tsx scripts/extractFeaturesByMovement"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
