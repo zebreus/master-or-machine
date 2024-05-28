@@ -3,23 +3,82 @@
 export type ArtworkFromImpressionism = {
   paintingLabel: string
   artistName: string
-  movement: string
+  date_of_birth?: string | undefined
+  date_of_death?: string | undefined
+  image_of_artist?: string | undefined
+  movementLabel: string
   width?: string | undefined
   height?: string | undefined
   creationYear?: string | undefined
   description?: string | undefined
   abstract?: string | undefined
+  motifs: string[]
+  material?: string[] | undefined
 }[]
 
 export const artworkFromImpressionism: ArtworkFromImpressionism = [
   {
-    paintingLabel: "La Promenade",
-    artistName: "Claude Monet",
-    movement: "Impressionism",
-    width: "82",
-    height: "100",
-    description: "painting by Claude Monet, 1875 foot",
+    paintingLabel: "Bal du moulin de la Galette",
+    artistName: "Pierre-Auguste Renoir",
+    date_of_birth: "1841",
+    date_of_death: "1919",
+    image_of_artist:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    movementLabel: "Impressionism",
+    width: "175",
+    height: "131",
+    description: "painting by Auguste Renoir",
     abstract:
-      "Woman with a Parasol - Madame Monet and Her Son, sometimes known as The Stroll (French: La Promenade) is an oil-on-canvas painting by Claude Monet from 1875. The Impressionist work depicts his wife Camille Monet and their son Jean Monet in the period from 1871 to 1877 while they were living in Argenteuil, capturing a moment on a stroll on a windy summer's day.",
+      "Bal du moulin de la Galette (commonly known as Dance at Le moulin de la Galette) is an 1876 painting by French artist Pierre-Auguste Renoir. It is housed at the Musée d'Orsay in Paris and is one of Impressionism's most celebrated masterpieces. The painting depicts a typical Sunday afternoon at the original Moulin de la Galette in the district of Montmartre in Paris. In the late 19th century, working class Parisians would dress up and spend time there dancing, drinking, and eating galettes into the evening.Like other works of Renoir's early maturity, Bal du moulin de la Galette is a typically Impressionist snapshot of real life. It shows a richness of form, a fluidity of brush stroke, and a flickering, sun-dappled light.\\nFrom 1879 to 1894 the painting was in the collection of the French painter Gustave Caillebotte; when he died it became the property of the French Republic as payment for death duties. From 1896 to 1929 the painting hung in the Musée du Luxembourg in Paris. From 1929 it hung in the Musée du Louvre until it was transferred to the Musée d'Orsay in 1986.",
+    material: ["oil paint", "canvas"],
+    motifs: [
+      "bar",
+      "Paris",
+      "tree",
+      "windmill",
+      "pendant",
+      "dance",
+      "dress",
+      "Le Moulin de la Galette",
+      "chair",
+      "Sunday",
+      "closed position",
+      "boater",
+      "partner dance",
+      "cup",
+      "bowler hat",
+      "afternoon",
+      "ball",
+      "carafe",
+      "choker",
+      "folk dance",
+      "streetlight",
+      "dress shirt",
+      "straw hat",
+      "top hat",
+      "shadow",
+      "vest",
+      "jacket",
+      "trousers",
+      "drink",
+      "bench",
+      "crowd",
+      "necktie",
+      "red hair",
+      "earring",
+      "couple",
+      "smile",
+      "blond",
+      "broad-leaved tree",
+      "beard",
+      "table",
+      "standing",
+      "hat",
+      "long hair",
+      "girl",
+      "sitting",
+      "man",
+      "woman",
+    ],
   },
 ] satisfies ArtworkFromImpressionism
