@@ -35,7 +35,7 @@ export default function Component() {
       setArtworks(fetchedArtworks)
       setLoading(false)
     })
-  }, [])
+  }, [movementName, numRounds])
 
   // TODO: loading animation
   if (loading) return <div>Loading</div>
@@ -97,7 +97,8 @@ export default function Component() {
               </div>
 
               <article className="z-10 text-white">
-                "Some generated description for the currently fetched artwork."
+                &quot;Some generated description for the currently fetched
+                artwork.&quot;
               </article>
             </>
           )}
@@ -136,7 +137,10 @@ export default function Component() {
                         style={{
                           borderRadius: "10px",
                         }}
-                        src={artworks[round - 1].image_of_artist}
+                        src={
+                          artworks[round - 1].image_of_artist ||
+                          "/placeholder.svg"
+                        }
                         alt="Image to identify"
                         layout="fill"
                         objectFit="cover"
@@ -149,8 +153,8 @@ export default function Component() {
                       {artworks[round - 1].artistName}
                     </div>
                     <div>
-                      <p className="font-semibold text-slate-300">Painting:</p>"
-                      {artworks[round - 1].paintingLabel}"
+                      <p className="font-semibold text-slate-300">Painting:</p>
+                      &quot;{artworks[round - 1].paintingLabel}&quot;
                     </div>
                     <div>
                       <p className="font-semibold text-slate-300">Movement:</p>
