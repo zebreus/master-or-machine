@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"
 
-import { useSearchParams } from "../../../node_modules/next/navigation"
+//import { useSearchParams } from "../../../node_modules/next/navigation"
 
 import { Button } from "@/components/button"
 import {
@@ -19,11 +19,10 @@ enum GameState {
 }
 
 export default function Component() {
-  const searchParams = useSearchParams()
-
   // TODO: get from url parameters, once settings are implemented
-  const numRounds = 10
-  const movementName = searchParams.get("movement") || "Impressionism"
+  //const searchParams = useSearchParams()
+  const numRounds = 10 //searchParams.get("rounds") || "Impressionism"
+  const movementName = "Impressionism" //searchParams.get("movement") || "Impressionism"
 
   const [round, setRound] = useState(1)
   const [gameState, setGameState] = useState(GameState.ROUND)
