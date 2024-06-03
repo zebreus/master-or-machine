@@ -28,9 +28,9 @@ export const Header = ({ currentTab, round, roundsTotal }: IProps) => {
         <div>Master or Machine</div>
       </Link>
 
-      {currentTab !== Tab.GAME && (
+      {currentTab !== Tab.GAME && currentTab !== Tab.GAME_SETTINGS && (
         <div className="flex justify-center">
-          <Link href="/game">
+          <Link href="/game-settings">
             <Button buttonText="Play"></Button>
           </Link>
         </div>
@@ -39,6 +39,12 @@ export const Header = ({ currentTab, round, roundsTotal }: IProps) => {
       {currentTab === Tab.GAME && (
         <div className="text-xl text-accentGreen flex items-center justify-center">
           Round {round}/{roundsTotal}
+        </div>
+      )}
+
+      {currentTab === Tab.GAME_SETTINGS && (
+        <div className="text-xl text-accentGreen flex items-center justify-center">
+          Choose your settings
         </div>
       )}
 

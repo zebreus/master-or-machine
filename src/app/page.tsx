@@ -1,3 +1,5 @@
+"use client"
+
 import { ChallengeBanner } from "@/components/challenge-banner"
 import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"

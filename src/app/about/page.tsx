@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "../../../node_modules/next/image"
 import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"

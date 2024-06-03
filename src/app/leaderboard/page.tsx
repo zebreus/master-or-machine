@@ -1,3 +1,5 @@
+"use client"
+
 import { Header } from "@/components/header"
 import { Player } from "@/components/player"
 import { Tab } from "@/types/Tab"

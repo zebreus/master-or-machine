@@ -17,7 +17,7 @@ export const ChallengeBanner = ({ bannerText }: IProps) => {
       className="cursor-pointer flex justify-center items-center rounded-xl h-72 w-full bg-cover"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      onClick={() => router.push("./game")}
+      onClick={() => router.push("./game-settings")}
       style={{
         backgroundImage: `url("placeholder-artwork.jpeg")`,
       }}
