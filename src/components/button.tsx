@@ -1,6 +1,6 @@
 import classNames from "../../node_modules/classnames/index"
 
-interface IProps {
+interface ButtonProps {
   buttonText: string
   color?: string
   size?: string
@@ -12,7 +12,7 @@ export const Button = ({
   color = "green",
   size = "regular",
   clicked,
-}: IProps) => {
+}: ButtonProps) => {
   return (
     <button
       onClick={() => {
