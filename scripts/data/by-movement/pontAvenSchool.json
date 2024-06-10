@@ -1,0 +1,57 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Paul_Gauguin_137.jpg",
+    "paintingLabel": "Vision After the Sermon",
+    "artistName": "Paul Gauguin",
+    "date_of_birth": "1848",
+    "date_of_death": "1903",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Paul_Gauguin_111.jpg",
+    "movementLabel": "Pont-Aven School",
+    "width": "91.00",
+    "height": "72.20",
+    "description": "oil painting by French artist Paul Gauguin",
+    "abstract": "Vision after the Sermon (Jacob Wrestling with the Angel) is an oil painting by French artist Paul Gauguin, completed in 1888. It is now in the Scottish National Gallery, Edinburgh. It depicts a scene from the Bible in which Jacob wrestles an angel. It depicts this indirectly, through a vision that the women depicted see after a sermon in church. It was painted in Pont-Aven, Brittany, France.\\n\\n",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Gauguin%2C_Paul_-_Still_Life_with_Profile_of_Laval_-_Google_Art_Project.jpg",
+    "paintingLabel": "Still Life with Profile of Laval",
+    "artistName": "Paul Gauguin",
+    "date_of_birth": "1848",
+    "date_of_death": "1903",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Paul_Gauguin_111.jpg",
+    "movementLabel": "Pont-Aven School",
+    "width": "15",
+    "height": "18.125",
+    "description": "painting by Paul Gauguin",
+    "abstract": "Still Life with Profile of Laval is an 1886 oil painting by French artist Paul Gauguin, located in the Indianapolis Museum of Art, which is in Indianapolis, Indiana. It depicts Gauguin's friend Charles Laval in profile with an assortment of inanimate objects, including a ceramic pot Gauguin made himself.",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Paul_Gauguin_016.jpg",
+    "paintingLabel": "Paysannes bretonnes",
+    "artistName": "Paul Gauguin",
+    "date_of_birth": "1848",
+    "date_of_death": "1903",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Paul_Gauguin_111.jpg",
+    "movementLabel": "Pont-Aven School",
+    "width": "92.7",
+    "height": "66.5",
+    "description": "painting by Paul Gauguin",
+    "abstract": "Breton Peasant Women is an 1894 oil on canvas painting by Paul Gauguin of two Breton peasant women in conversation. It is now in the musée d'Orsay in Paris.",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/%C3%89mile_Bernard_-_Les_femmes_bretonnes_%C3%A0_la_pri%C3%A8re.jpg",
+    "paintingLabel": "Breton Women Attending a Pardon",
+    "artistName": "Émile Bernard",
+    "date_of_birth": "1868",
+    "date_of_death": "1941",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Henri_de_Toulouse-Lautrec_-_Portrait_de_%C3%89mile_Bernard.jpg",
+    "movementLabel": "Pont-Aven School",
+    "width": "116.21",
+    "height": "82.25",
+    "description": "painting by Emile Bernard",
+    "id": 3
+  }
+]

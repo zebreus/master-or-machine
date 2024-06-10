@@ -1,0 +1,27 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Vier_Holzplastiken_1912.jpg",
+    "paintingLabel": "Four Wooden Sculptures",
+    "artistName": "Ernst Ludwig Kirchner",
+    "date_of_birth": "1880",
+    "date_of_death": "1938",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Kirchner_1919_portrait.jpg",
+    "movementLabel": "German Expressionism",
+    "description": "paintings by Ernst Ludwig Kirchner",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Portrait_of_a_German_Officer%2C_Marsden_Hartley.jpg",
+    "paintingLabel": "Portrait of a German Officer",
+    "artistName": "Marsden Hartley",
+    "date_of_birth": "1877",
+    "date_of_death": "1943",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/21/Portrait_of_Marsden_Hartley.jpg",
+    "movementLabel": "German Expressionism",
+    "width": "105.1",
+    "height": "173.4",
+    "description": "painting by Marsden Hartley",
+    "abstract": "Portrait of a German Officer is an early 20th century portrait by American modernist painter Marsden Hartley. Done in oil on canvas, the portrait depicts the abstract figure of an Imperial German officer as being composed entirely of military decorations and badges of rank. The painting is currently on display at the Metropolitan Museum of Art.",
+    "id": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Lobster_Telephone_Photo.jpg",
+    "paintingLabel": "Lobster Telephone",
+    "artistName": "Salvador Dalí",
+    "date_of_birth": "1904",
+    "date_of_death": "1989",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/27/Salvador_Dali_NYWTS.jpg",
+    "movementLabel": "Surrealism",
+    "width": "330",
+    "height": "178",
+    "description": "Skulptur von Salvador Dalí (German)",
+    "abstract": "Lobster Telephone (also known as Aphrodisiac Telephone) is a Surrealist object, created by Salvador Dalí in 1936 for the English poet Edward James (1907–1984), a leading collector of surrealist art. In his book The Secret Life of Salvador Dalí, Dalí wrote teasingly of his demand to know why, when he asked for a grilled lobster in a restaurant, he was never presented with a boiled telephone.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/Salvador_Dali_The_Rainbow_1972.jpg",
+    "paintingLabel": "The Rainbow",
+    "artistName": "Salvador Dalí",
+    "date_of_birth": "1904",
+    "date_of_death": "1989",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/27/Salvador_Dali_NYWTS.jpg",
+    "movementLabel": "Surrealism",
+    "description": "painting by Salvador Dalí",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Casa_de_La_Moneda._Donaci%C3%B3n_botero.jpg",
+    "paintingLabel": "The Beautiful Night",
+    "artistName": "Paul Delvaux",
+    "date_of_birth": "1897",
+    "date_of_death": "1994",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/0/06/Willy_Bosschem247.jpg",
+    "movementLabel": "Surrealism",
+    "description": "painting by Paul Delvaux",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ismael_Nery_-_Auto-retrato%2C_1927.jpg",
+    "paintingLabel": "Self-portrait",
+    "artistName": "Ismael Nery",
+    "date_of_birth": "1900",
+    "date_of_death": "1934",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Retrato_de_Ismael_Nery.jpg",
+    "movementLabel": "Surrealism",
+    "width": "84",
+    "height": "129",
+    "description": "Gemälde von Ismael Nery (German)",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/London_Dali_Exhibition.jpg",
+    "paintingLabel": "The Temptation of St. Anthony",
+    "artistName": "Salvador Dalí",
+    "date_of_birth": "1904",
+    "date_of_death": "1989",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/27/Salvador_Dali_NYWTS.jpg",
+    "movementLabel": "Surrealism",
+    "width": "120",
+    "height": "90",
+    "description": "painting by Salvador Dalí",
+    "abstract": "The Temptation of St. Anthony is a painting by Spanish surrealist artist Salvador Dalí. Painted in 1946, it is a precursor to the body of Dalí's work commonly known as the 'classical period' or the 'Dalí Renaissance'.",
+    "id": 4
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/La_Trahison_des_images.jpg",
+    "paintingLabel": "The Treachery of Images",
+    "artistName": "René Magritte",
+    "date_of_birth": "1898",
+    "date_of_death": "1967",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/32/Rene_Magritte_by_Wolleh.jpg",
+    "movementLabel": "Surrealism",
+    "width": "81.12",
+    "height": "60.33",
+    "description": "painting by René Magritte",
+    "abstract": "The Treachery of Images (French: La Trahison des images) is a 1929 painting by surrealist painter René Magritte. It is also known as This is Not a Pipe and The Wind and the Song. Magritte painted it when he was 30 years old. It is on display at the Los Angeles County Museum of Art.The painting shows a pipe. Below it, Magritte painted, 'Ceci n'est pas une pipe', French for 'This is not a pipe'.\\n\\nThe famous pipe. How people reproached me for it!  And yet, could you stuff my pipe?  No, it's just a representation, is it not? So if I had written on my picture 'This is a pipe', I'd have been lying!\\n\\nThe theme of pipes with the text 'Ceci n'est pas une pipe' is extended in Les Mots et Les Images, La Clé des Songes, Ceci n'est pas une pipe (L'air et la chanson), The Tune and Also the Words, Ceci n’est pas une pomme, and Les Deux Mystères.The painting is sometimes given as an example of meta message conveyed by paralanguage, like Alfred Korzybski's 'The word is not the thing' and 'The map is not the territory', as well as Denis Diderot's This is not a story. One interpretation is that the pipe in the painting is not a pipe, but rather a drawing of a pipe.\\nOn December 15, 1929, Paul Éluard and André Breton published an essay about poetry in La Révolution surréaliste (The Surrealist Revolution) as a reaction to the publication by poet Paul Valéry 'Notes sur la poésie' in Les Nouvelles littéraires of September 28, 1929. When Valéry wrote 'Poetry is a survival', Breton and Éluard made fun of it and wrote 'Poetry is a pipe', as a reference to Magritte's painting.In the same edition of La Révolution surréaliste, Magritte published 'Les mots et les images' (his founding text which illustrated where words play with images), his answer to the survey on love, and Je ne vois pas la [femme] cachée dans la forêt, a painting tableau surrounded by photos of sixteen surrealists with their eyes closed, including Magritte himself.\\nIn the R Programming Language, the magrittr package, which uses a special operator called a 'pipe' (%>%), was named after the artist René Magritte in reference to this painting, made explicit in the package logo.",
+    "id": 5
+  }
+]

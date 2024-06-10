@@ -1,0 +1,53 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Leon_Chwistek_-_Portret_Tytusa_Czy%C5%BCewskiego.jpg",
+    "paintingLabel": "Portrait of Tytus Czyżewski",
+    "artistName": "Leon Chwistek",
+    "date_of_birth": "1884",
+    "date_of_death": "1944",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Witkacy-Udzielny_BYK_na_urlopie%2C_portret_Leona_Chwistka.jpg",
+    "movementLabel": "contemporary art",
+    "width": "65",
+    "height": "50",
+    "description": "painting by Leon Chwistek",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Tytus_Czy%C5%BCewski_-_Kwiaty_i_motyle.jpg",
+    "paintingLabel": "Flowers and butterflies",
+    "artistName": "Tytus Czyżewski",
+    "date_of_birth": "1880",
+    "date_of_death": "1945",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Leon_Chwistek_Portret_Tytusa_Czy%C5%BCewskiego_1920.jpg",
+    "movementLabel": "contemporary art",
+    "width": "50.5",
+    "height": "64.5",
+    "description": "painting by Tytus Czyżewski",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Leon_Chwistek_-_Feast.jpg",
+    "paintingLabel": "Feast",
+    "artistName": "Leon Chwistek",
+    "date_of_birth": "1884",
+    "date_of_death": "1944",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Witkacy-Udzielny_BYK_na_urlopie%2C_portret_Leona_Chwistka.jpg",
+    "movementLabel": "contemporary art",
+    "width": "102",
+    "height": "69.5",
+    "description": "painting by Leon Chwistek",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Dona_i_Ocell.JPG",
+    "paintingLabel": "Dona i Ocell",
+    "artistName": "Joan Miró",
+    "date_of_birth": "1893",
+    "date_of_death": "1983",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Portrait_of_Joan_Miro%2C_Barcelona_1935_June_13.jpg",
+    "movementLabel": "contemporary art",
+    "description": "sculpture by Joan Miró in Barcelona",
+    "abstract": "Dona i Ocell ([ˈdɔ.nə i uˈseʎ], 'Woman and Bird') is a 22-metre high sculpture by Joan Miró located in the Parc Joan Miró in Barcelona, Catalonia, Spain. The sculpture was covered in tiles by the artist's collaborator Joan Gardy Artigas. The sculpture is part of an artwork trilogy commissioned from Miró to welcome visitors to Barcelona.",
+    "id": 3
+  }
+]

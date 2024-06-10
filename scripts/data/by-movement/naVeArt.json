@@ -1,0 +1,29 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Henri_Rousseau_-_Myself-_Portrait_%E2%80%93_Landscape_-_Google_Art_Project.jpg",
+    "paintingLabel": "Myself: Portrait – Landscape",
+    "artistName": "Henri Rousseau",
+    "date_of_birth": "1844",
+    "date_of_death": "1910",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Rousseau_Joyeux_Farceurs_Dornac_crop.jpg",
+    "movementLabel": "Naïve art",
+    "width": "113",
+    "height": "146",
+    "description": "painting by Henri Rousseau",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Rousseau-Hungry-Lion.jpg",
+    "paintingLabel": "The Hungry Lion Throws Itself on the Antelope",
+    "artistName": "Henri Rousseau",
+    "date_of_birth": "1844",
+    "date_of_death": "1910",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Rousseau_Joyeux_Farceurs_Dornac_crop.jpg",
+    "movementLabel": "Naïve art",
+    "width": "301.5",
+    "height": "201.5",
+    "description": "painting by Henri Rousseau",
+    "abstract": "The Hungry Lion Throws Itself on the Antelope (Le lion ayant faim se jette sur l'antilope) is a large oil-on-canvas painting created by Henri Rousseau in 1905.  Following Scouts Attacked by a Tiger the previous year, The Hungry Lion was the second jungle painting to mark Rousseau's return to this genre after a 10-year hiatus caused by the generally negative reception to his 1891 painting Tiger in a Tropical Storm.\\nThe Hungry Lion features a jungle scene of thick green foliage lit by a deep red setting sun.  In the foreground, a lion bites deeply into the neck of an antelope.  Other animals are visible in the dense undergrowth: a panther watches from the right, an owl stares out of the background holding a bloody strand of meat in its beak in the centre, with a second bird to its left, and dark ape-like shape with gimlet eye lurks to the left.  Rousseau based the central pair of animals on a diorama of stuffed animals at the Paris Muséum national d'histoire naturelle, entitled Senegal Lion Devouring an Antelope.Rousseau's first jungle painting, Tiger in a Tropical Storm, was rejected by the Académie de peinture et de sculpture for their official Paris Salon, but he was able to show it at the 1891 Salon des Indépendants.  Despite his increasing reputation, Rousseau continued to exhibit his works at the annual Salon des Indépendants, but The Hungry Lion was first shown at a third show, the Salon d'Automne, in 1905, alongside works by Matisse and Derain.  Rousseau wrote a longer subtitle or caption to accompany his painting:\\n\\nThe magazine L'Illustration printed a copy of the work in its edition of 4 November 1905, with works by Matisse, Derain, Cézanne and Vuillard.\\nThe avante garde works on display at the 1905 Salon d'Automne were decried by art critic Louis Vauxcelles as, 'Donatello chez les fauves' (Donatello among the wild beasts), contrasting the paintings with a Renaissance-style sculpture displayed in the same room at the Grand Palais. Vauxcelles’ comment was printed on 17 October 1905 in Gil Blas, a daily newspaper, and the term Fauvism passed into popular usage for the type of work exhibited, of seeming simplicity in vibrant colours.  The very term Fauvism may have been influenced directly by Rousseau's The Hungry Lion, although Rousseau was not himself counted as a Fauve.Despite their apparent simplicity, Rousseau's jungle paintings were built up meticulously in layers, using a large number of green shades to capture the lush exuberance of the jungle.  Rousseau's work continued to be derided by the critics up to and after his death in 1910, but he won a following among his contemporaries: Picasso, Matisse, and Toulouse-Lautrec were all admirers of his work.\\nThe Hungry Lion is now held by the Fondation Beyeler and is exhibited at their gallery at Riehen, near Basel, in Switzerland. Previously. in 1905, it had been exhibited in the Salon des Independants, in Paris.",
+    "id": 1
+  }
+]

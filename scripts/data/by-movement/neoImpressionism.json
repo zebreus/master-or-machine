@@ -1,0 +1,56 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Georges_Seurat%2C_1889-90%2C_Le_Chahut%2C_Kr%C3%B6ller-M%C3%BCller_Museum.jpg",
+    "paintingLabel": "Le Chahut",
+    "artistName": "Georges Seurat",
+    "date_of_birth": "1859",
+    "date_of_death": "1891",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/76/Georges_Seurat_1888.jpg",
+    "movementLabel": "neo-impressionism",
+    "width": "1410",
+    "height": "1700",
+    "description": "painting by Georges Seurat",
+    "abstract": "Le Chahut (English: The Can-can) is a Neo-Impressionist painting by Georges Seurat, dated 1889-90. It was first exhibited at the 1890 Salon de la Société des Artistes Indépendants (titled Chahut, cat. no. 726) in Paris, where it eclipsed other works. Chahut became the prime target of art critics, and was widely discussed among Symbolist critics.\\nThe painting—representing a quadrille at the Moulin Rouge—influenced the Fauves, Cubists, Futurists and Orphists.\\nFormerly in the collection of French Symbolist poet and art critic Gustave Kahn, Chahut is located at the Kröller-Müller Museum in Otterlo, Netherlands.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Georges_Seurat_007.jpg",
+    "paintingLabel": "Banlieue",
+    "artistName": "Georges Seurat",
+    "date_of_birth": "1859",
+    "date_of_death": "1891",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/76/Georges_Seurat_1888.jpg",
+    "movementLabel": "neo-impressionism",
+    "width": "41",
+    "height": "32.2",
+    "description": "painting by Georges Seurat",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Georges_Seurat_-_The_Circus_-_Google_Art_Project.jpg",
+    "paintingLabel": "Le Cirque",
+    "artistName": "Georges Seurat",
+    "date_of_birth": "1859",
+    "date_of_death": "1891",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/76/Georges_Seurat_1888.jpg",
+    "movementLabel": "neo-impressionism",
+    "width": "1520",
+    "height": "1850",
+    "description": "painting by Georges Seurat, 1890",
+    "abstract": "The Circus (French: Le Cirque) is an oil on canvas painting by Georges Seurat.  It was his last painting, made in a Neo-Impressionist style in 1890-91, and remained unfinished at his death in March 1891.  The painting is located at the Musée d'Orsay in Paris.",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Apple_Harvest_by_Camille_Pissarro.jpg",
+    "paintingLabel": "Apple Harvest",
+    "artistName": "Camille Pissarro",
+    "date_of_birth": "1830",
+    "date_of_death": "1903",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Camille_Pissarro_040.jpg",
+    "movementLabel": "neo-impressionism",
+    "width": "73",
+    "height": "60",
+    "description": "painting by Camille Pissarro",
+    "id": 3
+  }
+]

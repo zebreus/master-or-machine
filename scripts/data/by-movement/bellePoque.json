@@ -1,0 +1,29 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/115_Melancol%C3%ADa_%28Bourdelle%29.tif",
+    "paintingLabel": "Melancholy",
+    "artistName": "Antoine Bourdelle",
+    "date_of_birth": "1861",
+    "date_of_death": "1929",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/18/Antoine_Bourdelle_b_Meurisse_1925.jpg",
+    "movementLabel": "Belle Époque",
+    "width": "23.9",
+    "height": "56.6",
+    "description": "Sculpture of Émile-Antoine Bourdelle",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/69_Perfil-de-Octave-Mirbeau-1.jpg",
+    "paintingLabel": "Octave Mirbeau",
+    "artistName": "Auguste Rodin",
+    "date_of_birth": "1840",
+    "date_of_death": "1917",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/9/95/Auguste_Rodin_fotografato_da_Nadar_nel_1891.jpg",
+    "movementLabel": "Belle Époque",
+    "width": "60.5",
+    "height": "59",
+    "description": "sculpture by Auguste Rodin",
+    "abstract": "Octave Mirbeau is an 1895 plaster relief by Auguste Rodin of the writer Octave Mirbeau, now in the Museo Soumaya. He had got to know him thanks to The Age of Bronze and The Gates of Hell - Mirbeau visited Rodin's studio, published the first description of Gates in the review La France, promoted Rodin's other work and died only a few months before the sculptor.\\n\\n",
+    "id": 1
+  }
+]

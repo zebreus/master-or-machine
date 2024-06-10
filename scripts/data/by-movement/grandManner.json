@@ -1,0 +1,15 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Captain_Arthur_Blake_-_Joshua_Reynolds_-_1796.jpg",
+    "paintingLabel": "Captain Arthur Blake",
+    "artistName": "Joshua Reynolds",
+    "date_of_birth": "1723",
+    "date_of_death": "1792",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Joshua_Reynolds_Self_Portrait.jpg",
+    "movementLabel": "Grand manner",
+    "width": "39.5",
+    "height": "49.5",
+    "description": "painting by Joshua Reynolds",
+    "id": 0
+  }
+]

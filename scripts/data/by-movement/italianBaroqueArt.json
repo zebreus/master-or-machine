@@ -1,0 +1,29 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Saint_Lucy_by_Artemisia_Gentileschi_ca._1642-1644.jpg",
+    "paintingLabel": "Saint Lucy",
+    "artistName": "Artemisia Gentileschi",
+    "date_of_birth": "1593",
+    "date_of_death": "1653",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg",
+    "movementLabel": "Italian Baroque art",
+    "width": "57",
+    "height": "74.4",
+    "description": "Attributed picture by Artemisia Gentileschi",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Saint_Apollonia_by_Artemisia_Gentileschi_ca._1642-1644.jpg",
+    "paintingLabel": "Saint Apollonia",
+    "artistName": "Artemisia Gentileschi",
+    "date_of_birth": "1593",
+    "date_of_death": "1653",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg",
+    "movementLabel": "Italian Baroque art",
+    "width": "57",
+    "height": "74",
+    "description": "Picture by Artemisia Gentileschi",
+    "abstract": "Saint Apollonia is a painting attributed to the Italian baroque painter Artemisia Gentileschi executed between 1642 and 1644. It is part of the collection of the Museo Soumaya in Mexico City, Mexico.",
+    "id": 1
+  }
+]

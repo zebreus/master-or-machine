@@ -1,0 +1,16 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Auguste_Renoir_-_En_%C3%A9t%C3%A9_-_La_boh%C3%A9mienne_-_Google_Art_Project.jpg",
+    "paintingLabel": "In the Summer",
+    "artistName": "Pierre-Auguste Renoir",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "movementLabel": "bohemianism",
+    "width": "59",
+    "height": "85",
+    "description": "painting by Auguste Renoir",
+    "abstract": "In Summer  (French: En été) is an 1868 oil-on-canvas painting by Pierre-Auguste Renoir, a portrait of Lise Tréhot aged about 20.",
+    "id": 0
+  }
+]

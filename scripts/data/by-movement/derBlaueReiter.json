@@ -1,0 +1,29 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Franz_Marc_-_The_Sheep_-_Google_Art_Project.jpg",
+    "paintingLabel": "The Sheep",
+    "artistName": "Franz Marc",
+    "date_of_birth": "1880",
+    "date_of_death": "1916",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1c/FranzMarccropped.jpg",
+    "movementLabel": "Der Blaue Reiter",
+    "width": "77",
+    "height": "54.5",
+    "description": "painting by Franz Marc",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Franz_Marc-The_fate_of_the_animals-1913.jpg",
+    "paintingLabel": "The fate of the animals",
+    "artistName": "Franz Marc",
+    "date_of_birth": "1880",
+    "date_of_death": "1916",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1c/FranzMarccropped.jpg",
+    "movementLabel": "Der Blaue Reiter",
+    "width": "266",
+    "height": "196",
+    "description": "painting by Franz Marc",
+    "abstract": "Fate of the Animals is a painting by Franz Marc created in 1913. It is oil on canvas. This work contrasts most of Marc's other works by presenting animals in a brutal way rather than depicting them in a peaceful manner. Marc's strong ties with animals as his subjects remains uncertain, but it is predicted to stem from his childhood dog. Fate of the Animals remains one of Marc's most famous pieces and displays Der Blaue Reiter style that he co-founded with Wassily Kandinsky. The painting currently resides in the Kunstmuseum in Basel, Switzerland.\\nThe last third of the painting was damaged in a warehouse fire in 1916 after Marc's death and was later restored by one of his close friends, Paul Klee. Klee restored the painting using old photographs. He added a brownish tint to the paint creating an obvious variation from the rest of the painting. Scholars have yet to figure out his decision to paint with a brown tint. Many opinions on the subject have been given, although none have been proven.",
+    "id": 1
+  }
+]

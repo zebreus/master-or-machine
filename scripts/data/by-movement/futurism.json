@@ -1,0 +1,68 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/States_of_Mind-_The_Farewells_by_Umberto_Boccioni%2C_1911.jpeg",
+    "paintingLabel": "States of Mind I: The Farewells",
+    "artistName": "Umberto Boccioni",
+    "date_of_birth": "1882",
+    "date_of_death": "1916",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Umberto_Boccioni1914.jpg",
+    "movementLabel": "Futurism",
+    "width": "70.5",
+    "height": "96.2",
+    "description": "painting by Umberto Boccioni",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Luigi_Russolo_dynamism-of-a-car-1913.jpg",
+    "paintingLabel": "Racing car",
+    "artistName": "Luigi Russolo",
+    "date_of_birth": "1885",
+    "date_of_death": "1947",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Luigi_Russolo_ca._1916.gif",
+    "movementLabel": "Futurism",
+    "width": "140",
+    "height": "106",
+    "description": "painting by  Luigi Russolo",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Luigi-russolo-tower-bridge.jpg",
+    "paintingLabel": "Tower Bridge",
+    "artistName": "Luigi Russolo",
+    "date_of_birth": "1885",
+    "date_of_death": "1947",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Luigi_Russolo_ca._1916.gif",
+    "movementLabel": "Futurism",
+    "width": "54.3",
+    "height": "35.4",
+    "description": "painting by Luigi Russolo",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Unique_Forms_of_Continuity_in_Space_MET_DT6411.jpg",
+    "paintingLabel": "Unique Forms of Continuity in Space",
+    "artistName": "Umberto Boccioni",
+    "date_of_birth": "1882",
+    "date_of_death": "1916",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Umberto_Boccioni1914.jpg",
+    "movementLabel": "Futurism",
+    "width": "88.9",
+    "height": "121.3",
+    "description": "sculpture by Umberto Boccioni in the Metropolitan Museum of Art",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg",
+    "paintingLabel": "The City Rises",
+    "artistName": "Umberto Boccioni",
+    "date_of_birth": "1882",
+    "date_of_death": "1916",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Umberto_Boccioni1914.jpg",
+    "movementLabel": "Futurism",
+    "width": "199.3",
+    "height": "301",
+    "description": "painting by Umberto Boccioni",
+    "abstract": "The City Rises (La città che sale) (1910) is a painting by the Italian painter Umberto Boccioni. It was his first major Futurist work.",
+    "id": 4
+  }
+]

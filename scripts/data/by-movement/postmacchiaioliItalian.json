@@ -1,0 +1,28 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Raffaello_Sorbi_-_La_partita_a_scacchi.jpg",
+    "paintingLabel": "The Chess Players",
+    "artistName": "Raffaello Sorbi",
+    "date_of_birth": "1844",
+    "date_of_death": "1931",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/71/Raffaello_Sorbi_-_Autoritratto.jpg",
+    "movementLabel": "Postmacchiaioli (Italian)",
+    "width": "71.8",
+    "height": "55.1",
+    "description": "painting by Raffaello Sorbi",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Raffaello_Gambogi_-_The_Immigrants_%281894%29.jpg",
+    "paintingLabel": "The Immigrants",
+    "artistName": "Raffaello Gambogi",
+    "date_of_birth": "1874",
+    "date_of_death": "1943",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Raffaello_Gambogi_-_Self-Portrait_%281904%29.jpg",
+    "movementLabel": "Postmacchiaioli (Italian)",
+    "width": "197",
+    "height": "150",
+    "description": "painting by Raffaello Gambogi",
+    "id": 1
+  }
+]

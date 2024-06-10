@@ -1,0 +1,25 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gabo_Rotterdam_2.jpg",
+    "paintingLabel": "Untitled",
+    "artistName": "Naum Gabo",
+    "date_of_birth": "1890",
+    "date_of_death": "1977",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a2/NaumGabo1957.jpg",
+    "movementLabel": "constructivism",
+    "description": "public sculpture by Naum Gabo in Rotterdam, the Netherlands",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/St_Thomas%27s_Fountain.jpg",
+    "paintingLabel": "Revolving Torsion",
+    "artistName": "Naum Gabo",
+    "date_of_birth": "1890",
+    "date_of_death": "1977",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a2/NaumGabo1957.jpg",
+    "movementLabel": "constructivism",
+    "description": "sculpture-fountain by Naum Gabo in London, United Kingdom",
+    "abstract": "Revolving Torsion is a 1972–73 kinetic sculpture and fountain by the Russian-born Constructivist artist Naum Gabo. It was commissioned for the Tate Gallery and has been on long-term loan to the Guy's and St Thomas' Charity for display at St Thomas' Hospital in Lambeth, London, since 1975. It was designated a Grade II*-listed building in January 2016.\\nThe sculpture is the culmination of an idea that Gabo developed from the mid-1920s, to implement the ideas published in his 1920 Realistic Manifesto. He made a series of models and maquettes over the years, including his work of c. 1929 Model for 'Torsion', a small 10 centimetres (3.9 in)-high Perspex model; his larger work Torsion from 1929–37, a 35 centimetres (14 in)-high model also in Perspex; and his 1960–64 Torsion (Project for a Fountain), an 80 centimetres (31 in)-high bronze maquette.\\nA commission was suggested by Sir Norman Reid, director of the Tate Gallery, when he saw the models on a visit to Gabo's studio in the United States in 1968. Gabo sent his maquette to London and the full-size sculpture was constructed of several stainless steel plates, creating a stack of intersecting curves, deliberately unadorned and without colour. The sculpture was manufactured in 1972–73 by Stainless Metalcraft Limited of London, paid for by Alistair McAlpine, and then donated to the Tate Gallery. Gabo donated his bronze maquette to the Tate Gallery in 1969, and then donated two plastic models in 1977.\\nThe work was installed in 1975 in the centre of a circular pool of water in a square garden at St Thomas' Hospital, with the River Thames to the west and Westminster Bridge Road to the north, and new hospital buildings to the east and south.  It is a working fountain, with water emitted in streams from some of the sculpture's curved edges.  It was originally designed to rotate slowly, once every 10 minutes, but the mechanism has not worked for several years.",
+    "id": 1
+  }
+]

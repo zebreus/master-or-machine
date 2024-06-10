@@ -1,0 +1,15 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Amedeo_Modigliani_025.jpg",
+    "paintingLabel": "Jeanne Hébuterne in yellow sweater",
+    "artistName": "Amedeo Modigliani",
+    "date_of_birth": "1884",
+    "date_of_death": "1920",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/0/07/Amedeo-modigliani-identification-photo-nice-1918.jpg",
+    "movementLabel": "School of Paris",
+    "width": "65",
+    "height": "100",
+    "description": "painting by Amedeo Modigliani",
+    "id": 0
+  }
+]

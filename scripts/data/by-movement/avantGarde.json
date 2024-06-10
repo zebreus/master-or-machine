@@ -1,0 +1,53 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Leon_Chwistek_-_Woman_in_tucked_up_skirt.jpg",
+    "paintingLabel": "Woman in tucked up skirt",
+    "artistName": "Leon Chwistek",
+    "date_of_birth": "1884",
+    "date_of_death": "1944",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Witkacy-Udzielny_BYK_na_urlopie%2C_portret_Leona_Chwistka.jpg",
+    "movementLabel": "avant-garde",
+    "width": "22",
+    "height": "35.6",
+    "description": "Zeichnung von Leon Chwistek (German)",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Leon_Chwistek_-_Boat.jpg",
+    "paintingLabel": "Boat",
+    "artistName": "Leon Chwistek",
+    "date_of_birth": "1884",
+    "date_of_death": "1944",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Witkacy-Udzielny_BYK_na_urlopie%2C_portret_Leona_Chwistka.jpg",
+    "movementLabel": "avant-garde",
+    "width": "47.7",
+    "height": "37.8",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Leon_Chwistek_-_Bathers.jpg",
+    "paintingLabel": "Bathers",
+    "artistName": "Leon Chwistek",
+    "date_of_birth": "1884",
+    "date_of_death": "1944",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Witkacy-Udzielny_BYK_na_urlopie%2C_portret_Leona_Chwistka.jpg",
+    "movementLabel": "avant-garde",
+    "width": "25",
+    "height": "28",
+    "description": "painting by Leon Chwistek",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Tytus_Czy%C5%BCewski_-_Kwiaty_i_motyle.jpg",
+    "paintingLabel": "Flowers and butterflies",
+    "artistName": "Tytus Czyżewski",
+    "date_of_birth": "1880",
+    "date_of_death": "1945",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Leon_Chwistek_Portret_Tytusa_Czy%C5%BCewskiego_1920.jpg",
+    "movementLabel": "avant-garde",
+    "width": "50.5",
+    "height": "64.5",
+    "description": "painting by Tytus Czyżewski",
+    "id": 3
+  }
+]

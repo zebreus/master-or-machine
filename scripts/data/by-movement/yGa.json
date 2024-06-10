@@ -1,0 +1,54 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Asai_Chu_-_Washing_Place_in_Grez-sur-Loing_-_Google_Art_Project.jpg",
+    "paintingLabel": "Washing Place in Grez-sur-Loing",
+    "artistName": "Asai Chū",
+    "date_of_birth": "1856",
+    "date_of_death": "1907",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/33/Asai_chu.jpg",
+    "movementLabel": "Yōga",
+    "width": "455",
+    "height": "333",
+    "description": "painting by Asai Chū",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Kuroda_Maiko.jpg",
+    "paintingLabel": "Maiko",
+    "artistName": "Kuroda Seiki",
+    "date_of_birth": "1866",
+    "date_of_death": "1924",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kuroda_Seiki.jpg",
+    "movementLabel": "Yōga",
+    "width": "65.3",
+    "height": "80.4",
+    "description": "painting by Kuroda Seiki",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Asai_Chu_-_Bridge_in_Grez-sur-Loing_-_Google_Art_Project.jpg",
+    "paintingLabel": "Bridge in Grez-sur-Loing",
+    "artistName": "Asai Chū",
+    "date_of_birth": "1856",
+    "date_of_death": "1907",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/33/Asai_chu.jpg",
+    "movementLabel": "Yōga",
+    "width": "435",
+    "height": "284",
+    "description": "painting by Asai Chū",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Asai_Chu_-_Woman_Sewing_-_Google_Art_Project.jpg",
+    "paintingLabel": "Woman Sewing",
+    "artistName": "Asai Chū",
+    "date_of_birth": "1856",
+    "date_of_death": "1907",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/33/Asai_chu.jpg",
+    "movementLabel": "Yōga",
+    "width": "455",
+    "height": "607",
+    "description": "painting by Asai Chū",
+    "id": 3
+  }
+]

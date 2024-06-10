@@ -1,0 +1,59 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cats_%28rayist_percep._in_rose%2C_black%2C_and_yellow%29_%28Goncharova%2C_1913%29.jpg",
+    "paintingLabel": "Cats (rayist percep.[tion] in rose, black, and yellow)",
+    "artistName": "Natalia Goncharova",
+    "date_of_birth": "1881",
+    "date_of_death": "1962",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/73/Natalia_Sergeyevna_Goncharova.jpg",
+    "movementLabel": "Rayonism",
+    "description": "painting by Natalia Goncharova",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Glass_%28Larionov%2C_1912%29.jpg",
+    "paintingLabel": "Glass",
+    "artistName": "Mikhail Larionov",
+    "date_of_birth": "1881",
+    "date_of_death": "1964",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mikhail_Larionov%2C_c.1915.jpg",
+    "movementLabel": "Rayonism",
+    "description": "painting by Mikhail Larionov",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Red_and_Blue_Rayonism_%28Beach%29_%28Larionov%2C_1911%29.jpg",
+    "paintingLabel": "Red and Blue Rayonism (Beach)",
+    "artistName": "Mikhail Larionov",
+    "date_of_birth": "1881",
+    "date_of_death": "1964",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mikhail_Larionov%2C_c.1915.jpg",
+    "movementLabel": "Rayonism",
+    "width": "68",
+    "height": "52",
+    "description": "painting by Mikhail Larionov",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Bull%27s_Head_%28Larionov%2C_1913%29.jpg",
+    "paintingLabel": "Bull's Head",
+    "artistName": "Mikhail Larionov",
+    "date_of_birth": "1881",
+    "date_of_death": "1964",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Mikhail_Larionov%2C_c.1915.jpg",
+    "movementLabel": "Rayonism",
+    "description": "painting by Mikhail Larionov",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Rayonist_Lilies_%28Goncharova%2C_1913%29.jpg",
+    "paintingLabel": "Rayonist Lilies",
+    "artistName": "Natalia Goncharova",
+    "date_of_birth": "1881",
+    "date_of_death": "1962",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/73/Natalia_Sergeyevna_Goncharova.jpg",
+    "movementLabel": "Rayonism",
+    "description": "painting by Natalia Goncharova",
+    "id": 4
+  }
+]

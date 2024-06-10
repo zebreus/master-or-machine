@@ -1,0 +1,28 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Hermes_di_Prassitele%2C_at_Olimpia%2C_front.jpg",
+    "paintingLabel": "Hermes and the Infant Dionysus",
+    "artistName": "Praxiteles",
+    "date_of_birth": "-395",
+    "date_of_death": "-330",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Edifici_carrer_Tallers_45_Barcelona_-_03_Praxiteles.JPG",
+    "movementLabel": "classical Greek sculpture",
+    "height": "215",
+    "description": "sculpture by Praxiteles",
+    "abstract": "Hermes and the Infant Dionysus, also known as the Hermes of Praxiteles or the Hermes of Olympia is an ancient Greek sculpture of Hermes and the infant Dionysus discovered in 1877 in the ruins of the Temple of Hera, Olympia, in Greece. It is displayed at the Archaeological Museum of Olympia.\\nIt is traditionally attributed to Praxiteles and dated to the 4th century BC, based on a remark by the 2nd century Greek traveller Pausanias, and has made a major contribution to the definition of Praxitelean style. Its attribution is, however, the object of fierce controversy among art historians.\\nThe sculpture is unlikely to have been one of Praxiteles' famous works, as no ancient replicas of it have been identified. The documentary evidence associating the work with Praxiteles is based on a passing mention by the 2nd-century AD traveller Pausanias.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Dor%C3%ADforo-compara%C3%A7%C3%A3o.jpg",
+    "paintingLabel": "Doryphoros",
+    "artistName": "Polykleitos the Elder",
+    "date_of_birth": "-450",
+    "date_of_death": "-500",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Diadoumenos-Atenas.jpg",
+    "movementLabel": "classical Greek sculpture",
+    "height": "212",
+    "description": "lost statue by Polykleitos / type of statue",
+    "abstract": "The Doryphoros (Greek Δορυφόρος Classical Greek Greek pronunciation: [dorypʰóros], 'Spear-Bearer'; Latinised as Doryphorus) of Polykleitos is one of the best known Greek sculptures of classical antiquity, depicting a solidly built, muscular, standing warrior, originally bearing a spear balanced on his left shoulder. Rendered somewhat above life-size, the lost bronze original of the work would have been cast circa 440 BCE, but it is today known only from later (mainly Roman period) marble copies. The work nonetheless forms an important early example of both Classical Greek contrapposto and classical realism; as such, the iconic Doryphoros proved highly influential elsewhere in ancient art.\\n\\n",
+    "id": 1
+  }
+]

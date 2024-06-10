@@ -1,0 +1,41 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Puccini-Metalworks.jpg",
+    "paintingLabel": "Metalworks",
+    "artistName": "Mario Puccini",
+    "date_of_birth": "1869",
+    "date_of_death": "1920",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mario_Puccini.jpg",
+    "movementLabel": "Macchiaioli",
+    "width": "130",
+    "height": "78.5",
+    "description": "painting by Mario Puccini",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Giovanni_Fattori.jpg",
+    "paintingLabel": "Butteri",
+    "artistName": "Giovanni Fattori",
+    "date_of_birth": "1825",
+    "date_of_death": "1908",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/47/Giovanni_Fattori_066.jpg",
+    "movementLabel": "Macchiaioli",
+    "width": "300",
+    "height": "200",
+    "description": "painting by Giovanni Fattori",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Barrocci_romani_by_Giovanni_Fattori.jpg",
+    "paintingLabel": "Romani Carts",
+    "artistName": "Giovanni Fattori",
+    "date_of_birth": "1825",
+    "date_of_death": "1908",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/47/Giovanni_Fattori_066.jpg",
+    "movementLabel": "Macchiaioli",
+    "width": "31",
+    "height": "21",
+    "description": "painting by Giovanni Fattori",
+    "id": 2
+  }
+]

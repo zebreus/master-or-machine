@@ -1,0 +1,27 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Johan_Christian_Dahl_-_Winter_at_the_Sognefjord_-_Google_Art_Project.jpg",
+    "paintingLabel": "Winter at the Sognefjord",
+    "artistName": "Johan Christian Dahl",
+    "date_of_birth": "1788",
+    "date_of_death": "1857",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/17/Carl_Christian_Vogel_von_Vogelstein_-_Johan_Christian_Clausen_Dahl.jpg",
+    "movementLabel": "romantic nationalism",
+    "width": "75.5",
+    "height": "61.5",
+    "description": "painting by Johan Christian Clausen Dahl",
+    "abstract": "Winter at the Sognefjord (Norwegian: Vinter ved Sognefjorden) is a painting by the Norwegian artist Johan Christian Dahl from 1827.The picture is painted in oil on canvas and has the dimensions of 61.5 x 75.5 cm.\\nThe picture is part of the collection of the National Museum of Art, Architecture and Design in Oslo, Norway.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Gallen_Kallela_Ad_astra.jpg",
+    "paintingLabel": "Ad astra",
+    "artistName": "Akseli Gallen-Kallela",
+    "date_of_birth": "1865",
+    "date_of_death": "1931",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/43/Akseli_Gallen-Kallela_01.jpg",
+    "movementLabel": "romantic nationalism",
+    "description": "painting by Akseli Gallen-Kallela",
+    "id": 1
+  }
+]

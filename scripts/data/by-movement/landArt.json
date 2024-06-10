@@ -1,0 +1,28 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/88/Ruderi_di_Gibellina.jpg",
+    "paintingLabel": "Cretto di Burri",
+    "artistName": "Alberto Burri",
+    "date_of_birth": "1915",
+    "date_of_death": "1995",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/15/Scanavino_con_burri.jpg",
+    "movementLabel": "land art",
+    "width": "35000",
+    "height": "150",
+    "description": "land art sculpture",
+    "abstract": "The Cretto di Burri (crack of Burri) or Cretto di Gibellina (crack of Gibellina), also known as 'The Great Cretto', is a landscape artwork undertaken by Alberto Burri in 1984 and left unfinished in 1989 (due to lack of funds), based on the old city of Gibellina. The original city of Gibellina was completely destroyed in the 1968 Belice earthquake. Gibellina has since been rebuilt, about 20 km from the city's original location.  In 2015, to mark what would have been Burri's one hundredth birthday, the work was finally completed.The work is the subject of a short documentary by the Dutch filmmaker Petra Noordkamp which was commissioned by the Solomon R. Guggenheim Museum to be screened at the Alberto Burri retrospective held at the institution from October 9, 2015 until January 6, 2016.The Cretto is also the subject of the theatrical show 'I-TIGI a Gibellina' and its video transposition 'I-TIGI Canto per Ustica' by the  Italian stage actor, theater director, dramaturge and author Marco Paolini.\\nEntirely shot inside the Cretto di Burri in the year 2000, it's the story of the DC9 ITAVIA that sank in the waters of Ustica in June 1980, and the reconstruction of the long investigation conducted by the italian judge Rosario Priore.\\nThe author declared that he choose the Cretto because 'it is a sort of concrete labyrinth, which, seen from above, is similar to the maze of lies in which the judges had to orient themselves to find the thread of the investigation'.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/FridericianumBeuys_kasselgalerie_de.jpg",
+    "paintingLabel": "7000 Oaks",
+    "artistName": "Joseph Beuys",
+    "date_of_birth": "1921",
+    "date_of_death": "1986",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Beuys-Feldman-Gallery.jpg",
+    "movementLabel": "land art",
+    "description": "work of land art by Joseph Beuys",
+    "abstract": "7000 Oaks –  City Forestation Instead of City Administration (German: 7000 Eichen –  Stadtverwaldung statt Stadtverwaltung) is a work of land art by the German artist Joseph Beuys. It was first publicly presented in 1982 at the documenta 7.",
+    "id": 1
+  }
+]

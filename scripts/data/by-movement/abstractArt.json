@@ -1,0 +1,65 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Macke_-_Der_Sturm.jpg",
+    "paintingLabel": "The Storm",
+    "artistName": "August Macke",
+    "date_of_birth": "1887",
+    "date_of_death": "1914",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/b/b2/August_Macke_042.jpg",
+    "movementLabel": "abstract art",
+    "description": "painting by August Macke",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/August_Macke_-_Indianer_auf_Pferden_-_G_13327_-_Lenbachhaus.jpg",
+    "paintingLabel": "Native Americans on Horses",
+    "artistName": "August Macke",
+    "date_of_birth": "1887",
+    "date_of_death": "1914",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/b/b2/August_Macke_042.jpg",
+    "movementLabel": "abstract art",
+    "width": "60",
+    "height": "44",
+    "description": "painting by August Macke",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Murnau_Burggrabenstrasse_1_1908_by_Wassily_Kandinsky.jpg",
+    "paintingLabel": "Murnau, Burggrabenstrasse 1, 1908",
+    "artistName": "Wassily Kandinsky",
+    "date_of_birth": "1866",
+    "date_of_death": "1944",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vassily-Kandinsky.jpeg",
+    "movementLabel": "abstract art",
+    "width": "63.5",
+    "height": "50.5",
+    "description": "painting by Wassily Kandinsky",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/William_Turner%2C_Light_and_Colour_%28Goethe%27s_Theory%29.JPG",
+    "paintingLabel": "Light and Colour (Goethe's Theory) – The Morning after the Deluge – Moses Writing the Book of Genesis",
+    "artistName": "J. M. W. Turner",
+    "date_of_birth": "1775",
+    "date_of_death": "1851",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/76/Turner_selfportrait.jpg",
+    "movementLabel": "abstract art",
+    "width": "78.7",
+    "height": "78.7",
+    "description": "painting by William Turner",
+    "abstract": "Light and Colour (Goethe's Theory) – The Morning after the Deluge – Moses Writing the Book of Genesis is an oil painting by the English painter Joseph Mallord William Turner (c.1775–1851), first exhibited in 1843.",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/J%C3%B8rleif_uthaug_amfitrite_1.jpg",
+    "paintingLabel": "Amphitrite, the wave and the sea birds",
+    "artistName": "Jørleif Uthaug",
+    "date_of_birth": "1911",
+    "date_of_death": "1990",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d2/J%C3%B8rleif_uthaug_ca_1970.jpg",
+    "movementLabel": "abstract art",
+    "description": "sculpture by Jørleif Uthaug",
+    "abstract": "Amphitrite, the wave and the sea birds (Norwegian: Amfitrite, bølgen og havfuglene) is a 4 m (13 ft) tall stainless steel sculpture by Jørleif Uthaug located in Porsgrunn, Norway.  The work consists of a nude female figure (representing Amphitrite, the wife of Neptune) and two seabirds gliding over a large geometric wave.  It is one of Uthaug's most recognizable and celebrated works.The piece, which was unveiled in May 1985, is one of only a few Uthaug sculptures to include figurative elements, but it also displays many features typical of Uthaug's work, including modern style, metal construction, and themes of seafaring and the ocean. The sculpture was initially located in Nordentorget, a town square on Storgata in central Porsgrunn.  In spring of 1999, it was moved behind the then-Aetat building on Strandpromenaden, a riverwalk along the eastern bank of Porsgrunn River, where it still stands today.",
+    "id": 4
+  }
+]

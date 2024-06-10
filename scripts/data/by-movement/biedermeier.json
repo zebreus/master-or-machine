@@ -1,0 +1,41 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Aleksander_Kokular_Wn%C4%99trze_salonu_w_domu_artysty_1830.jpg",
+    "paintingLabel": "Living Room in the Artist's House",
+    "artistName": "Aleksander Kokular",
+    "date_of_birth": "1793",
+    "date_of_death": "1846",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kokular_Aleksander.jpg",
+    "movementLabel": "Biedermeier",
+    "width": "92",
+    "height": "71",
+    "description": "painting by Aleksander Kokular",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Kokular_Julia_Kleczkowska.jpg",
+    "paintingLabel": "Portrait of Julia Kleczkowska",
+    "artistName": "Aleksander Kokular",
+    "date_of_birth": "1793",
+    "date_of_death": "1846",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Kokular_Aleksander.jpg",
+    "movementLabel": "Biedermeier",
+    "width": "57",
+    "height": "70",
+    "description": "painting by Aleksander Kokular",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Kaniewski_Girl_in_red_armchair.jpg",
+    "paintingLabel": "Girl in red armchair.",
+    "artistName": "Jan Ksawery Kaniewski",
+    "date_of_birth": "1805",
+    "date_of_death": "1867",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/da/Picture562.jpg",
+    "movementLabel": "Biedermeier",
+    "width": "22",
+    "height": "36",
+    "description": "painting by Jan Ksawery Kaniewski",
+    "id": 2
+  }
+]

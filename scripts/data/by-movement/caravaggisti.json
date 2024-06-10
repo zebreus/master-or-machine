@@ -1,0 +1,71 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Tournier_Bataille_%282004_1_399%29.JPG",
+    "paintingLabel": "Bataille de Constantin contre Maxence",
+    "artistName": "Nicolas Tournier",
+    "date_of_birth": "1590",
+    "date_of_death": "1630",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Augustins_-_Le_portement_de_la_croix_-_Nicolas_Tournier.jpg",
+    "movementLabel": "Caravaggisti",
+    "width": "550",
+    "height": "260",
+    "description": "painting by Nicolas Tournier",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Caravaggio_-_The_Annunciation.JPG",
+    "paintingLabel": "Annunciation",
+    "artistName": "Caravaggio",
+    "date_of_birth": "1571",
+    "date_of_death": "1610",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg",
+    "movementLabel": "Caravaggisti",
+    "width": "205",
+    "height": "285",
+    "description": "oil painting by Italian painter Caravaggio",
+    "abstract": "The Annunciation is an oil painting by the Italian master Michelangelo Merisi da Caravaggio, finished around 1608. It housed in the Musée des Beaux-Arts de Nancy.\\nThe painting has been considerably damaged and retouched, and what remains of Caravaggio's brushwork is the angel, who bears a resemblance to the figure in John the Baptist at the Fountain. The illusionistic treatment of the angel,  floating on his cloud and seeming to protrude outside the picture plane, is more Baroque than is normal for Caravaggio, but the contrast between the energetic pose of the heavenly messenger and the receptive Mary is dramatically and psychologically effective. The loose brushwork is typical of Caravaggio's later period.\\nThe painting was given by Henry II, Duke of Lorraine, to his primatial church in Nancy as the main altarpiece, and was perhaps acquired by one of the Duke's sons in the course of a visit to Malta in 1608.",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Salome_with_the_Head_of_John_the_Baptist-Caravaggio_%281610%29.jpg",
+    "paintingLabel": "Salome with the Head of John the Baptist (Caravaggio), London",
+    "artistName": "Caravaggio",
+    "date_of_birth": "1571",
+    "date_of_death": "1610",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg",
+    "movementLabel": "Caravaggisti",
+    "width": "91",
+    "height": "106",
+    "description": "painting by Caravaggio in the National Gallery, London",
+    "abstract": "Salome with the Head of John the Baptist (London), c. 1607/1610, is a painting by the Italian master Caravaggio in the National Gallery, London.\\nThe painting was discovered in a private collection in 1959. The early Caravaggio biographer Giovanni Bellori, writing in 1672, mentions a Salome with the Head of John the Baptist sent by the artist to the Grand Master of the Knights of Malta in the hope of regaining favour after having been expelled from the Order in 1608. It seems likely, however, that Bellori was referring to a different painting of the same subject (see Salome with the Head of John the Baptist (Madrid)). The handling and the raking light link this painting to works done in Naples during the artist's brief stay in the city during 1606–1607, an impression confirmed by the balances between Salome and the Virgin in the Madonna of the Rosary, and between the executioner holding the head of the Baptist and one of the two torturers in Christ at the Column and The Flagellation of Christ. From November to February 2012–2013 this painting was part of the exhibition 'Bodies and Shadows: Caravaggio and His Legacy' at the LACMA.",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lot_y_sus_hijas_-_Orazio_Gentileschi.jpg",
+    "paintingLabel": "Lot and His Daughters",
+    "artistName": "Orazio Gentileschi",
+    "date_of_birth": "1563",
+    "date_of_death": "1639",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/31/Orazio_Gentileschi_by_Anthony_van_Dyck_ca._1635.jpg",
+    "movementLabel": "Caravaggisti",
+    "width": "282",
+    "height": "226",
+    "description": "painting by Orazio Gentileschi from circa 1628",
+    "abstract": "Lot and His Daughters is a c.1628 painting of Lot and his daughters by Orazio Gentileschi, now in the Bilbao Fine Arts Museum.",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Artemisia_Gentileschi_Cleopatra_Ferrara.jpg",
+    "paintingLabel": "Cleopatra",
+    "artistName": "Artemisia Gentileschi",
+    "date_of_birth": "1593",
+    "date_of_death": "1653",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg",
+    "movementLabel": "Caravaggisti",
+    "width": "71.5",
+    "height": "97",
+    "description": "painting by Artemisia Gentileschi",
+    "abstract": "Cleopatra is a c.1620 painting by Artemisia Gentileschi, now in the Fondazione Cavallini-Sgarbi collection in Ferrara. It was formerly misattributed to Guido Cagnacci. It shows Cleopatra committing suicide with an asp.",
+    "id": 4
+  }
+]

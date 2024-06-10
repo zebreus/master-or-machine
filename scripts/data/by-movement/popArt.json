@@ -1,0 +1,62 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Andy_Warhol_Campbell%27s_Soup_Cans_%28MoMA_-_New_York%29.jpg",
+    "paintingLabel": "Campbell's Soup Campbell",
+    "artistName": "Andy Warhol",
+    "date_of_birth": "1928",
+    "date_of_death": "1987",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Andy_Warhol_1977.jpg",
+    "movementLabel": "pop art",
+    "description": "artwork by Andy Warhol",
+    "abstract": "Campbell's Soup Cans, which is sometimes referred to as 32 Campbell's Soup Cans, is a work of art produced between November 1961 and March or April 1962 by Andy Warhol. It consists of thirty-two canvases, each measuring 20 inches (51 cm) in height × 16 inches (41 cm) in width and each consisting of a painting of a Campbell's Soup can—one of each of the canned soup varieties the company offered at the time. The individual paintings were produced by a printmaking method—the semi-mechanized screen printing process, using a non-painterly style. Campbell's Soup Cans' reliance on themes from popular culture helped to usher in pop art as a major art movement in the United States.\\nWarhol, a commercial illustrator who became a successful author, publisher, painter, and film director, showed the work on July 9, 1962, in his first one-man gallery exhibition as a fine artist in the Ferus Gallery of Los Angeles, California curated by Irving Blum. The exhibition marked the West Coast debut of pop art. The combination of the semi-mechanized process, the non-painterly style, and the commercial subject initially caused offense, as the work's blatantly mundane commercialism represented a direct affront to the technique and philosophy of abstract expressionism. In the United States the abstract expressionism art movement was dominant during the post-war period, and it held not only to 'fine art' values and aesthetics but also to a mystical inclination. This controversy led to a great deal of debate about the merits and ethics of such work. Warhol's motives as an artist were questioned, and they continue to be topical to this day. The large public commotion helped transform Warhol from being an accomplished 1950s commercial illustrator to a notable fine artist, and it helped distinguish him from other rising pop artists. Although commercial demand for his paintings was not immediate, Warhol's association with the subject led to his name becoming synonymous with the Campbell's Soup Can paintings.\\nWarhol subsequently produced a wide variety of art works depicting Campbell's Soup cans during three distinct phases of his career, and he produced other works using a variety of images from the world of commerce and mass media. Today, the Campbell's Soup cans theme is generally used in reference to the original set of paintings as well as the later Warhol drawings and paintings depicting Campbell's Soup cans. Because of the eventual popularity of the entire series of similarly themed works, Warhol's reputation grew to the point where he was not only the most-renowned American pop art artist, but also the highest-priced living American artist.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Barcelona_%283392396182%29.jpg",
+    "paintingLabel": "El Cap de Barcelona",
+    "artistName": "Roy Lichtenstein",
+    "date_of_birth": "1923",
+    "date_of_death": "1997",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Roy_Lichtenstein_%281967%29.jpg",
+    "movementLabel": "pop art",
+    "description": "sculpture by Roy Lichtenstein",
+    "abstract": "El Cap de Barcelona (1991–1992) is a surrealist sculpture created by American Pop artist Roy Lichtenstein for the 1992 Summer Olympics in Barcelona, Catalonia, Spain. Its English title is The Head of Barcelona.The sculpture was Lichtenstein's first outdoor work using ceramic tile. It is said to acknowledge Antoni Gaudí and Barcelona's affinity for mosaics.The sculpture stands tall on the waterfront in the heart of the city. Made out of concrete and ceramic, it is an abstract rendition of a woman's head and appears exactly how one would expect a Lichtenstein sculpture to be. Lichtenstein did not start experimenting with three-dimensional art until the late 1970s, and prior to this his main focus was on pop art. He mainly painted on large canvases and his paintings resembled comic-strip art; his signature use of bold primary colors, thick dark lines, thought bubbles containing context and sound effects, and dots used as a method of shading, can be seen in most of his works from 1961 and later, starting with his painting Look Mickey.\\nAlthough it is very abstract, it is clear that the sculpture was made to resemble the head and face of a woman. It is made up of thick pieces of concrete completely covered in red, yellow, blue, black and white mosaic tiles, and from far away it looks like it could be a painting. The woman's eyes look like thick blue and black brush strokes; same with her nose, and her lips look like Lichtenstein could have used a quick stroke of bright red paint. The left third of her face, the side with the blue nose and eye, is covered with white tiles, while the right two thirds of her face is covered in a grid of red dots, typical of Lichtenstein's pop-art style. Lichtenstein added other artistic elements to this sculpture as well. Below her head, what would probably be considered the woman's neck, is a tall, flat stroke of blue and white that extends all the way up through her face and ends a few inches above her head. Perpendicular to the blue and white stroke is a stroke of yellow and black, beginning at the bottom and then reappearing at the top of her head.\\nSimilar to his sculptures from the early eighties, specifically his Brushstrokes pieces, the entire sculpture looks like it could have been painted with a few quick strokes of paint. The difference between these earlier pieces and The Head of Barcelona is that his Brushstrokes pieces are created with painted aluminum while The Head is his only piece made out of concrete and covered in mosaic tiles. The reason for this difference in his sculptures is because The Head of Barcelona was built to resemble the style of Antoni Gaudi, a Catalan architect who is famous for employing organic lines and mosaic tiles throughout his architecture, and for which Barcelona is known.",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Portland_Art_Museum_Mark_Building_-_Oregon.JPG",
+    "paintingLabel": "Brushstrokes",
+    "artistName": "Roy Lichtenstein",
+    "date_of_birth": "1923",
+    "date_of_death": "1997",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Roy_Lichtenstein_%281967%29.jpg",
+    "movementLabel": "pop art",
+    "description": "sculpture by Roy Lichtenstein",
+    "abstract": "Brushstrokes is a 1996 sculpture by Roy Lichtenstein, installed outside the Portland Art Museum's Mark Building, in Portland, Oregon. It is part of the Brushstrokes series of artworks that includes several paintings and sculptures whose subject is the actions made with a house-painter's brush.",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Indianapolis_Museum_of_Art_-_IMA_%282592098617%29.jpg",
+    "paintingLabel": "LOVE",
+    "artistName": "Robert Indiana",
+    "date_of_birth": "1928",
+    "date_of_death": "2018",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/c2/BobIndianaMaine.jpg",
+    "movementLabel": "pop art",
+    "description": "sculpture by Robert Indiana located in Indianapolis, Indiana",
+    "abstract": "LOVE is an artwork by American artist Robert Indiana, located at the Indianapolis Museum of Art (IMA), in Indianapolis, Indiana, in the United States. It was created in 1970 as the first sculptural form of the artist's famous LOVE painting and has been on continuous exhibition at the Indianapolis Museum of Art since it was acquired in 1975.",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Roy_Lichtenstein_Drowning_Girl_narrative.jpg",
+    "paintingLabel": "Drowning Girl",
+    "artistName": "Roy Lichtenstein",
+    "date_of_birth": "1923",
+    "date_of_death": "1997",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Roy_Lichtenstein_%281967%29.jpg",
+    "movementLabel": "pop art",
+    "description": "painting by Roy Lichtenstein",
+    "abstract": "Drowning Girl (also known as Secret Hearts or I Don't Care! I'd Rather Sink) is a 1963 painting in oil and synthetic polymer paint on canvas by Roy Lichtenstein. Using the conventions of comic book art, a thought bubble conveys the thoughts of the figure, while Ben-Day dots echo the effect of the mechanized printing process. It is one of the most representative paintings of the pop art movement, and part of the Museum of Modern Art's permanent collection since 1971. The painting is considered among Lichtenstein's most significant works, perhaps on a par with his acclaimed 1963 diptych Whaam!. Drowning Girl has been described as a 'masterpiece of melodrama', and is one of the artist's earliest images depicting women in tragic situations, a theme to which he often returned in the mid-1960s.\\nThe painting shows a teary-eyed woman on a turbulent sea. She is emotionally distressed, seemingly from a romance. A thought bubble reads: 'I Don't Care! I'd Rather Sink — Than Call Brad For Help!' This narrative element highlights the clichéd melodrama, while its graphics reiterate Lichtenstein's theme of painterly work imitating mechanized reproduction. The work is derived from a 1962 DC Comics panel, while also borrowing from Hokusai's The Great Wave off Kanagawa and from elements of modernist artists Jean Arp and Joan Miró. It is one of several Lichtenstein works that mention a character named Brad who is absent from the picture. Both the graphical and narrative elements of the work are cropped from the source image.",
+    "id": 4
+  }
+]

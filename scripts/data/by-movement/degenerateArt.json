@@ -1,0 +1,15 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Van_Gogh_-_Bildnis_Doktor_Gachet.jpeg",
+    "paintingLabel": "Portrait of Dr. Gachet",
+    "artistName": "Vincent van Gogh",
+    "date_of_birth": "1853",
+    "date_of_death": "1890",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Vincent_van_Gogh_-_Self-portrait_with_grey_felt_hat_-_Google_Art_Project.jpg",
+    "movementLabel": "degenerate art",
+    "width": "56",
+    "height": "67",
+    "description": "painting by Vincent van Gogh, first version",
+    "id": 0
+  }
+]

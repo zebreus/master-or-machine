@@ -1,0 +1,26 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Paris-St-Merri.JPG",
+    "paintingLabel": "Stravinsky Fountain",
+    "artistName": "Jean Tinguely",
+    "date_of_birth": "1925",
+    "date_of_death": "1991",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jean_Tinguely_%281963%29_by_Erling_Mandelmann_-_2.jpg",
+    "movementLabel": "Nouveau réalisme",
+    "description": "whimsical public fountain",
+    "abstract": "The Stravinsky Fountain (French: La Fontaine Stravinsky) is a whimsical public fountain ornamented with sixteen works of sculpture, moving and spraying water, representing the works of composer Igor Stravinsky. It was created in 1983 by sculptors Jean Tinguely and Niki de Saint Phalle, and is located on Place Stravinsky, next to the Centre Pompidou, in Paris.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Paris-St-Merri.JPG",
+    "paintingLabel": "Stravinsky Fountain",
+    "artistName": "Niki de Saint Phalle",
+    "date_of_birth": "1930",
+    "date_of_death": "2002",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Niki_de_Saint_Phalle_%281964%29_by_Erling_Mandelmann.jpg",
+    "movementLabel": "Nouveau réalisme",
+    "description": "whimsical public fountain",
+    "abstract": "The Stravinsky Fountain (French: La Fontaine Stravinsky) is a whimsical public fountain ornamented with sixteen works of sculpture, moving and spraying water, representing the works of composer Igor Stravinsky. It was created in 1983 by sculptors Jean Tinguely and Niki de Saint Phalle, and is located on Place Stravinsky, next to the Centre Pompidou, in Paris.",
+    "id": 1
+  }
+]

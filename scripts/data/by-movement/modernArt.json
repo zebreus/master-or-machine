@@ -1,0 +1,42 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Joaqu%C3%ADn_Sorolla_y_Bastida_-_The_Horse%E2%80%99s_Bath_-_Google_Art_Project.jpg",
+    "paintingLabel": "El baño del caballo loco",
+    "artistName": "Joaquín Sorolla",
+    "date_of_birth": "1863",
+    "date_of_death": "1923",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Joaquin_Sorolla_Bastida_por_Jose_Jimenez_Aranda.jpg",
+    "movementLabel": "modern art",
+    "width": "250",
+    "height": "205",
+    "description": "The horse's bath (Francisco Franco)",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Paul_Gauguin_-_I_Raro_te_Oviri_%281891%29.jpg",
+    "paintingLabel": "Under the Pandanus (I Raro te Oviri)",
+    "artistName": "Paul Gauguin",
+    "date_of_birth": "1848",
+    "date_of_death": "1903",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Paul_Gauguin_111.jpg",
+    "movementLabel": "modern art",
+    "width": "90",
+    "height": "68",
+    "description": "painting by Paul Gauguin",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/71_Busto_de_Victor_Hugo.jpg",
+    "paintingLabel": "Bust of Victor Hugo",
+    "artistName": "Auguste Rodin",
+    "date_of_birth": "1840",
+    "date_of_death": "1917",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/9/95/Auguste_Rodin_fotografato_da_Nadar_nel_1891.jpg",
+    "movementLabel": "modern art",
+    "width": "26.9",
+    "height": "56.7",
+    "description": "Sculpture by Auguste Rodin",
+    "abstract": "The Bust of Victor Hugo is an 1883 patinated plaster sculpture by the French artist Auguste Rodin of the Romantic writer Victor Hugo. It is now in the Museo Soumaya in Mexico City.\\nIn 1883 the journalist Edmond Bazire advised Rodin to cement his reputation by producing a portrait of a notable personality. Rodin thus approached Hugo - he agreed to sittings but refused to sit for longer than 30 minutes. However, he did invite Rodin to stand in the porch of Hugo's house on Avenue d'Eylau in Paris to make additional drawings from a distance whilst Hugo worked in his living room. He made these drawings from different angles between February and April 1883, capturing a range of different angles and expressions. He later made frontal and three-quarter-view engravings.The work in Mexico is the first version of the work, cast in bronze in June 1884 and exhibited at the Paris Salon. Rodin continued to refine the image, producing a second version in 1884 and refining the 1883 work until 1885, around the time of Hugo's death. Rodin used a larger version of the 1883 work to produce his Monument to Victor Hugo in 1887.",
+    "id": 2
+  }
+]

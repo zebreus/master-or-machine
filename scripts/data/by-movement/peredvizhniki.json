@@ -1,0 +1,28 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Isaak_Levitan_Tihaya_obitel.jpg",
+    "paintingLabel": "A Quiet Monastery",
+    "artistName": "Isaac Levitan",
+    "date_of_birth": "1860",
+    "date_of_death": "1900",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Isaac_Levitan_selfportrait1880.jpg",
+    "movementLabel": "Peredvizhniki",
+    "width": "108",
+    "height": "87.5",
+    "description": "painting by Isaac Levitan, 1890",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Archip_Iwanowitsch_Kuindshi_008.jpg",
+    "paintingLabel": "Lake Ladoga",
+    "artistName": "Arkhip Kuindzhi",
+    "date_of_birth": "1842",
+    "date_of_death": "1910",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Kuindzhi_by_I.Kramskoy_%281872%2C_GTG%29.jpg",
+    "movementLabel": "Peredvizhniki",
+    "width": "62.5",
+    "height": "79.5",
+    "description": "1873 painting by Arkhip Kuindzhi",
+    "id": 1
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jean_Metzinger%2C_L%27Oiseau_Bleu_%28left%29%2C_Andr%C3%A9_Lhote%2C_two_works_%28center%29%2C_Albert_Gleizes%2C_Baigneuse_%28right%29%2C_Mus%C3%A9e_d%27Art_Moderne_de_la_Ville_de_Paris.jpg",
+    "paintingLabel": "Les Baigneuses",
+    "artistName": "Albert Gleizes",
+    "date_of_birth": "1881",
+    "date_of_death": "1953",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/69/Albert_Gleizes%2C_c.1920%2C_photograph_by_Pierre_Choumoff..jpg",
+    "movementLabel": "Salon Cubism",
+    "description": "painting by Albert Gleizes",
+    "abstract": "Les Baigneuses (also known as The Bathers), is a large oil painting created at the outset of 1912 by the French artist, theorist and writer Albert Gleizes (1881–1953). It was exhibited at the Salon des Indépendants in Paris during the spring of 1912; the Salon de la Société Normande de Peinture Moderne, Rouen, summer 1912; and the Salon de la Section d'Or, autumn 1912. The painting was reproduced in Du 'Cubisme', written by Albert Gleizes and Jean Metzinger the same year: the first and only manifesto on Cubism. Les Baigneuses, while still 'readable' in the figurative or representational sense, exemplifies the mobile, dynamic fragmentation of form and multiple perspective characteristic of Cubism at the outset of 1912. Highly sophisticated, both in theory and in practice, this aspect of simultaneity would soon become identified with the practices of the Section d'Or group. Gleizes deploys these techniques in 'a radical, personal and coherent manner'. Purchased in 1937, the painting is exhibited in the permanent collection of the Musée d'Art Moderne de la Ville de Paris.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Fresnaye_conquest_of_air.jpg",
+    "paintingLabel": "Conquest of the Air",
+    "artistName": "Roger de La Fresnaye",
+    "date_of_birth": "1885",
+    "date_of_death": "1925",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/9/97/Roger_de_la_Fresnaye.jpg",
+    "movementLabel": "Salon Cubism",
+    "width": "195.6",
+    "height": "235.9",
+    "description": "painting by Roger de La Fresnaye",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Robert_Delaunay%2C_1910%2C_La_ville_no._2%2C_oil_on_canvas%2C_146_x_114_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne%2C_Centre_Georges_Pompidou%2C_Paris.jpg",
+    "paintingLabel": "The City, No. 2",
+    "artistName": "Robert Delaunay",
+    "date_of_birth": "1885",
+    "date_of_death": "1941",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Robert_Delaunay_portrait_photograph.jpg",
+    "movementLabel": "Salon Cubism",
+    "width": "114",
+    "height": "146",
+    "description": "painting by Robert Delaunay",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Alice_au_grand_chapeau.jpg",
+    "paintingLabel": "Alice in a big hat",
+    "artistName": "Roger de La Fresnaye",
+    "date_of_birth": "1885",
+    "date_of_death": "1925",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/9/97/Roger_de_la_Fresnaye.jpg",
+    "movementLabel": "Salon Cubism",
+    "width": "97",
+    "height": "130.5",
+    "description": "painting by Roger de La Fresnaye",
+    "id": 3
+  }
+]

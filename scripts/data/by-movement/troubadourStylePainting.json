@@ -1,0 +1,15 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_El_rey_Candaules.jpg",
+    "paintingLabel": "King Candaules",
+    "artistName": "Jean-Léon Gérôme",
+    "date_of_birth": "1824",
+    "date_of_death": "1904",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Jean-Leon_Gerome.jpg",
+    "movementLabel": "Troubadour style painting",
+    "width": "99",
+    "height": "67.3",
+    "description": "painting by Jean-Léon Gérôme",
+    "id": 0
+  }
+]

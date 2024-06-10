@@ -1,0 +1,16 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Concert_in_the_Egg.jpg",
+    "paintingLabel": "Concert in the Egg",
+    "artistName": "Hieronymus Bosch",
+    "date_of_birth": "1450",
+    "date_of_death": "1516",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jheronimus_Bosch_%28cropped%29.jpg",
+    "movementLabel": "Dutch and Flemish Renaissance painting",
+    "width": "126.5",
+    "height": "108.5",
+    "description": "painting by follower of Hieronymus Bosch",
+    "abstract": "Concert in the Egg is a painting formerly considered to be a copy of a lost work by Hieronymus Bosch, and which is currently considered to be based on one of his drawings. Max Jakob Friedländer called it 'an old copy', without specifying another work it was copied from.",
+    "id": 0
+  }
+]

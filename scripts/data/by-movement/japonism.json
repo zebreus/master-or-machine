@@ -1,0 +1,29 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Claude_Monet-Madame_Monet_en_costume_japonais.jpg",
+    "paintingLabel": "Madame Monet wearing a kimono",
+    "artistName": "Claude Monet",
+    "date_of_birth": "1840",
+    "date_of_death": "1926",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg",
+    "movementLabel": "japonism",
+    "width": "142.3",
+    "height": "231.8",
+    "description": "painting by Claude Monet, 1875",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/George_Hendrik_Breitner_-_Meisje_in_witte_kimono_%28Geesje_Kwak%29.jpg",
+    "paintingLabel": "Girl in a White Kimono",
+    "artistName": "George Hendrik Breitner",
+    "date_of_birth": "1857",
+    "date_of_death": "1923",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/5/50/George_Hendrik_Breitner_-_Self-portrait_with_pince-nez_-_Google_Art_Project.jpg",
+    "movementLabel": "japonism",
+    "width": "57",
+    "height": "59",
+    "description": "1894 painting by George Hendrik Breitner (1857-1923)",
+    "abstract": "Girl in a White Kimono (Dutch: Meisje in witte kimono) is an 1894 oil painting by George Hendrik Breitner. The subject of the painting is the sixteen-year-old Geesje Kwak, of whom Breitner made a series of photographs and paintings wearing red and white kimonos. The painting was inspired by the style of Japanese prints and is an example of Japonism. The painting is in the collection of the Rijksmuseum in Amsterdam.",
+    "id": 1
+  }
+]

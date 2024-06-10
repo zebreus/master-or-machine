@@ -1,0 +1,16 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sisley%2C_St_Martin_Canal_1870.jpg",
+    "paintingLabel": "Vue du canal Saint-Martin",
+    "artistName": "Alfred Sisley",
+    "date_of_birth": "1839",
+    "date_of_death": "1899",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/60/Pierre-Auguste_Renoir_110.jpg",
+    "movementLabel": "event",
+    "width": "65",
+    "height": "50",
+    "description": "painting by Alfred Sisley",
+    "abstract": "View of the Canal Saint-Martin is an 1870 painting by Alfred Sisley, first exhibited at the Paris Salon of 1870. It was acquired by Gaudoin or Pierre-Firmin (both art dealers). It was then bought by Dr Paul Gachet for 170 francs before 1883. Gachet's son owned it from 1909 onwards and donated it to the Louvre in 1951. It now hangs in the Musée d'Orsay.",
+    "id": 0
+  }
+]

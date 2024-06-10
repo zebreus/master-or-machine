@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Renoir_Lise_With_Umbrella.jpg",
+    "paintingLabel": "Lise with Umbrella",
+    "artistName": "Pierre-Auguste Renoir",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "movementLabel": "Pleinairisme",
+    "width": "115",
+    "height": "184",
+    "description": "painting by Auguste Renoir",
+    "abstract": "Lise, also known as Lise with a Parasol, is an oil-on-canvas painting by the French artist Pierre-Auguste Renoir, created in 1867 during his early Salon period.  The full-length painting depicts model Lise Tréhot posing in a forest. She wears a white muslin dress and holds a black lace parasol to shade her from the sunlight, which filters down through the leaves, contrasting her face in the shadow and her body in the light, highlighting her dress rather than her face. After having several paintings rejected by the Salon, Renoir's Lise was finally accepted and exhibited in May 1868.\\nThe painting was one of Renoir's first critically successful works.  At this time, Renoir's technique was still influenced by Gustave Courbet, but he continued to develop his unique style painting filtered light which he would return to in The Swing (1876) and Dance at Le Moulin de la Galette (1876).  The almost life-size portrait and unusual contrast in Lise led several critics to ridicule the work.  Théodore Duret, a passionate supporter of the nascent Impressionists, bought the painting from Renoir, who was unable to sell it. Karl Ernst Osthaus, a German patron of avant-garde art, acquired Lise in 1901 for the Museum Folkwang.",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/La_Promenade%2C_by_Pierre-Auguste_Renoir%2C_edited.jpg",
+    "paintingLabel": "La Promenade",
+    "artistName": "Pierre-Auguste Renoir",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "movementLabel": "Pleinairisme",
+    "width": "648",
+    "height": "813",
+    "description": "painting by Pierre-Auguste Renoir",
+    "abstract": "La Promenade is an oil on canvas, early Impressionist painting by the French artist Pierre-Auguste Renoir, created in 1870.  The work depicts a young couple on an excursion outside of the city, walking on a path through a woodland. Influenced by the rococo revival style during the Second Empire, Renoir's  La Promenade reflects the older style and themes of eighteenth-century artists like Jean-Honoré Fragonard and Jean-Antoine Watteau.  The work also shows the influence of Claude Monet on Renoir's new approach to painting.",
+    "id": 1
+  }
+]

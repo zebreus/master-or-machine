@@ -1,0 +1,15 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Saint_Bartholomew_by_Jusepe_de_Ribera.jpg",
+    "paintingLabel": "Saint Bartholomew",
+    "artistName": "Jusepe de Ribera",
+    "date_of_birth": "1591",
+    "date_of_death": "1652",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Giuseppe_Macpherson_-_Jusepe_de_Ribera.jpg",
+    "movementLabel": "tenebrism",
+    "width": "23.125",
+    "height": "28.5",
+    "description": "painting by Jusepe de Ribera",
+    "id": 0
+  }
+]

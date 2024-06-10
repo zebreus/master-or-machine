@@ -1,0 +1,99 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/The_Death_of_Cleopatra_by_Juan_Luna1881.jpg",
+    "paintingLabel": "The Death of Cleopatra",
+    "artistName": "Juan Luna",
+    "date_of_birth": "1857",
+    "date_of_death": "1899",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Luna_1899.png",
+    "movementLabel": "Egyptian Revival",
+    "description": "painting by Juan Luna",
+    "abstract": "The Death of Cleopatra (Spanish: La Muerte de Cleopatra\\n), also known simply as Cleopatra, is an 1881 painting made by the Filipino painter Juan Luna. The painting was a silver medalist or second prize winner during the 1881 National Exposition of Fine Arts in Madrid (Exposicion Nacional de Bellas Artes).  The 1881 Madrid painting contest was Luna's first art exposition.  Because of the exposure, Luna received a pension scholarship at the Ayuntamiento de Manila.  After the painting competition, Luna sold it for 5,000 Spanish pesetas, the highest price for a painting at the time.  As Luna's 'graduation work', The Death of Cleopatra was acquired by the Spanish government for one thousand duros.A study of the painting was sold for ₱9.3 million at an auction by Salcedo Auctions in March 2019\\n\\n",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Jeanne_Itasse_%281865-1941%29_-_Egyptian_Harpist%2C_1891_%288711975061%29.png",
+    "paintingLabel": "Egyptian Harpist",
+    "artistName": "Jeanne Itasse",
+    "date_of_birth": "1865",
+    "date_of_death": "1941",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/40/Jeanne_Itasse.jpg",
+    "movementLabel": "Egyptian Revival",
+    "description": "statue by Jeanne Itasse",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Lille_PdBA_gauthier_cleopatre_3.JPG",
+    "paintingLabel": "Cleopatra",
+    "artistName": "Charles Gauthier",
+    "date_of_birth": "1831",
+    "date_of_death": "1891",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/5/55/Buste_Charles_Gauthier%2C_Cimeti%C3%A8re_du_Montparnasse.jpg",
+    "movementLabel": "Egyptian Revival",
+    "description": "statue by Charles Gauthier",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Edward_Onslow_Ford_-_The_Singer_-_Tate_Britain_Sep_2010_right_%285186538297%29.png",
+    "paintingLabel": "The Singer",
+    "artistName": "Edward Onslow Ford",
+    "date_of_birth": "1852",
+    "date_of_death": "1901",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d0/%28Edward%29_Onslow_Ford_by_John_McLure_Hamilton.jpg",
+    "movementLabel": "Egyptian Revival",
+    "width": "21.6",
+    "height": "90.2",
+    "description": "sculpture by Edward Onslow Ford",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Edward_Onslow_Ford_%281852-1901%29_Applause_%281893%29_front%2C_awaiting_reinstallation_at_Tate_Britain%2C_Dec_2012_%288268745290%29.png",
+    "paintingLabel": "Applause",
+    "artistName": "Edward Onslow Ford",
+    "date_of_birth": "1852",
+    "date_of_death": "1901",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d0/%28Edward%29_Onslow_Ford_by_John_McLure_Hamilton.jpg",
+    "movementLabel": "Egyptian Revival",
+    "width": "25",
+    "height": "67",
+    "description": "sculpture by Edward Onslow Ford",
+    "id": 4
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Rixens_Mort_de_Cl%C3%A9op%C3%A2tre_%28inv_2004_1_138%29.jpg",
+    "paintingLabel": "The Death of Cleopatra",
+    "artistName": "Jean-André Rixens",
+    "date_of_birth": "1846",
+    "date_of_death": "1925",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Jean-Andr%C3%A9_Rixens_photo.jpg",
+    "movementLabel": "Egyptian Revival",
+    "width": "286",
+    "height": "195",
+    "description": "painting by Jean-André Rixens",
+    "id": 5
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Makart%2C_Hans_-_Der_Tod_der_Kleopatra_-_1875-76.jpg",
+    "paintingLabel": "The Death of Cleopatra",
+    "artistName": "Hans Makart",
+    "date_of_birth": "1840",
+    "date_of_death": "1884",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/62/Makart_hans_selbstportrat.jpg",
+    "movementLabel": "Egyptian Revival",
+    "description": "painting by Hans Makart",
+    "id": 6
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Edwin_Long_002.jpg",
+    "paintingLabel": "The Discovery of Moses",
+    "artistName": "Edwin Long",
+    "date_of_birth": "1829",
+    "date_of_death": "1891",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Long_edwin_longsden.jpg",
+    "movementLabel": "Egyptian Revival",
+    "width": "276.8",
+    "height": "196.7",
+    "description": "painting by Edwin Long",
+    "id": 7
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Emma_sandys_study_of_a_head.jpg",
+    "paintingLabel": "Study of a Head",
+    "artistName": "Emma Sandys",
+    "date_of_birth": "1843",
+    "date_of_death": "1877",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Emma_sandys.jpg",
+    "movementLabel": "Pre Raphaelite women artists",
+    "description": "painting by Emma Sandys",
+    "id": 0
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/The-Beautiful-Wallflower-1870-Emma-Sandys.jpg",
+    "paintingLabel": "La belle jaune giroflée",
+    "artistName": "Emma Sandys",
+    "date_of_birth": "1843",
+    "date_of_death": "1877",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Emma_sandys.jpg",
+    "movementLabel": "Pre Raphaelite women artists",
+    "description": "painting by Emma Sandys",
+    "id": 1
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lady_in_a_Yellow_Dress.jpg",
+    "paintingLabel": "Portrait Study of a Lady in a Yellow Dress",
+    "artistName": "Emma Sandys",
+    "date_of_birth": "1843",
+    "date_of_death": "1877",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Emma_sandys.jpg",
+    "movementLabel": "Pre Raphaelite women artists",
+    "description": "painting by Emma Sandys",
+    "id": 2
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Viola-Emma-Sandys.jpg",
+    "paintingLabel": "Viola",
+    "artistName": "Emma Sandys",
+    "date_of_birth": "1843",
+    "date_of_death": "1877",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Emma_sandys.jpg",
+    "movementLabel": "Pre Raphaelite women artists",
+    "description": "painting by Emma Sandys",
+    "id": 3
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Elaine_Sandys.jpg",
+    "paintingLabel": "Elaine",
+    "artistName": "Emma Sandys",
+    "date_of_birth": "1843",
+    "date_of_death": "1877",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Emma_sandys.jpg",
+    "movementLabel": "Pre Raphaelite women artists",
+    "width": "39.1",
+    "height": "36.9",
+    "description": "painting by Emma Sandys",
+    "id": 4
+  }
+]
