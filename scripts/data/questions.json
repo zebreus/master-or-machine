@@ -14,7 +14,7 @@
       "height": "54.6",
       "description": "painting by Juan Gris"
     },
-    "machineUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris_hkmmwymxv1rgg0cg0cyrm25s1m.webp",
+    "machineUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris_v6v32s5ce1rgg0cg0d7ryjh32w.webp",
     "masterUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris.webp",
     "id": 0
   },
@@ -33,8 +33,702 @@
       "height": "54.6",
       "description": "painting by Juan Gris"
     },
-    "machineUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris_hpmx87nag9rgp0cg0cyrdbs3qr.webp",
+    "machineUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris_tpfdkvnrydrgm0cg0d7sd0g8tg.webp",
     "masterUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris.webp",
     "id": 1
+  },
+  {
+    "prompt": "a picture of a painting on a wall, a cubist painting by Amadeo de Souza Cardoso, pixiv, cubism, cubism, angular, cityscape",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Le_Papier_%C3%A0_musique.jpg",
+      "paintingLabel": "Music paper",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "46",
+      "height": "65",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/musicPaperXXXXJuanGris_k7e61fth8xrgp0cg0d8b83qqe8.webp",
+    "masterUrl": "/images/musicPaperXXXXJuanGris.webp",
+    "id": 2
+  },
+  {
+    "prompt": "Music paper: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Le_Papier_%C3%A0_musique.jpg",
+      "paintingLabel": "Music paper",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "46",
+      "height": "65",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/musicPaperXXXXJuanGris_pt53b6jzkhrgg0cg0d8avdd0rr.webp",
+    "masterUrl": "/images/musicPaperXXXXJuanGris.webp",
+    "id": 3
+  },
+  {
+    "prompt": "a painting of a man holding a baseball bat, a cubist painting by Kazimir Malevich, reddit, vorticism, constructivism, cubism, fauvism",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Woodcutter.jpg",
+      "paintingLabel": "The Woodcutter",
+      "artistName": "Kazimir Malevich",
+      "date_of_birth": "1878",
+      "date_of_death": "1935",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/63/Casimir_Malevich_photo.jpg",
+      "movementLabel": "Cubism",
+      "width": "71.5",
+      "height": "94",
+      "description": "painting by Kazimir Malevich"
+    },
+    "machineUrl": "/images/theWoodcutterXXXXKazimirMalevich_t8mfbxyvd5rgj0cg0d89hw86x0.webp",
+    "masterUrl": "/images/theWoodcutterXXXXKazimirMalevich.webp",
+    "id": 4
+  },
+  {
+    "prompt": "The Woodcutter: An Cubism painting in the style of Kazimir Malevich, painted in , Cubism, painting by Kazimir Malevich, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Woodcutter.jpg",
+      "paintingLabel": "The Woodcutter",
+      "artistName": "Kazimir Malevich",
+      "date_of_birth": "1878",
+      "date_of_death": "1935",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/63/Casimir_Malevich_photo.jpg",
+      "movementLabel": "Cubism",
+      "width": "71.5",
+      "height": "94",
+      "description": "painting by Kazimir Malevich"
+    },
+    "machineUrl": "/images/theWoodcutterXXXXKazimirMalevich_k20q92zcmhrgj0cg0d89g34gcr.webp",
+    "masterUrl": "/images/theWoodcutterXXXXKazimirMalevich.webp",
+    "id": 5
+  },
+  {
+    "prompt": "a painting of a large group of objects, a cubist painting by Kazimir Malevich, pixiv, cubo-futurism, cubism, constructivism, picasso",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Woman_with_Pails_%28Malevich%2C_1912%29.jpg",
+      "paintingLabel": "Woman with Pails: Dynamic Arrangement",
+      "artistName": "Kazimir Malevich",
+      "date_of_birth": "1878",
+      "date_of_death": "1935",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/63/Casimir_Malevich_photo.jpg",
+      "movementLabel": "Cubism",
+      "width": "80.3",
+      "height": "80.3",
+      "description": "painting by Kazimir Malevich"
+    },
+    "machineUrl": "/images/womanWithPailsDynamicArrangementXXXXKazimirMalevich_15qkpgjkpnrgm0cg0d8vknkmwc.webp",
+    "masterUrl": "/images/womanWithPailsDynamicArrangementXXXXKazimirMalevich.webp",
+    "id": 6
+  },
+  {
+    "prompt": "Woman with Pails: Dynamic Arrangement: An Cubism painting in the style of Kazimir Malevich, painted in , Cubism, painting by Kazimir Malevich, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Woman_with_Pails_%28Malevich%2C_1912%29.jpg",
+      "paintingLabel": "Woman with Pails: Dynamic Arrangement",
+      "artistName": "Kazimir Malevich",
+      "date_of_birth": "1878",
+      "date_of_death": "1935",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/63/Casimir_Malevich_photo.jpg",
+      "movementLabel": "Cubism",
+      "width": "80.3",
+      "height": "80.3",
+      "description": "painting by Kazimir Malevich"
+    },
+    "machineUrl": "/images/womanWithPailsDynamicArrangementXXXXKazimirMalevich_4crw9zk0k1rgp0cg0d8r697nsc.webp",
+    "masterUrl": "/images/womanWithPailsDynamicArrangementXXXXKazimirMalevich.webp",
+    "id": 7
+  },
+  {
+    "prompt": "a painting of a flower on a white background, a cubist painting by Jacques Villon, featured on pixiv, abstract expressionism, academic art, angular, artwork",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Portrait_de_Guillaume_Apollinaire.jpg",
+      "paintingLabel": "Portrait of Guillaume Apollinaire",
+      "artistName": "Robert Delaunay",
+      "date_of_birth": "1885",
+      "date_of_death": "1941",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Robert_Delaunay_portrait_photograph.jpg",
+      "movementLabel": "Cubism",
+      "width": "75",
+      "height": "100",
+      "description": "painting by Robert Delaunay"
+    },
+    "machineUrl": "/images/portraitOfGuillaumeApollinaireXXXXRobertDelaunay_7ade646pf5rgm0cg0d8t54xmzw.webp",
+    "masterUrl": "/images/portraitOfGuillaumeApollinaireXXXXRobertDelaunay.webp",
+    "id": 8
+  },
+  {
+    "prompt": "Portrait of Guillaume Apollinaire: An Cubism painting in the style of Robert Delaunay, painted in , Cubism, painting by Robert Delaunay, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Portrait_de_Guillaume_Apollinaire.jpg",
+      "paintingLabel": "Portrait of Guillaume Apollinaire",
+      "artistName": "Robert Delaunay",
+      "date_of_birth": "1885",
+      "date_of_death": "1941",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Robert_Delaunay_portrait_photograph.jpg",
+      "movementLabel": "Cubism",
+      "width": "75",
+      "height": "100",
+      "description": "painting by Robert Delaunay"
+    },
+    "machineUrl": "/images/portraitOfGuillaumeApollinaireXXXXRobertDelaunay_fab0m8qemdrgg0cg0d8r8h9pq4.webp",
+    "masterUrl": "/images/portraitOfGuillaumeApollinaireXXXXRobertDelaunay.webp",
+    "id": 9
+  },
+  {
+    "prompt": "a painting of a man with a suit and tie, a cubist painting by Gino Severini, pixiv, cubism, cubism, picasso, angular",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Juan_Gris_-_Portrait_of_Pablo_Picasso_-_Google_Art_Project.jpg",
+      "paintingLabel": "Portrait of Pablo Picasso",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "744",
+      "height": "933",
+      "description": "painting by the Spanish artist Juan Gris"
+    },
+    "machineUrl": "/images/portraitOfPabloPicassoXXXXJuanGris_heqq06vmnxrgg0cg0d9at6s190.webp",
+    "masterUrl": "/images/portraitOfPabloPicassoXXXXJuanGris.webp",
+    "id": 10
+  },
+  {
+    "prompt": "Portrait of Pablo Picasso: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by the Spanish artist Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Juan_Gris_-_Portrait_of_Pablo_Picasso_-_Google_Art_Project.jpg",
+      "paintingLabel": "Portrait of Pablo Picasso",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "744",
+      "height": "933",
+      "description": "painting by the Spanish artist Juan Gris"
+    },
+    "machineUrl": "/images/portraitOfPabloPicassoXXXXJuanGris_w46nwnc11drgm0cg0d9bxbnkqc.webp",
+    "masterUrl": "/images/portraitOfPabloPicassoXXXXJuanGris.webp",
+    "id": 11
+  },
+  {
+    "prompt": "a painting of a guitar in a room, a cubist painting by Juan Gris, pixiv, cubism, cubism, picasso, dynamic composition",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/La_Guitare.jpg",
+      "paintingLabel": "The guitar",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "50",
+      "height": "61",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/theGuitarXXXXJuanGris_mschd2zq7nrgp0cg0d9bvpweyw.webp",
+    "masterUrl": "/images/theGuitarXXXXJuanGris.webp",
+    "id": 12
+  },
+  {
+    "prompt": "The guitar: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/La_Guitare.jpg",
+      "paintingLabel": "The guitar",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "50",
+      "height": "61",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/theGuitarXXXXJuanGris_jqjwqbr475rgp0cg0d9sebfpzc.webp",
+    "masterUrl": "/images/theGuitarXXXXJuanGris.webp",
+    "id": 13
+  },
+  {
+    "prompt": "a painting of a city with a church steeple in the background, a cubist painting by André Lhote, pixiv, orphism, cubism, fauvism, cityscape",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Robert_Delaunay_-_Les_Tours_de_Laon_-_1912_-_Mus%C3%A9e_national_d%27art_moderne.jpg",
+      "paintingLabel": "The Towers of Laon",
+      "artistName": "Robert Delaunay",
+      "date_of_birth": "1885",
+      "date_of_death": "1941",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Robert_Delaunay_portrait_photograph.jpg",
+      "movementLabel": "Cubism",
+      "width": "130",
+      "height": "162",
+      "description": "painting by Robert Delaunay"
+    },
+    "machineUrl": "/images/theTowersOfLaonXXXXRobertDelaunay_a0m2a93vchrgj0cg0d9tzgtd8m.webp",
+    "masterUrl": "/images/theTowersOfLaonXXXXRobertDelaunay.webp",
+    "id": 14
+  },
+  {
+    "prompt": "The Towers of Laon: An Cubism painting in the style of Robert Delaunay, painted in , Cubism, painting by Robert Delaunay, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Robert_Delaunay_-_Les_Tours_de_Laon_-_1912_-_Mus%C3%A9e_national_d%27art_moderne.jpg",
+      "paintingLabel": "The Towers of Laon",
+      "artistName": "Robert Delaunay",
+      "date_of_birth": "1885",
+      "date_of_death": "1941",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/4/48/Robert_Delaunay_portrait_photograph.jpg",
+      "movementLabel": "Cubism",
+      "width": "130",
+      "height": "162",
+      "description": "painting by Robert Delaunay"
+    },
+    "machineUrl": "/images/theTowersOfLaonXXXXRobertDelaunay_mp5k1kc789rgg0cg0d9t2j7k68.webp",
+    "masterUrl": "/images/theTowersOfLaonXXXXRobertDelaunay.webp",
+    "id": 15
+  },
+  {
+    "prompt": "a painting of a vase and papers on a table, a cubist painting by Gino Severini, pixiv, cubism, cubism, constructivism, angular",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Verre_et_Journal.jpg",
+      "paintingLabel": "Glass and newspaper",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "33",
+      "height": "41",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/glassAndNewspaperXXXXJuanGris_8zkyh40bd9rgg0cg0da8jpw5tw.webp",
+    "masterUrl": "/images/glassAndNewspaperXXXXJuanGris.webp",
+    "id": 16
+  },
+  {
+    "prompt": "Glass and newspaper: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Verre_et_Journal.jpg",
+      "paintingLabel": "Glass and newspaper",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "33",
+      "height": "41",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/glassAndNewspaperXXXXJuanGris_31098mgtddrgm0cg0da8jfbnsg.webp",
+    "masterUrl": "/images/glassAndNewspaperXXXXJuanGris.webp",
+    "id": 17
+  },
+  {
+    "prompt": "a painting of a man sitting on a chair, a cubist painting by André Lhote, behance, cubo-futurism, cubism, fauvism, artwork",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ismael_Nery_-_Auto-retrato%2C_1927.jpg",
+      "paintingLabel": "Self-portrait",
+      "artistName": "Ismael Nery",
+      "date_of_birth": "1900",
+      "date_of_death": "1934",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Retrato_de_Ismael_Nery.jpg",
+      "movementLabel": "Cubism",
+      "width": "84",
+      "height": "129",
+      "description": "Gemälde von Ismael Nery (German)"
+    },
+    "machineUrl": "/images/selfPortraitXXXXIsmaelNery_t58ty6cf3drgm0cg0da9ry8twm.webp",
+    "masterUrl": "/images/selfPortraitXXXXIsmaelNery.webp",
+    "id": 18
+  },
+  {
+    "prompt": "Self-portrait: An Cubism painting in the style of Ismael Nery, painted in , Cubism, Gemälde von Ismael Nery (German), ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ismael_Nery_-_Auto-retrato%2C_1927.jpg",
+      "paintingLabel": "Self-portrait",
+      "artistName": "Ismael Nery",
+      "date_of_birth": "1900",
+      "date_of_death": "1934",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Retrato_de_Ismael_Nery.jpg",
+      "movementLabel": "Cubism",
+      "width": "84",
+      "height": "129",
+      "description": "Gemälde von Ismael Nery (German)"
+    },
+    "machineUrl": "/images/selfPortraitXXXXIsmaelNery_50zq09cv6hrgp0cg0da8m42adm.webp",
+    "masterUrl": "/images/selfPortraitXXXXIsmaelNery.webp",
+    "id": 19
+  },
+  {
+    "prompt": "a painting of a bird and a bottle on a table, a cubist painting by Gino Severini, pixiv, cubism, cubism, fauvism, angular",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Nature_morte_au_livre.jpg",
+      "paintingLabel": "Still life with the book",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "30",
+      "height": "46",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/stillLifeWithTheBookXXXXJuanGris_ee2qwm0m6xrgg0cg0dat1xxxfm.webp",
+    "masterUrl": "/images/stillLifeWithTheBookXXXXJuanGris.webp",
+    "id": 20
+  },
+  {
+    "prompt": "Still life with the book: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Nature_morte_au_livre.jpg",
+      "paintingLabel": "Still life with the book",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "30",
+      "height": "46",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/stillLifeWithTheBookXXXXJuanGris_560j3qrzz1rgg0cg0datttzram.webp",
+    "masterUrl": "/images/stillLifeWithTheBookXXXXJuanGris.webp",
+    "id": 21
+  },
+  {
+    "prompt": "a painting of a group of naked people by Paul Cézanne, pixiv, orphism, impressionism, oil on canvas, academic art",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg",
+      "paintingLabel": "Les Grandes Baigneuses (The Large Bathers)",
+      "artistName": "Paul Cézanne",
+      "date_of_birth": "1839",
+      "date_of_death": "1906",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Portrait_de_l%27artiste_au_fond_rose%2C_par_Paul_C%C3%A9zanne.jpg",
+      "movementLabel": "Cubism",
+      "width": "250.8",
+      "height": "210.5",
+      "description": "painting by Paul Cézanne in Philadelphia Museum of Art",
+      "abstract": "The Bathers (French: Les Grandes Baigneuses) is an oil painting by French artist Paul Cézanne first exhibited in 1906. The painting, which is exhibited in the Philadelphia Museum of Art, is the largest of a series of Bather paintings by Cézanne; the others are in the Museum of Modern Art in New York City, National Gallery, London, the Barnes Foundation, Philadelphia, and the Art Institute of Chicago. Occasionally referred to as the Big Bathers or Large Bathers to distinguish it from the smaller works, the painting is considered one of the masterpieces of modern art, and is often considered Cézanne's finest work.Cézanne worked on the painting for seven years, and it remained unfinished at the time of his death in 1906. The painting was purchased in 1937 for $110,000 with funds from a trust fund for the Philadelphia Museum of Art by their major benefactor, Joseph E. Widener.  It was previously owned by Leo Stein.With each version of the Bathers, Cézanne moved away from the traditional presentation of paintings, intentionally creating works that would not appeal to the novice viewer. He did this to avoid fleeting fads and give a timeless quality to his work, and in so doing paved the way for future artists to disregard current trends and paint pieces that would appeal equally to all generations. The abstract nude females present in Large Bathers give the painting tension and density. It is exceptional among his work in symmetrical dimensions, with the adaptation of the nude forms to the triangular pattern of the trees and river. Using the same technique as employed in painting landscapes and still lifes, Large Bathers is reminiscent of the work of Titian and Peter Paul Rubens. Comparisons are also often made with the other famous group of nude women of the same period, Picasso's Les Demoiselles d'Avignon.The purchase of the painting, while generally praised, was nevertheless questioned by The Philadelphia Record, which noted that 41,000 (or ten percent) of Philadelphia's residents were without bathtubs, and that the money could therefore have been better spent elsewhere. While Cézanne's drawing ability has always been criticized, a critic once said that he 'made the ineptly drawn Bathers a warm evocation of leisurely summer bliss.' The painting was featured in the BBC Two series 100 Great Paintings."
+    },
+    "machineUrl": "/images/lesGrandesBaigneusesTheLargeBathersXXXXPaulCZanne_r3a7v8n9qdrgp0cg0dav7xrpz8.webp",
+    "masterUrl": "/images/lesGrandesBaigneusesTheLargeBathersXXXXPaulCZanne.webp",
+    "id": 22
+  },
+  {
+    "prompt": "Les Grandes Baigneuses (The Large Bathers): An Cubism painting in the style of Paul Cézanne, painted in , Cubism, painting by Paul Cézanne in Philadelphia Museum of Art, The Bathers (French: Les Grandes Baigneuses) is an oil painting by French artist Paul Cézanne first exhibited in 1906. The painting, which is exhibited in the Philadelphia Museum of Art, is the largest of a series of Bather paintings by Cézanne; the others are in the Museum of Modern Art in New York City, National Gallery, London, the Barnes Foundation, Philadelphia, and the Art Institute of Chicago. Occasionally referred to as the Big Bathers or Large Bathers to distinguish it from the smaller works, the painting is considered one of the masterpieces of modern art, and is often considered Cézanne's finest work.Cézanne worked on the painting for seven years, and it remained unfinished at the time of his death in 1906. The painting was purchased in 1937 for $110,000 with funds from a trust fund for the Philadelphia Museum of Art by their major benefactor, Joseph E. Widener.  It was previously owned by Leo Stein.With each version of the Bathers, Cézanne moved away from the traditional presentation of paintings, intentionally creating works that would not appeal to the novice viewer. He did this to avoid fleeting fads and give a timeless quality to his work, and in so doing paved the way for future artists to disregard current trends and paint pieces that would appeal equally to all generations. The abstract nude females present in Large Bathers give the painting tension and density. It is exceptional among his work in symmetrical dimensions, with the adaptation of the nude forms to the triangular pattern of the trees and river. Using the same technique as employed in painting landscapes and still lifes, Large Bathers is reminiscent of the work of Titian and Peter Paul Rubens. Comparisons are also often made with the other famous group of nude women of the same period, Picasso's Les Demoiselles d'Avignon.The purchase of the painting, while generally praised, was nevertheless questioned by The Philadelphia Record, which noted that 41,000 (or ten percent) of Philadelphia's residents were without bathtubs, and that the money could therefore have been better spent elsewhere. While Cézanne's drawing ability has always been criticized, a critic once said that he 'made the ineptly drawn Bathers a warm evocation of leisurely summer bliss.' The painting was featured in the BBC Two series 100 Great Paintings.",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Paul_C%C3%A9zanne%2C_French_-_The_Large_Bathers_-_Google_Art_Project.jpg",
+      "paintingLabel": "Les Grandes Baigneuses (The Large Bathers)",
+      "artistName": "Paul Cézanne",
+      "date_of_birth": "1839",
+      "date_of_death": "1906",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Portrait_de_l%27artiste_au_fond_rose%2C_par_Paul_C%C3%A9zanne.jpg",
+      "movementLabel": "Cubism",
+      "width": "250.8",
+      "height": "210.5",
+      "description": "painting by Paul Cézanne in Philadelphia Museum of Art",
+      "abstract": "The Bathers (French: Les Grandes Baigneuses) is an oil painting by French artist Paul Cézanne first exhibited in 1906. The painting, which is exhibited in the Philadelphia Museum of Art, is the largest of a series of Bather paintings by Cézanne; the others are in the Museum of Modern Art in New York City, National Gallery, London, the Barnes Foundation, Philadelphia, and the Art Institute of Chicago. Occasionally referred to as the Big Bathers or Large Bathers to distinguish it from the smaller works, the painting is considered one of the masterpieces of modern art, and is often considered Cézanne's finest work.Cézanne worked on the painting for seven years, and it remained unfinished at the time of his death in 1906. The painting was purchased in 1937 for $110,000 with funds from a trust fund for the Philadelphia Museum of Art by their major benefactor, Joseph E. Widener.  It was previously owned by Leo Stein.With each version of the Bathers, Cézanne moved away from the traditional presentation of paintings, intentionally creating works that would not appeal to the novice viewer. He did this to avoid fleeting fads and give a timeless quality to his work, and in so doing paved the way for future artists to disregard current trends and paint pieces that would appeal equally to all generations. The abstract nude females present in Large Bathers give the painting tension and density. It is exceptional among his work in symmetrical dimensions, with the adaptation of the nude forms to the triangular pattern of the trees and river. Using the same technique as employed in painting landscapes and still lifes, Large Bathers is reminiscent of the work of Titian and Peter Paul Rubens. Comparisons are also often made with the other famous group of nude women of the same period, Picasso's Les Demoiselles d'Avignon.The purchase of the painting, while generally praised, was nevertheless questioned by The Philadelphia Record, which noted that 41,000 (or ten percent) of Philadelphia's residents were without bathtubs, and that the money could therefore have been better spent elsewhere. While Cézanne's drawing ability has always been criticized, a critic once said that he 'made the ineptly drawn Bathers a warm evocation of leisurely summer bliss.' The painting was featured in the BBC Two series 100 Great Paintings."
+    },
+    "machineUrl": "/images/lesGrandesBaigneusesTheLargeBathersXXXXPaulCZanne_9g6f0gxp5srgp0cg0davch72yw.webp",
+    "masterUrl": "/images/lesGrandesBaigneusesTheLargeBathersXXXXPaulCZanne.webp",
+    "id": 23
+  },
+  {
+    "prompt": "a painting of a vase and a book on a table, a cubist painting by Georges Braque, pixiv, cubism, cubism, angular, academic art",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Le_Livre.jpg",
+      "paintingLabel": "The Book",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "46",
+      "height": "55",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/theBookXXXXJuanGris_n25znnhf45rgj0cg0db8nn0hxg.webp",
+    "masterUrl": "/images/theBookXXXXJuanGris.webp",
+    "id": 24
+  },
+  {
+    "prompt": "The Book: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Le_Livre.jpg",
+      "paintingLabel": "The Book",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "46",
+      "height": "55",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/theBookXXXXJuanGris_vmhs20svaxrgj0cg0db88h8hmr.webp",
+    "masterUrl": "/images/theBookXXXXJuanGris.webp",
+    "id": 25
+  },
+  {
+    "prompt": "a painting of a bunch of different colored items, a cubist painting by Juan Gris, pixiv, cubo-futurism, cubism, constructivism, academic art",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Juan_gris%2C_la_colazione%2C_1915.JPG",
+      "paintingLabel": "The Breakfast",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "73",
+      "height": "92",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/theBreakfastXXXXJuanGris_j8k53knq0xrgm0cg0db8tbmgk4.webp",
+    "masterUrl": "/images/theBreakfastXXXXJuanGris.webp",
+    "id": 26
+  },
+  {
+    "prompt": "The Breakfast: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Juan_gris%2C_la_colazione%2C_1915.JPG",
+      "paintingLabel": "The Breakfast",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "73",
+      "height": "92",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/theBreakfastXXXXJuanGris_39vga0y3nnrgp0cg0db8hb8m50.webp",
+    "masterUrl": "/images/theBreakfastXXXXJuanGris.webp",
+    "id": 27
+  },
+  {
+    "prompt": "an abstract painting of a guitar and other items, a cubist painting by Juan Gris, pixiv, cubism, cubism, picasso, artwork",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Juan_Gris_-_Guitar_and_Pipe.jpg",
+      "paintingLabel": "Guitar and Pipe",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "50.17",
+      "height": "64.77",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/guitarAndPipeXXXXJuanGris_nqnydcswr9rgm0cg0dbt348g5w.webp",
+    "masterUrl": "/images/guitarAndPipeXXXXJuanGris.webp",
+    "id": 28
+  },
+  {
+    "prompt": "Guitar and Pipe: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Juan_Gris_-_Guitar_and_Pipe.jpg",
+      "paintingLabel": "Guitar and Pipe",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "50.17",
+      "height": "64.77",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/guitarAndPipeXXXXJuanGris_95egnjj8exrgm0cg0dbrvb160w.webp",
+    "masterUrl": "/images/guitarAndPipeXXXXJuanGris.webp",
+    "id": 29
+  },
+  {
+    "prompt": "a painting of a person with a cross on it, a cubist painting by Marsden Hartley, featured on pixiv, de stijl, fauvism, cubism, maximalist",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Portrait_of_a_German_Officer%2C_Marsden_Hartley.jpg",
+      "paintingLabel": "Portrait of a German Officer",
+      "artistName": "Marsden Hartley",
+      "date_of_birth": "1877",
+      "date_of_death": "1943",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/21/Portrait_of_Marsden_Hartley.jpg",
+      "movementLabel": "Cubism",
+      "width": "105.1",
+      "height": "173.4",
+      "description": "painting by Marsden Hartley",
+      "abstract": "Portrait of a German Officer is an early 20th century portrait by American modernist painter Marsden Hartley. Done in oil on canvas, the portrait depicts the abstract figure of an Imperial German officer as being composed entirely of military decorations and badges of rank. The painting is currently on display at the Metropolitan Museum of Art."
+    },
+    "machineUrl": "/images/portraitOfAGermanOfficerXXXXMarsdenHartley_5kyxdc6a91rgg0cg0dbs5qe4dw.webp",
+    "masterUrl": "/images/portraitOfAGermanOfficerXXXXMarsdenHartley.webp",
+    "id": 30
+  },
+  {
+    "prompt": "Portrait of a German Officer: An Cubism painting in the style of Marsden Hartley, painted in , Cubism, painting by Marsden Hartley, Portrait of a German Officer is an early 20th century portrait by American modernist painter Marsden Hartley. Done in oil on canvas, the portrait depicts the abstract figure of an Imperial German officer as being composed entirely of military decorations and badges of rank. The painting is currently on display at the Metropolitan Museum of Art.",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Portrait_of_a_German_Officer%2C_Marsden_Hartley.jpg",
+      "paintingLabel": "Portrait of a German Officer",
+      "artistName": "Marsden Hartley",
+      "date_of_birth": "1877",
+      "date_of_death": "1943",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/21/Portrait_of_Marsden_Hartley.jpg",
+      "movementLabel": "Cubism",
+      "width": "105.1",
+      "height": "173.4",
+      "description": "painting by Marsden Hartley",
+      "abstract": "Portrait of a German Officer is an early 20th century portrait by American modernist painter Marsden Hartley. Done in oil on canvas, the portrait depicts the abstract figure of an Imperial German officer as being composed entirely of military decorations and badges of rank. The painting is currently on display at the Metropolitan Museum of Art."
+    },
+    "machineUrl": "/images/portraitOfAGermanOfficerXXXXMarsdenHartley_cr28x4pnwnrgg0cg0dbv8v1zqg.webp",
+    "masterUrl": "/images/portraitOfAGermanOfficerXXXXMarsdenHartley.webp",
+    "id": 31
+  },
+  {
+    "prompt": "a drawing of a fish in a cage, a cubist painting by André Masson, pixiv, orphism, cubism, henry moore, picasso",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ilmari_Aalto_-The_Bells%2C_1914.jpg",
+      "paintingLabel": "The Bells",
+      "artistName": "Ilmari Aalto",
+      "date_of_birth": "1891",
+      "date_of_death": "1934",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ilmari_Aalto_HK19500101_60.jpg",
+      "movementLabel": "Cubism",
+      "width": "40.00",
+      "height": "50.00",
+      "description": "painting by Ilmari Aalto",
+      "abstract": "The Bells (Kellot) is an oil painting on canvas by Finnish artist Ilmari Aalto from 1914."
+    },
+    "machineUrl": "/images/theBellsXXXXIlmariAalto_3bxqezjys9rgp0cg0dca6n18w8.webp",
+    "masterUrl": "/images/theBellsXXXXIlmariAalto.webp",
+    "id": 32
+  },
+  {
+    "prompt": "The Bells: An Cubism painting in the style of Ilmari Aalto, painted in , Cubism, painting by Ilmari Aalto, The Bells (Kellot) is an oil painting on canvas by Finnish artist Ilmari Aalto from 1914.",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ilmari_Aalto_-The_Bells%2C_1914.jpg",
+      "paintingLabel": "The Bells",
+      "artistName": "Ilmari Aalto",
+      "date_of_birth": "1891",
+      "date_of_death": "1934",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Ilmari_Aalto_HK19500101_60.jpg",
+      "movementLabel": "Cubism",
+      "width": "40.00",
+      "height": "50.00",
+      "description": "painting by Ilmari Aalto",
+      "abstract": "The Bells (Kellot) is an oil painting on canvas by Finnish artist Ilmari Aalto from 1914."
+    },
+    "machineUrl": "/images/theBellsXXXXIlmariAalto_293rafvc61rgj0cg0dcbtnbh08.webp",
+    "masterUrl": "/images/theBellsXXXXIlmariAalto.webp",
+    "id": 33
+  },
+  {
+    "prompt": "a painting of a man holding a stick, a cubist painting by Amadeo de Souza Cardoso, pixiv, primitivism, cubism, angular, chiaroscuro",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bohumil_Kubi%C5%A1ta_-_Svat%C3%BD_%C5%A0ebesti%C3%A1n_%281912%29.jpg",
+      "paintingLabel": "Saint. Sebastian",
+      "artistName": "Bohumil Kubišta",
+      "date_of_birth": "1884",
+      "date_of_death": "1918",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Bohumil_Kubista_1911.png",
+      "movementLabel": "Cubism",
+      "width": "74.5",
+      "height": "98",
+      "description": "Cubist pictute of Bohumil Kubišta (1912)",
+      "abstract": "St Sebastian is a 20th-century painting by the Bohemian artist Bohumil Kubišta. Saint Sebastian was a Christian martyr. It is held in the National Gallery in Prague.\\nThe picture is painted in oils on canvas and has dimensions of 98 x 74,5 cm. It is one of the most important works of Bohumil Kubishta, member of the pre-First World War Czech avant-garde. Unlike traditional Christian interpretations of the theme of suffering of the Christian martyr, Bohumil Kubishta combines cubist forms and expressiveness, but integrates spiritual strength."
+    },
+    "machineUrl": "/images/saintSebastianXXXXBohumilKubiTa_2b0vzera45rgm0cg0dctrwhmm4.webp",
+    "masterUrl": "/images/saintSebastianXXXXBohumilKubiTa.webp",
+    "id": 34
+  },
+  {
+    "prompt": "Saint. Sebastian: An Cubism painting in the style of Bohumil Kubišta, painted in , Cubism, Cubist pictute of Bohumil Kubišta (1912), St Sebastian is a 20th-century painting by the Bohemian artist Bohumil Kubišta. Saint Sebastian was a Christian martyr. It is held in the National Gallery in Prague.\\nThe picture is painted in oils on canvas and has dimensions of 98 x 74,5 cm. It is one of the most important works of Bohumil Kubishta, member of the pre-First World War Czech avant-garde. Unlike traditional Christian interpretations of the theme of suffering of the Christian martyr, Bohumil Kubishta combines cubist forms and expressiveness, but integrates spiritual strength.",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bohumil_Kubi%C5%A1ta_-_Svat%C3%BD_%C5%A0ebesti%C3%A1n_%281912%29.jpg",
+      "paintingLabel": "Saint. Sebastian",
+      "artistName": "Bohumil Kubišta",
+      "date_of_birth": "1884",
+      "date_of_death": "1918",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Bohumil_Kubista_1911.png",
+      "movementLabel": "Cubism",
+      "width": "74.5",
+      "height": "98",
+      "description": "Cubist pictute of Bohumil Kubišta (1912)",
+      "abstract": "St Sebastian is a 20th-century painting by the Bohemian artist Bohumil Kubišta. Saint Sebastian was a Christian martyr. It is held in the National Gallery in Prague.\\nThe picture is painted in oils on canvas and has dimensions of 98 x 74,5 cm. It is one of the most important works of Bohumil Kubishta, member of the pre-First World War Czech avant-garde. Unlike traditional Christian interpretations of the theme of suffering of the Christian martyr, Bohumil Kubishta combines cubist forms and expressiveness, but integrates spiritual strength."
+    },
+    "machineUrl": "/images/saintSebastianXXXXBohumilKubiTa_kgjkza8pz9rgj0cg0dcsrz4v0m.webp",
+    "masterUrl": "/images/saintSebastianXXXXBohumilKubiTa.webp",
+    "id": 35
+  },
+  {
+    "prompt": "a mural on the side of a building, a mosaic by José Clemente Orozco, reddit, figurativism, dystopian art, academic art, creative commons attribution",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg",
+      "paintingLabel": "Guernica",
+      "artistName": "Pablo Picasso",
+      "date_of_birth": "1881",
+      "date_of_death": "1973",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pablo_picasso_1_%28cuadrado%29.jpg",
+      "movementLabel": "Cubism",
+      "width": "776",
+      "height": "349",
+      "description": "oil painting by Pablo Picasso",
+      "abstract": "Guernica (Spanish: [ɡeɾˈnika], Basque: [ɡernika]) is a large 1937 oil painting on canvas by Spanish artist Pablo Picasso.  One of Picasso's best known works, Guernica is regarded by many art critics as one of the most moving and powerful anti-war paintings in history, It is exhibited in the Museo Reina Sofía in Madrid.\\nThe gray, black, and white painting, which is 3.49 meters (11 ft 5 in) tall and 7.76 meters (25 ft 6 in) across, portrays the suffering of people and animals wrenched by violence and chaos. Prominent in the composition are a gored horse, a bull, screaming women, dismemberment, and flames.\\nPicasso painted Guernica at his home in Paris in response to the bombing of Guernica, a Basque Country town in northern Spain, by Nazi Germany and Fascist Italy at the request of the Spanish Nationalists. Upon completion, Guernica was exhibited at the Spanish display at the 1937 Paris International Exposition and then at other venues around the world. The touring exhibition was used to raise funds for Spanish war relief. The painting soon became famous and widely acclaimed, and it helped bring worldwide attention to the Spanish Civil War."
+    },
+    "machineUrl": "/images/guernicaXXXXPabloPicasso_qknr4cvv2xrgj0cg0dcrmj0d04.webp",
+    "masterUrl": "/images/guernicaXXXXPabloPicasso.webp",
+    "id": 36
+  },
+  {
+    "prompt": "Guernica: An Cubism painting in the style of Pablo Picasso, painted in , Cubism, oil painting by Pablo Picasso, Guernica (Spanish: [ɡeɾˈnika], Basque: [ɡernika]) is a large 1937 oil painting on canvas by Spanish artist Pablo Picasso.  One of Picasso's best known works, Guernica is regarded by many art critics as one of the most moving and powerful anti-war paintings in history, It is exhibited in the Museo Reina Sofía in Madrid.\\nThe gray, black, and white painting, which is 3.49 meters (11 ft 5 in) tall and 7.76 meters (25 ft 6 in) across, portrays the suffering of people and animals wrenched by violence and chaos. Prominent in the composition are a gored horse, a bull, screaming women, dismemberment, and flames.\\nPicasso painted Guernica at his home in Paris in response to the bombing of Guernica, a Basque Country town in northern Spain, by Nazi Germany and Fascist Italy at the request of the Spanish Nationalists. Upon completion, Guernica was exhibited at the Spanish display at the 1937 Paris International Exposition and then at other venues around the world. The touring exhibition was used to raise funds for Spanish war relief. The painting soon became famous and widely acclaimed, and it helped bring worldwide attention to the Spanish Civil War.",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Mural_del_Gernika.jpg",
+      "paintingLabel": "Guernica",
+      "artistName": "Pablo Picasso",
+      "date_of_birth": "1881",
+      "date_of_death": "1973",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pablo_picasso_1_%28cuadrado%29.jpg",
+      "movementLabel": "Cubism",
+      "width": "776",
+      "height": "349",
+      "description": "oil painting by Pablo Picasso",
+      "abstract": "Guernica (Spanish: [ɡeɾˈnika], Basque: [ɡernika]) is a large 1937 oil painting on canvas by Spanish artist Pablo Picasso.  One of Picasso's best known works, Guernica is regarded by many art critics as one of the most moving and powerful anti-war paintings in history, It is exhibited in the Museo Reina Sofía in Madrid.\\nThe gray, black, and white painting, which is 3.49 meters (11 ft 5 in) tall and 7.76 meters (25 ft 6 in) across, portrays the suffering of people and animals wrenched by violence and chaos. Prominent in the composition are a gored horse, a bull, screaming women, dismemberment, and flames.\\nPicasso painted Guernica at his home in Paris in response to the bombing of Guernica, a Basque Country town in northern Spain, by Nazi Germany and Fascist Italy at the request of the Spanish Nationalists. Upon completion, Guernica was exhibited at the Spanish display at the 1937 Paris International Exposition and then at other venues around the world. The touring exhibition was used to raise funds for Spanish war relief. The painting soon became famous and widely acclaimed, and it helped bring worldwide attention to the Spanish Civil War."
+    },
+    "machineUrl": "/images/guernicaXXXXPabloPicasso_r8q1xnwqxxrgp0cg0dct6zmmw8.webp",
+    "masterUrl": "/images/guernicaXXXXPabloPicasso.webp",
+    "id": 37
   }
 ]
