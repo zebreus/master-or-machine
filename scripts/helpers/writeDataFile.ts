@@ -55,11 +55,14 @@ export const writeDataFile = async <ResultType>(
 
   export ${printNode(typeAlias)}
 
-  export const ${valueIdentifier}: ${typeIdentifier} = ${JSON.stringify(
+  const ${valueIdentifier}: ${typeIdentifier} = ${JSON.stringify(
     data,
     null,
     0,
   )} satisfies ${typeIdentifier};
+
+  // Export as default value to avoid a weird bug where json files are sometimes preferred over ts files
+  export default ${valueIdentifier};
   `
   const options = await prettier.resolveConfig(tsFilePath)
   const formattedContent = await prettier.format(fileContent, {

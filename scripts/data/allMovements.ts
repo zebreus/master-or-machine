@@ -4,7 +4,7 @@ export type AllMovements = {
   movementLabel: string
 }[]
 
-export const allMovements: AllMovements = [
+const allMovements: AllMovements = [
   { movementLabel: "Visual art of the United States" },
   { movementLabel: "School of Paris" },
   { movementLabel: "magic realism" },
@@ -234,3 +234,6 @@ export const allMovements: AllMovements = [
   { movementLabel: "Flemish Primitives" },
   { movementLabel: "High Renaissance" },
 ] satisfies AllMovements
+
+// Export as default value to avoid a weird bug where json files are sometimes preferred over ts files
+export default allMovements
