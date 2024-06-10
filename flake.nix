@@ -7,10 +7,12 @@
   };
 
   outputs =
-    { self
-    , nixpkgs
-    , flake-utils
-    }: flake-utils.lib.eachDefaultSystem (
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+    }:
+    flake-utils.lib.eachDefaultSystem (
       system:
       let
         pkgs = import nixpkgs { inherit system; };
@@ -19,7 +21,10 @@
         name = "master-or-machine";
 
         devShell = pkgs.mkShell {
-          buildInputs = [ pkgs.nodejs ];
+          buildInputs = [
+            pkgs.nodejs
+            pkgs.apache-jena-fuseki
+          ];
           shellHook = ''
             export PATH=$PATH:$PWD/node_modules/.bin
             npm install
