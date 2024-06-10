@@ -1,0 +1,40 @@
+[
+  {
+    "prompt": "a painting of a bowl of fruit on a table, a cubist painting by Gino Severini, pixiv, cubism, cubism, picasso, angular",
+    "promptOrigin": "prompt extracted from image",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pears_and_Grapes_on_a_Table.jpg",
+      "paintingLabel": "Pears and Grapes on a Table",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "73",
+      "height": "54.6",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris_m6084rjab5rgj0cg0cmv6tasxw.webp",
+    "masterUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris.jpg",
+    "id": 0
+  },
+  {
+    "prompt": "Pears and Grapes on a Table: An Cubism painting in the style of Juan Gris, painted in , Cubism, painting by Juan Gris, ",
+    "promptOrigin": "Manually build from artwork data",
+    "artwork": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Pears_and_Grapes_on_a_Table.jpg",
+      "paintingLabel": "Pears and Grapes on a Table",
+      "artistName": "Juan Gris",
+      "date_of_birth": "1887",
+      "date_of_death": "1927",
+      "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Amedeo_Modigliani_-_Portrait_of_Juan_Gris.jpg",
+      "movementLabel": "Cubism",
+      "width": "73",
+      "height": "54.6",
+      "description": "painting by Juan Gris"
+    },
+    "machineUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris_a7f1axapxsrgp0cg0cmr7yrkv0.webp",
+    "masterUrl": "/images/pearsAndGrapesOnATableXXXXJuanGris.jpg",
+    "id": 1
+  }
+]
