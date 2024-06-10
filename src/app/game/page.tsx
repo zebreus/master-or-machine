@@ -1,47 +1,67 @@
 "use client"
 
 import Image from "../../../node_modules/next/image"
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"
 
 //import { useSearchParams } from "../../../node_modules/next/navigation"
 
 import { Button } from "@/components/button"
-import {
-  getArtworksByMovement,
-  ResultSchema,
-} from "../../../scripts/getNumOfRandomArtworksByMovement"
+import { ResultSchema } from "../../../scripts/getNumOfRandomArtworksByMovement"
+import { useSearchParams } from "next/navigation"
+import { camelCase } from "../../../scripts/helpers/camelCase"
 
 enum GameState {
   ROUND = "round",
   RESULT = "result",
 }
 
+const shuffle = (array: any[]) => {
+  return array
+    .map((value) => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
+}
+
 export default function Component() {
   // TODO: get from url parameters, once settings are implemented
-  //const searchParams = useSearchParams()
-  const numRounds = 10 //searchParams.get("rounds") || "Impressionism"
-  const movementName = "Impressionism" //searchParams.get("movement") || "Impressionism"
+  const searchParams = useSearchParams()
+  const movements = useMemo(() => {
+    const movements = searchParams.getAll("movements")
+    if (movements.length === 0) {
+      return ["Impressionism"]
+    }
+    return movements
+  }, [searchParams])
+  const numRounds = Number.parseInt(searchParams.get("rounds") || "10")
+  // const movementName = searchParams.get("movements") || "Impressionism"
 
   const [round, setRound] = useState(1)
   const [gameState, setGameState] = useState(GameState.ROUND)
-  const [artworks, setArtworks] = useState<ResultSchema[]>([])
-  const [loading, setLoading] = useState<boolean>(true)
+  const [artworks, setArtworks] = useState<ResultSchema[] | undefined>(
+    undefined,
+  )
 
   useEffect(() => {
-    getArtworksByMovement(movementName, numRounds).then((fetchedArtworks) => {
-      setArtworks(fetchedArtworks)
-      setLoading(false)
-    })
-  }, [movementName, numRounds])
+    ;(async () => {
+      const artworkPromises = movements.map(
+        (movement) =>
+          import(`../../../scripts/data/by-movement/${camelCase(movement)}`),
+      )
+      const artworks = (await Promise.all(artworkPromises)).flatMap(
+        (module) => module.default,
+      )
+      await setArtworks(shuffle(artworks).slice(0, numRounds))
+    })()
+  }, [movements, numRounds])
 
   // TODO: loading animation
-  if (loading) return <div>Loading</div>
+  if (!artworks) return <div>Loading</div>
 
   // TODO: handle error
   if (artworks.length === 0)
-    return <div className="text-5xl text-white">No Query Match</div>
+    return <div className="text-5xl text-white">No Artworks found</div>
 
   return (
     <>

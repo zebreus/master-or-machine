@@ -116,7 +116,7 @@ export default function Component() {
 
           <div className="flex justify-center">
             <a
-              href={`./game?rounds=${rounds}&movements=${movements.length > 0 ? movements : "all"}`}
+              href={`./game?${new URLSearchParams([["rounds", "" + rounds], ...movements.map((m) => ["movements", m])]).toString()}`}
             >
               <Button buttonText="Play" size="big"></Button>
             </a>
