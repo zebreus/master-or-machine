@@ -27,10 +27,15 @@ export const imageToDescription = async (
     poll: true, // Wait for the model to finish
   })
 
-  console.log("✅ The image shows: ", prediction.output)
   if (typeof prediction.output !== "string") {
-    throw new Error("Output is not a string")
+    throw new Error(
+      `Output is not a string: ${typeof prediction.output} : ${prediction.output}`,
+    )
   }
+  console.log(
+    "✅ The image shows: ",
+    prediction.output.replace(/(\r\n|\n|\r)/gm, ""),
+  )
   const descriptionFromImage = {
     type: "prompt extracted from image",
     description: prediction.output.replace(/(\r\n|\n|\r)/gm, ""),

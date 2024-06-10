@@ -35,26 +35,32 @@ const generateQuestions = async () => {
 
   const artworksWithPromptsAndImages: Question[] = []
   for (const artwork of artworks) {
-    const imageName = camelCase(
-      artwork.paintingLabel +
-        (artwork.creationYear ?? "XXXX") +
-        (artwork.artistName ?? "Unknown"),
-    )
-    const masterUrl = await downloadImage(artwork.image, imageName)
-
-    const descriptions = await imageToDescription(artwork)
-    for (const description of descriptions) {
-      const machineUrl = await descriptionToImage(
-        description.description,
-        imageName,
+    try {
+      const imageName = camelCase(
+        artwork.paintingLabel +
+          (artwork.creationYear ?? "XXXX") +
+          (artwork.artistName ?? "Unknown"),
       )
-      artworksWithPromptsAndImages.push({
-        prompt: description.description,
-        promptOrigin: description.type,
-        artwork,
-        machineUrl,
-        masterUrl,
-      })
+      const masterUrl = await downloadImage(artwork.image, imageName)
+
+      const descriptions = await imageToDescription(artwork)
+      for (const description of descriptions) {
+        const machineUrl = await descriptionToImage(
+          description.description,
+          imageName,
+        )
+        artworksWithPromptsAndImages.push({
+          prompt: description.description,
+          promptOrigin: description.type,
+          artwork,
+          machineUrl,
+          masterUrl,
+        })
+      }
+    } catch (e) {
+      console.error("Error with artwork ", artwork.paintingLabel)
+      console.error(artwork)
+      console.error(e)
     }
   }
 
