@@ -9,7 +9,8 @@ import { downloadImage } from "./helpers/downloadImage"
 const getEligibleArtworks = async () => {
   const artworks = await getArtworksForAMovement("Cubism")
 
-  return [artworks[0]]
+  // return [artworks[0]]
+  return artworks
 }
 
 type Question = {
@@ -41,7 +42,6 @@ const generateQuestions = async () => {
     )
     const masterUrl = await downloadImage(artwork.image, imageName)
 
-    console.log("Processing artwork: ", artwork.paintingLabel)
     const descriptions = await imageToDescription(artwork)
     for (const description of descriptions) {
       const machineUrl = await descriptionToImage(
@@ -58,7 +58,7 @@ const generateQuestions = async () => {
     }
   }
 
-  console.log(artworksWithPromptsAndImages)
+  //   console.log(artworksWithPromptsAndImages)
 
   await writeDataFile(
     "questions",

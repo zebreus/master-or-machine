@@ -27,7 +27,7 @@ export const imageToDescription = async (
     poll: true, // Wait for the model to finish
   })
 
-  console.log(prediction.output)
+  console.log("✅ The image shows: ", prediction.output)
   if (typeof prediction.output !== "string") {
     throw new Error("Output is not a string")
   }

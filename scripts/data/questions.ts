@@ -41,8 +41,8 @@ const questions: Questions = [
       description: "painting by Juan Gris",
     },
     machineUrl:
-      "/images/pearsAndGrapesOnATableXXXXJuanGris_m6084rjab5rgj0cg0cmv6tasxw.webp",
-    masterUrl: "/images/pearsAndGrapesOnATableXXXXJuanGris.jpg",
+      "/images/pearsAndGrapesOnATableXXXXJuanGris_hkmmwymxv1rgg0cg0cyrm25s1m.webp",
+    masterUrl: "/images/pearsAndGrapesOnATableXXXXJuanGris.webp",
   },
   {
     prompt:
@@ -63,8 +63,8 @@ const questions: Questions = [
       description: "painting by Juan Gris",
     },
     machineUrl:
-      "/images/pearsAndGrapesOnATableXXXXJuanGris_a7f1axapxsrgp0cg0cmr7yrkv0.webp",
-    masterUrl: "/images/pearsAndGrapesOnATableXXXXJuanGris.jpg",
+      "/images/pearsAndGrapesOnATableXXXXJuanGris_hpmx87nag9rgp0cg0cyrdbs3qr.webp",
+    masterUrl: "/images/pearsAndGrapesOnATableXXXXJuanGris.webp",
   },
 ] satisfies Questions
 

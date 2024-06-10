@@ -28,7 +28,7 @@ export const descriptionToImage = async (
     poll: true, // Wait for the model to finish
   })
 
-  console.log(prediction.output)
+  console.log("✅ Generated image")
   if (!Array.isArray(prediction.output)) {
     throw new Error("Output is not a string")
   }
