@@ -8,7 +8,7 @@ export const getArtworksForAMovement = async (movement: string) => {
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-    SELECT DISTINCT ?image ?paintingLabel ?artistName ?date_of_birth ?date_of_death (STR(?artist_img) AS ?image_of_artist) ?movementLabel ?width ?height ?year ?description ?abstract WHERE {
+    SELECT DISTINCT ?image ?paintingLabel ?artistName ?date_of_birth ?date_of_death (STR(?artist_img) AS ?image_of_artist) ?movementLabel ?width ?height ?inception ?description ?abstract ?depicts ?country WHERE {
       ?painting a :artwork;
         rdfs:label ?paintingLabel;
         :image ?image;
@@ -25,9 +25,11 @@ export const getArtworksForAMovement = async (movement: string) => {
 
       OPTIONAL { ?painting :width ?width. }
       OPTIONAL { ?painting :height ?height. }
-      OPTIONAL { ?painting :inception ?year. }
+      OPTIONAL { ?painting :inception ?inception. }
       OPTIONAL { ?painting :description ?description. }
       OPTIONAL { ?painting :abstract ?abstract. }
+      OPTIONAL { ?painting :depicts ?depicts. }
+      OPTIONAL { ?painting :country ?country. }
     } 
     # Get all for now, we will shuffle and limit them later
     # ORDER BY RAND()
@@ -49,9 +51,11 @@ export interface ResultSchema {
   movementLabel: string
   width?: string
   height?: string
-  creationYear?: string
+  inception?: string
   description?: string
   abstract?: string
+  depicts?: string
+  country?: string
 }
 
 export type Artwork = ResultSchema
@@ -66,9 +70,11 @@ const resultSchema = z.object({
   movementLabel: z.string(),
   width: z.string().optional(),
   height: z.string().optional(),
-  creationYear: z.string().optional(),
+  inception: z.string().optional(),
   description: z.string().optional(),
   abstract: z.string().optional(),
+  depicts: z.string().optional(),
+  country: z.string().optional(),
 })
 
 export const artworkSchema = resultSchema

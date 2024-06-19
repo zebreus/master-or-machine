@@ -38,7 +38,7 @@ const generateQuestions = async () => {
     try {
       const imageName = camelCase(
         artwork.paintingLabel +
-          (artwork.creationYear ?? "XXXX") +
+          (artwork.inception ?? "XXXX") +
           (artwork.artistName ?? "Unknown"),
       )
       const masterUrl = await downloadImage(artwork.image, imageName)
