@@ -20,7 +20,7 @@ export const downloadImage = async (
   const sharpFilepath = `${directoryPath}/${sharpFilename}`
 
   // Use sharp to crop the image to a square
-  const metadata = await sharp(buffer).metadata()
+  const metadata = await sharp(buffer, { limitInputPixels: false }).metadata()
   const { width, height } = metadata
   if (!width || !height) {
     throw new Error("Could not read image metadata.")
@@ -31,7 +31,7 @@ export const downloadImage = async (
   // Calculate the top and left coordinates for the crop
   const left = Math.floor((width - minSize) / 2)
   const top = Math.floor((height - minSize) / 2)
-  await sharp(buffer)
+  await sharp(buffer, { limitInputPixels: false })
     .extract({ width: minSize, height: minSize, left: left, top: top })
     // Resize the image to 512x512 to have a comparable size and make the machine image less obvious
     .resize(512, 512)
