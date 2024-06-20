@@ -5,17 +5,20 @@ import { useEffect, useMemo, useState } from "react"
 import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"
 
-//import { useSearchParams } from "../../../node_modules/next/navigation"
-
 import { Button } from "@/components/button"
 import { ResultSchema } from "../../../scripts/getNumOfRandomArtworksByMovement"
 import { useSearchParams } from "next/navigation"
 import { camelCase } from "../../../scripts/helpers/camelCase"
+import questionsTest from "../../../scripts/data/questionsTest"
+import { Answer, Question } from "../../../scripts/generateQuestions"
+import answersTest from "../../../scripts/data/answersTest"
 
 enum GameState {
   ROUND = "round",
   RESULT = "result",
 }
+
+const wikiMediaImagePrefix = "https://upload.wikimedia.org/wikipedia/commons/"
 
 const shuffle = (array: any[]) => {
   return array
@@ -25,47 +28,58 @@ const shuffle = (array: any[]) => {
 }
 
 export default function Component() {
-  // TODO: get from url parameters, once settings are implemented
   const searchParams = useSearchParams()
   const movements = useMemo(() => {
-    const movements = searchParams.getAll("movements")
+    const movementParams = searchParams.get("movements")
+    const movements: string[] = movementParams ? movementParams.split(",") : []
     if (movements.length === 0) {
       return ["Impressionism"]
     }
     return movements
   }, [searchParams])
   const numRounds = Number.parseInt(searchParams.get("rounds") || "10")
-  // const movementName = searchParams.get("movements") || "Impressionism"
+
+  // TODO: integrate properly, just for testing
+  const questions = shuffle(questionsTest).slice(0, numRounds)
+  const answerIds = questions.map((question) => question.id)
+  const answers = answersTest.filter((answer) => {
+    if (answerIds?.includes(answer.id)) return answer
+  })
 
   const [round, setRound] = useState(1)
   const [gameState, setGameState] = useState(GameState.ROUND)
-  const [artworks, setArtworks] = useState<ResultSchema[] | undefined>(
-    undefined,
-  )
+  // TODO: integrate properly, just for testing
+  const [artworks, setArtworks] = useState<Question[] | undefined>(questions)
+  const [results, setResults] = useState<Answer[] | undefined>(answers)
 
   useEffect(() => {
     ;(async () => {
-      const artworkPromises = movements.map(
+      // TODO: handle error, if movements do not exist (currenty just takes movements from URL)
+      /*const artworkPromises = movements.map(
         (movement) =>
           import(`../../../scripts/data/by-movement/${camelCase(movement)}`),
       )
       const artworks = (await Promise.all(artworkPromises)).flatMap(
         (module) => module.default,
       )
-      await setArtworks(shuffle(artworks).slice(0, numRounds))
+      await setArtworks(shuffle(artworks).slice(0, numRounds))*/
     })()
   }, [movements, numRounds])
 
   // TODO: loading animation
-  if (!artworks) return <div>Loading</div>
+  if (!artworks || !results) return <div>Loading</div>
 
   // TODO: handle error
-  if (artworks.length === 0)
+  if (artworks.length === 0 || results.length === 0)
     return <div className="text-5xl text-white">No Artworks found</div>
 
   return (
     <>
-      <Header currentTab={Tab.GAME} round={round} roundsTotal={10}></Header>
+      <Header
+        currentTab={Tab.GAME}
+        round={round}
+        roundsTotal={numRounds}
+      ></Header>
 
       <main className="flex max-w-5xl mx-auto">
         <div className="relative flex flex-col py-16 mt-8 items-center justify-center w-full">
@@ -90,7 +104,7 @@ export default function Component() {
                     style={{
                       borderRadius: "10px",
                     }}
-                    src={artworks[round - 1].image}
+                    src={artworks[round - 1].image1}
                     alt="Image to identify"
                     layout="fill"
                     objectFit="cover"
@@ -107,7 +121,7 @@ export default function Component() {
                     style={{
                       borderRadius: "10px",
                     }}
-                    src="/placeholder-artwork.jpeg"
+                    src={artworks[round - 1].image2}
                     alt="Image to identify"
                     layout="fill"
                     objectFit="cover"
@@ -115,9 +129,8 @@ export default function Component() {
                 </div>
               </div>
 
-              <article className="z-10 text-white">
-                &quot;Some generated description for the currently fetched
-                artwork.&quot;
+              <article className="z-10 text-white w-[75%] p-8">
+                &quot;{artworks[round - 1].description}&quot;
               </article>
             </>
           )}
@@ -129,7 +142,7 @@ export default function Component() {
               </h1>
 
               <article className="text-slate-300 mb-8">
-                This is a painting by {artworks[round - 1].artistName}
+                This is a painting by {results[round - 1].artwork.artistName}
               </article>
 
               <div className="grid grid-cols-2 gap-16 w-full mb-8">
@@ -141,7 +154,7 @@ export default function Component() {
                     style={{
                       borderRadius: "10px",
                     }}
-                    src={artworks[round - 1].image}
+                    src={artworks[round - 1].image1}
                     alt="Image to identify"
                     layout="fill"
                     objectFit="cover"
@@ -150,14 +163,14 @@ export default function Component() {
                 </div>
 
                 <div className="flex flex-col z-10 text-white w-[73.5%]">
-                  {artworks[round - 1].image_of_artist && (
+                  {results[round - 1].artwork.image_of_artist && (
                     <div className="relative h-40 w-32 mb-2">
                       <Image
                         style={{
                           borderRadius: "10px",
                         }}
                         src={
-                          artworks[round - 1].image_of_artist ||
+                          results[round - 1].artwork.image_of_artist ||
                           "/placeholder.svg"
                         }
                         alt="Image to identify"
@@ -169,15 +182,15 @@ export default function Component() {
                   <div className="flex flex-col gap-y-1">
                     <div>
                       <p className="font-semibold text-slate-300">Artist:</p>
-                      {artworks[round - 1].artistName}
+                      {results[round - 1].artwork.artistName}
                     </div>
                     <div>
                       <p className="font-semibold text-slate-300">Painting:</p>
-                      &quot;{artworks[round - 1].paintingLabel}&quot;
+                      &quot;{results[round - 1].artwork.paintingLabel}&quot;
                     </div>
                     <div>
                       <p className="font-semibold text-slate-300">Movement:</p>
-                      {artworks[round - 1].movementLabel}
+                      {results[round - 1].artwork.movementLabel}
                     </div>
                   </div>
                 </div>

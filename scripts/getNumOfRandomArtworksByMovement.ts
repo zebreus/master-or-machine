@@ -111,6 +111,33 @@ export const getArtworksByMovement = async (
 
   // Format the console output for better readability and prepare for the second query
   if (results.length > 0) {
+    // Define a schema for motifs
+    const motifsSchema = z.object({
+      motif: z.string(),
+    })
+
+    for (const artwork of results) {
+      // Execute the second query to get motifs
+      const motifResults = await sparqlQueryTest(
+        `
+      PREFIX : <http://h-da.de/fbi/art/>
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+      SELECT DISTINCT ?motif
+      WHERE {
+        ?artwork a :artwork;
+            rdfs:label "${artwork.paintingLabel}";
+          :motif/rdfs:label ?motif;
+      }
+      `,
+        motifsSchema,
+      )
+
+      // Add motifs to the artwork object
+      artwork.depicts = motifResults.map((m) => m.motif)
+    }
+
     return results
   } else {
     console.log("No results found for the specified movement.")
