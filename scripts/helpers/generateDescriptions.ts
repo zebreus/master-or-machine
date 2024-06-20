@@ -69,7 +69,7 @@ export const imageToDescription = async (
   promptValues.movement = artwork.movementLabel
   promptValues.inception = artwork.inception ? artwork.inception : ""
   if (artwork.depicts != null) {
-    promptValues.depicts = artwork.depicts
+    promptValues.depicts = artwork.depicts.join(" ")
   } else {
     promptValues.depicts = descriptionFromImage.description
   }

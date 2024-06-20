@@ -14,9 +14,10 @@ export interface ResultSchema {
   creationYear?: string
   description?: string
   abstract?: string
+  depicts?: string[]
 }
 
-const resultSchema = z.object({
+export const resultSchema = z.object({
   image: z.string(),
   paintingLabel: z.string(),
   artistName: z.string(),
@@ -29,6 +30,7 @@ const resultSchema = z.object({
   creationYear: z.string().optional(),
   description: z.string().optional(),
   abstract: z.string().optional(),
+  depicts: z.array(z.string()).optional(),
 })
 
 // TODO: remove, once figured out, why sparqlQuery function produces build error

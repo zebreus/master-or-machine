@@ -2,10 +2,13 @@ import { z } from "zod"
 import { descriptionToImage } from "./helpers/descriptionToImage"
 import { imageToDescription } from "./helpers/generateDescriptions"
 import { writeDataFile } from "./helpers/writeDataFile"
-import { Artwork, artworkSchema, getArtworksForAMovement } from "./artwork"
 import { camelCase } from "./helpers/camelCase"
 import { downloadImage } from "./helpers/downloadImage"
-import { getArtworksByMovement } from "./getNumOfRandomArtworksByMovement"
+import {
+  getArtworksByMovement,
+  resultSchema,
+  ResultSchema,
+} from "./getNumOfRandomArtworksByMovement"
 
 const getEligibleArtworks = async () => {
   //const artworks = await getArtworksForAMovement("Cubism")
@@ -24,7 +27,7 @@ export type Question = {
 
 export type Answer = {
   id: string
-  artwork: Artwork
+  artwork: ResultSchema
   prompt: string
   result: number // 0 | 1
 }
@@ -38,7 +41,7 @@ const questionSchema = z.object({
 
 const answerSchema = z.object({
   id: z.string(),
-  artwork: artworkSchema,
+  artwork: resultSchema,
   prompt: z.string(),
   result: z.number(),
 })
