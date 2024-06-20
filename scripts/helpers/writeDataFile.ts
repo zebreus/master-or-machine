@@ -74,13 +74,6 @@ export const writeDataFile = async <ResultType>(
   // Write json file
   // Serialize and deserialize for some reason, probably cleaning
   const jsonObject: typeof data = JSON.parse(JSON.stringify(data, null, 0))
-  // Add ids for some reason
-  if (typeof jsonObject === "object" && Array.isArray(jsonObject)) {
-    let index = 0
-    for (const entry of jsonObject) {
-      entry.id = index++
-    }
-  }
   const jsonPrettierOptions = await prettier.resolveConfig(jsonFilePath)
   const formattedJson = await prettier.format(
     JSON.stringify(jsonObject, null, 0),

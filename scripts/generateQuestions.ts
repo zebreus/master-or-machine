@@ -16,78 +16,109 @@ const getEligibleArtworks = async () => {
 }
 
 export type Question = {
-  id: number
+  id: string
   image1: string
   image2: string
   description: string
 }
 
 export type Answer = {
-  id: number
+  id: string
   artwork: Artwork
   prompt: string
   result: number // 0 | 1
 }
 
 const questionSchema = z.object({
-  id: z.number(),
+  id: z.string(),
   image1: z.string(),
   image2: z.string(),
   description: z.string(),
 })
 
 const answerSchema = z.object({
-  id: z.number(),
+  id: z.string(),
   artwork: artworkSchema,
   prompt: z.string(),
   result: z.number(),
 })
 
+const movementSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  questions: z.array(z.string()),
+})
+
+const randomString = (length: number) => {
+  return [...Array(length)]
+    .map(() => String.fromCodePoint(Math.round(97 + Math.random() * 25)))
+    .join("")
+}
+
 const generateQuestions = async () => {
   const artworks = await getEligibleArtworks()
 
-  const questions: Question[] = []
-  const answers: Answer[] = []
-  for (let index = 0; index < artworks.length; index++) {
-    const artwork = artworks[index]
+  const questions: Record<string, [Question, Answer]> = {}
+  const movements: Record<string, z.infer<typeof movementSchema>> = {}
 
+  for (const artwork of artworks) {
     try {
-      const imageName = camelCase(artwork.movementLabel + String(index))
-      const masterUrl = await downloadImage(artwork.image, imageName)
+      const questionId = randomString(20)
 
-      const description = await imageToDescription(artwork)
+      const masterUrl = await downloadImage(
+        artwork.image,
+        `${questionId}-${randomString(5)}`,
+      )
 
-      const machineUrl = await descriptionToImage(description.prompt, imageName)
+      // const description = await imageToDescription(artwork)
+      const description = {
+        prompt: "a cool cat",
+        description: "a cool cat",
+      }
+
+      const generated = await descriptionToImage(
+        description.prompt,
+        `${questionId}-${randomString(5)}`,
+      )
 
       // ensure random order of the two images
-      const randomResult = Math.random() < 0.5
-      const images = randomResult
-        ? [masterUrl, machineUrl]
-        : [machineUrl, masterUrl]
+      const images = [masterUrl, generated.file].sort()
 
-      questions.push({
-        id: index,
-        image1: images[0],
-        image2: images[1],
-        description: description.description,
-      })
-      answers.push({
-        id: index,
-        artwork,
-        prompt: description.prompt,
-        result: randomResult ? 0 : 1,
-      })
+      questions[questionId] = [
+        {
+          id: questionId,
+          image1: images[0],
+          image2: images[1],
+          description: description.description,
+        },
+        {
+          id: questionId,
+          artwork,
+          prompt: description.prompt,
+          result: masterUrl == images[0] ? 0 : 1,
+        },
+      ]
+
+      const movementId = camelCase(artwork.movementLabel)
+      movements[movementId] = {
+        id: movementId,
+        name: artwork.movementLabel,
+        questions: [...(movements[movementId]?.questions ?? []), questionId],
+      }
     } catch (e) {
       console.error("Error with artwork ", artwork.paintingLabel)
-      console.error(artwork)
       console.error(e)
     }
   }
 
-  // TODO: include movements in file names (or have all ids unique)
-  await writeDataFile("questionsTest", questions, z.array(questionSchema))
-
-  await writeDataFile("answersTest", answers, z.array(answerSchema))
+  for (const [key, [question, answer]] of Object.entries(questions)) {
+    await writeDataFile(`question/${key}`, question, questionSchema)
+    await writeDataFile(`answer/${key}`, answer, answerSchema)
+  }
+  for (const [key, movement] of Object.entries(movements)) {
+    await writeDataFile(`movement/${key}`, movement, movementSchema)
+  }
+  await writeDataFile("movements", Object.keys(movements), z.array(z.string()))
 }
 
 generateQuestions()

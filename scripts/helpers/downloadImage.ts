@@ -11,6 +11,10 @@ export const downloadImage = async (
   await mkdir(directoryPath, { recursive: true })
 
   const image = await fetch(url)
+
+  if (image.status !== 200) {
+    throw new Error("❌ Failed to download image " + url)
+  }
   const buffer = await image.arrayBuffer()
 
   const extension = url.split(".").pop()

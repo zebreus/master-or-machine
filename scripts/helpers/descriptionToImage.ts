@@ -6,7 +6,10 @@ import { downloadImage } from "./downloadImage"
 export const descriptionToImage = async (
   prompt: string,
   filebase: string,
-): Promise<string> => {
+): Promise<{
+  file:  string,
+  id:string
+}> => {
   if (!process.env.REPLICATE_TOKEN) {
     throw new Error("You need an API token from replicate.com")
   }
@@ -37,6 +40,10 @@ export const descriptionToImage = async (
     throw new Error("Output is not a string")
   }
 
-  const filename = `${filebase}_${prediction.id}`
-  return await downloadImage(url, filename)
+  const filename = `${filebase}`
+  const downloadedImage = await downloadImage(url, filename)
+  return {
+    file: downloadedImage,
+    id: prediction.id
+  }
 }
