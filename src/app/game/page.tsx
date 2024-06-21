@@ -6,12 +6,8 @@ import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"
 
 import { Button } from "@/components/button"
-import { ResultSchema } from "../../../scripts/getNumOfRandomArtworksByMovement"
 import { useSearchParams } from "next/navigation"
-import { camelCase } from "../../../scripts/helpers/camelCase"
-import questionsTest from "../../../scripts/data/questionsTest"
 import { Answer, Question } from "../../../scripts/generateQuestions"
-import answersTest from "../../../scripts/data/answersTest"
 import classNames from "../../../node_modules/classnames/index"
 
 enum GameState {
@@ -62,12 +58,12 @@ export default function Component() {
   const numRounds = Number.parseInt(searchParams.get("rounds") || "10")
 
   // TODO: integrate properly, just for testing
-  const questions = shuffle(questionsTest).slice(0, numRounds)
-  const answerIds = questions.map((question) => question.id)
-  const answers = []
-  for (const id of answerIds) {
-    answers.push(answersTest[id])
-  }
+  // const questions = shuffle(questionsTest).slice(0, numRounds)
+  // const answerIds = questions.map((question) => question.id)
+  // const answers = []
+  // for (const id of answerIds) {
+  //   answers.push(answersTest[id])
+  // }
 
   //console.log(questions)
   //console.log(answers)
