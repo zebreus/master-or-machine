@@ -7,6 +7,7 @@ export type Movements = {
 
 const movements: Movements = [
   { id: "impressionism", name: "Impressionism" },
+  { id: "artNouveau", name: "Art Nouveau" },
 ] satisfies Movements
 
 // Export as default value to avoid a weird bug where json files are sometimes preferred over ts files

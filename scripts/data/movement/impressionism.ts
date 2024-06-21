@@ -10,9 +10,11 @@ const impressionism: Impressionism = {
   id: "impressionism",
   name: "Impressionism",
   questions: [
-    "hurrwovmmmelsglggdpc",
-    "ahgohebhbilyngcklepl",
-    "cthnjoacjdpwgcsotcsf",
+    "uhphchxcvsvcxuecedww",
+    "wfnyemrkvsiicvroenmw",
+    "ryojilshdqxtuarmxezs",
+    "lslqoupbolxfycgvwnbw",
+    "ucykceywcuvprrjtpmrm",
   ],
 } satisfies Impressionism
 

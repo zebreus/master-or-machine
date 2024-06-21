@@ -1,0 +1,28 @@
+{
+  "id": "wfnyemrkvsiicvroenmw",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Tilla_Durieux_%28Ottilie_Godeffroy%2C_1880%E2%80%931971%29_MET_DT1487.jpg",
+    "paintingLabel": "Tilla Durieux",
+    "artistName": "Pierre-Auguste Renoir",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "movementLabel": "Impressionism",
+    "width": "73.7",
+    "height": "92.1",
+    "description": "painting by Pierre-Auguste Renoir",
+    "depicts": [
+      "dress",
+      "shawl",
+      "Austrians",
+      "Tilla Durieux",
+      "ring",
+      "Rosa",
+      "smile",
+      "sitting",
+      "woman"
+    ]
+  },
+  "prompt": "Painting in the style of Pierre-Auguste Renoir. \"\n\nThe prompt is as follows:\n\n\"Create a painting in the style of Pierre-Auguste Renoir's Impressionist works from the late 19th century",
+  "result": 1
+}

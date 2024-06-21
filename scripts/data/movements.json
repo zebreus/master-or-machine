@@ -1,1 +1,4 @@
-[{ "id": "impressionism", "name": "Impressionism" }]
+[
+  { "id": "impressionism", "name": "Impressionism" },
+  { "id": "artNouveau", "name": "Art Nouveau" }
+]

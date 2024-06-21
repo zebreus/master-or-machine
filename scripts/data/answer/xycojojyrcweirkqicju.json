@@ -1,0 +1,42 @@
+{
+  "id": "xycojojyrcweirkqicju",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Au_Moulin_de_la_Galette.jpg",
+    "paintingLabel": "Au Moulin de la Galette",
+    "artistName": "Ramon Casas i Carbó",
+    "date_of_birth": "1866",
+    "date_of_death": "1932",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ramon_Casas_-_Self-portrait_-_Google_Art_Project_%28559678%29.jpg",
+    "movementLabel": "Art Nouveau",
+    "width": "90",
+    "height": "117",
+    "description": "painting by Ramon Casas i Carbó",
+    "depicts": [
+      "bar",
+      "café",
+      "wall",
+      "mirror",
+      "Madeleine de Boisguillaume",
+      "Le Moulin de la Galette",
+      "No. 14 chair",
+      "chair",
+      "absinthe",
+      "cigar",
+      "cup",
+      "Montmartre",
+      "saucer",
+      "blouse",
+      "chandelier",
+      "skirt",
+      "drink",
+      "smoking",
+      "chestnut hair",
+      "chignon",
+      "table",
+      "sitting",
+      "woman"
+    ]
+  },
+  "prompt": "Painting in the style of Ramon Casas i Carbó.  The prompt should include all the elements mentioned above and also specify the style and era of the artwork",
+  "result": 1
+}

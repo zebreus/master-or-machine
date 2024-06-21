@@ -1,0 +1,39 @@
+{
+  "id": "ryojilshdqxtuarmxezs",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Auguste_Renoir_-_En_%C3%A9t%C3%A9_-_La_boh%C3%A9mienne_-_Google_Art_Project.jpg",
+    "paintingLabel": "In the Summer",
+    "artistName": "Pierre-Auguste Renoir",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "movementLabel": "Impressionism",
+    "width": "59",
+    "height": "85",
+    "description": "painting by Auguste Renoir",
+    "abstract": "In Summer  (French: En été) is an 1868 oil-on-canvas painting by Pierre-Auguste Renoir, a portrait of Lise Tréhot aged about 20.",
+    "depicts": [
+      "bohemianism",
+      "leaf",
+      "chair",
+      "Lise Tréhot",
+      "Roma people",
+      "backrest",
+      "cleavage",
+      "dark brown",
+      "skirt",
+      "summer",
+      "headband",
+      "décolletage",
+      "shirt",
+      "earring",
+      "black hair",
+      "eyebrow",
+      "long hair",
+      "sitting",
+      "woman"
+    ]
+  },
+  "prompt": "Painting in the style of Pierre-Auguste Renoir. \"\n\nHere is the prompt:\n\n\"Create a painting in the style of Pierre-Auguste Renoir's Impressionist works from the late 19th century, depicting a bohemian woman, Lise Tréhot, sitting in a leaf-patterned chair, wearing a dark brown skirt and a summer shirt with décolletage, and adorned with an earring and a headband",
+  "result": 0
+}

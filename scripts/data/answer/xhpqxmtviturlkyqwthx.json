@@ -1,0 +1,26 @@
+{
+  "id": "xhpqxmtviturlkyqwthx",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Gonez.jpg",
+    "paintingLabel": "Messenger. Clan revolted against to clan.",
+    "artistName": "Nicholas Roerich",
+    "date_of_birth": "1874",
+    "date_of_death": "1947",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/5/51/N_Roerich.jpg",
+    "movementLabel": "Art Nouveau",
+    "width": "184.3",
+    "height": "124.7",
+    "description": "painting by Nicholas Roerich",
+    "depicts": [
+      "boat",
+      "water",
+      "coast",
+      "construction",
+      "person",
+      "oar",
+      "night"
+    ]
+  },
+  "prompt": "Painting in the style of Nicholas Roerich. \"\n\nThe prompt is:\n\"Create a painting in the style of Nicholas Roerich's Art Nouveau era, circa [inception], depicting a serene night scene with a person rowing a boat across the calm waters of a coastal area",
+  "result": 1
+}
