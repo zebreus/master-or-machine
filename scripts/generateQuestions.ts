@@ -9,12 +9,15 @@ import { Artwork, artworkSchema } from "./artwork"
 
 const getEligibleArtworks = async () => {
   //const artworks = await getArtworksForAMovement("Cubism")
-  const artworks = await getArtworksByMovement("Impressionism", 3)
-  const artworks2 = await getArtworksByMovement("Expressionism", 20)
+  const artworks = await getArtworksByMovement("Impressionism", 5)
+  const artworks2 = await getArtworksByMovement("expressionism", 5)
+  const artworks3 = await getArtworksByMovement("Art Nouveau", 5)
 
   // return [artworks[0]]
-  return [...artworks]
+  return [...artworks, ...artworks2, ...artworks3]
 }
+/** How many questions will be generated in parallel */
+const PARALLEL_TASKS = 5
 
 export type Question = {
   id: string
@@ -56,61 +59,94 @@ const randomString = (length: number) => {
     .join("")
 }
 
+export const processPromisesBatch = async <In, Out>(
+  items: Array<In>,
+  limit: number,
+  fn: (item: In) => Promise<Out>,
+): Promise<Array<Out>> => {
+  let results: Array<Out> = []
+  for (let start = 0; start < items.length; start += limit) {
+    const end = start + limit > items.length ? items.length : start + limit
+
+    const slicedResults = await Promise.all(items.slice(start, end).map(fn))
+
+    results = [...results, ...slicedResults]
+  }
+
+  return results
+}
+
 const generateQuestions = async () => {
   const artworks = await getEligibleArtworks()
 
-  const questions: Record<string, [Question, Answer]> = {}
-  const movements: Record<string, z.infer<typeof movementSchema>> = {}
+  // const questions: Record<string, [Question, Answer]> = {}
+  // const movements: Record<string, z.infer<typeof movementSchema>> = {}
 
-  for (const artwork of artworks) {
-    try {
-      const questionId = randomString(20)
+  const resultsWithUndefined = await processPromisesBatch(
+    artworks,
+    PARALLEL_TASKS,
+    async (artwork) => {
+      try {
+        const questionId = randomString(20)
 
-      const masterUrl = await downloadImage(
-        artwork.image,
-        `${questionId}-${randomString(5)}`,
-      )
+        const masterUrl = await downloadImage(
+          artwork.image,
+          `${questionId}-${randomString(5)}`,
+        )
 
-      const description = await imageToDescription(artwork)
+        const description = await imageToDescription(artwork)
 
-      const generated = await descriptionToImage(
-        description.prompt,
-        `${questionId}-${randomString(5)}`,
-      )
+        const generated = await descriptionToImage(
+          description.prompt,
+          `${questionId}-${randomString(5)}`,
+        )
 
-      // ensure random order of the two images
-      const images = [masterUrl, generated.file].sort()
+        // ensure random order of the two images
+        const images = [masterUrl, generated.file].sort()
 
-      questions[questionId] = [
-        {
+        return {
+          question: {
+            id: questionId,
+            image1: images[0],
+            image2: images[1],
+            description: description.description,
+          } satisfies Question,
+          answer: {
+            id: questionId,
+            artwork,
+            prompt: description.prompt,
+            result: masterUrl == images[0] ? 0 : 1,
+          } satisfies Answer,
+          movement: {
+            id: camelCase(artwork.movementLabel),
+            name: artwork.movementLabel,
+          },
           id: questionId,
-          image1: images[0],
-          image2: images[1],
-          description: description.description,
-        },
-        {
-          id: questionId,
-          artwork,
-          prompt: description.prompt,
-          result: masterUrl == images[0] ? 0 : 1,
-        },
-      ]
-
-      const movementId = camelCase(artwork.movementLabel)
-      movements[movementId] = {
-        id: movementId,
-        name: artwork.movementLabel,
-        questions: [...(movements[movementId]?.questions ?? []), questionId],
+        }
+      } catch (e) {
+        console.error("Error with artwork ", artwork.paintingLabel)
+        console.error(e)
+        return undefined
       }
-    } catch (e) {
-      console.error("Error with artwork ", artwork.paintingLabel)
-      console.error(e)
-    }
-  }
+    },
+  )
+  const results = resultsWithUndefined.flatMap((r) => (r ? [r] : []))
 
-  for (const [key, [question, answer]] of Object.entries(questions)) {
-    await writeDataFile(`question/${key}`, question, questionSchema)
-    await writeDataFile(`answer/${key}`, answer, answerSchema)
+  const movements = results.reduce(
+    (acc, result) => {
+      acc[result.movement.id] = {
+        id: result.movement.id,
+        name: result.movement.name,
+        questions: [...(acc[result.movement.id]?.questions ?? []), result.id],
+      }
+      return acc
+    },
+    {} as Record<string, z.infer<typeof movementSchema>>,
+  )
+
+  for (const { question, answer, id } of results) {
+    await writeDataFile(`question/${id}`, question, questionSchema)
+    await writeDataFile(`answer/${id}`, answer, answerSchema)
   }
   for (const [key, movement] of Object.entries(movements)) {
     await writeDataFile(`movement/${key}`, movement, movementSchema)
