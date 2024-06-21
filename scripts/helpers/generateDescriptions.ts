@@ -1,4 +1,3 @@
-import { writeFile } from "fs/promises"
 import { Artwork } from "../artwork"
 import { loadFile, predict } from "replicate-api"
 import { downloadOriginalImage } from "./downloadImage"
@@ -7,10 +6,6 @@ import { z } from "zod"
 export interface ArtworkDescription {
   prompt: string
   description: string
-}
-
-function fillPrompt(prompt: string, value: { [x: string]: string }) {
-  return prompt.replace(/\[(.+?)\]/g, (match, p1) => value[p1] || match)
 }
 
 const img2prompt = async (url: string, paintingLabel: string) => {
@@ -86,7 +81,6 @@ const llama3 = async (
 export const imageToDescription = async (
   artwork: Artwork,
 ): Promise<ArtworkDescription> => {
-  //}
   const descriptionFromImage = await img2prompt(
     artwork.image,
     artwork.paintingLabel,
@@ -100,55 +94,29 @@ export const imageToDescription = async (
       ? depictsIsStringArray.data.join(" ")
       : ""
 
-  const promptString =
-    "Write a prompt for the epicrealismxl-lightning-hades model that will help the model to generate a painting that looks like the original. The image to be generated should depict '[depicts]' in the style of [artist] in the style of [movement] from the year [inception]."
-
   const inception = artwork.inception ? artwork.inception.trim() : ""
-  const zebreusPrompt = `
-Task 1 of 1:
-In the lecture you learned how to write good prompts for image generation models. Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. You will be graded by how good images created with the prompt replicate the original painting. You will also be awarded an extra point if your prompts use very different approaches.
 
-artist: ${artwork.artistName.trim()}
-name: ${artwork.paintingLabel.trim()}
-movement: ${artwork.movementLabel.trim()}${inception ? `\ninception: ${inception}` : ""}
-content: ${depicts || "unknown"}
-
-Prompt 1: ${descriptionFromImage}
-Prompt 2:
-`
+  // const promptString =
+  //   "Write a prompt for the epicrealismxl-lightning-hades model that will help the model to generate a painting that looks like the original. The image to be generated should depict '[depicts]' in the style of [artist] in the style of [movement] from the year [inception]."
 
   // JÖRN CURRENT
   //const descriptionString =
   //  "Write an artwork description (and nothing else) where you only know the depicts to see and a few more information I will give you. (made in = [made_in], genre = portrait, depicts to see = [depicts]). Don't research more information and write maximum three sentences."
 
-  // SUNNI CURRENT
-  const descriptionString =
-    "Write me a short description in just one sentence of the painting [label]. Only describe what is seen on the painting, do not mention the artist or the name of the artwork. Only return the one sentence description, and nothing else."
+  const promptPrompt = `
+Task 1 of 1:
+In the lecture you learned how to write good prompts for image generation models. Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. You will be graded by how good images created with the prompt replicate the original painting. You will also be awarded an extra point if your second prompt is around 50 words long. Make sure that all prompts contain information about the size of the brushstrokes that is used.
 
-  /*const descriptionValues = { made_in: "", depicts: "" }
-  descriptionValues.made_in = artwork.country ? artwork.country : ""
-  if (artwork.depicts != null) {
-    descriptionValues.depicts = artwork.depicts
-  } else {
-    descriptionValues.depicts = descriptionFromImage.description
-  }*/
-  const descriptionValues = { label: "" }
-  descriptionValues.label = artwork.paintingLabel
+artist: ${artwork.artistName.trim()}
+name: ${artwork.paintingLabel.trim()}
+movement: ${artwork.movementLabel.trim()}${inception ? `\ninception: ${inception}` : ""}
+keywords: ${depicts || "unknown"}
 
-  const promptValues = { depicts: "", artist: "", movement: "", inception: "" }
-  promptValues.artist = artwork.artistName
-  promptValues.movement = artwork.movementLabel
-  promptValues.inception = artwork.inception ? artwork.inception : ""
+Prompt 1: ${descriptionFromImage}
 
-  promptValues.depicts = depicts || descriptionFromImage
+Prompt 2:`
 
-  const updatedDescriptionString = fillPrompt(
-    descriptionString,
-    descriptionValues,
-  )
-  const updatedPromptString = fillPrompt(promptString, promptValues)
-
-  const promptToReturn = await llama3(zebreusPrompt, {
+  const prompt = await llama3(promptPrompt, {
     top_p: 0.9,
     temperature: 0.85,
     length_penalty: 0.9,
@@ -159,14 +127,36 @@ Prompt 2:
     presence_penalty: 1.15,
     log_performance_metrics: false,
   })
-  const descriptionToReturn = await llama3(updatedDescriptionString)
+
+  const descriptionPrompt = `
+Task 1 of 1:
+In the lecture you learned how to summarize the content of a painting in one sentenct. Write 3 different short description texts for the painting described by the keywords below. The texts will be displayed in a museum next to the painting. You will be graded by how good images created with the prompt replicate the original painting.  You will also be awarded an extra point if your first description text is short and only contains the artist and painting name. You will also be awarded an extra point if your second description text is around 50 words long and does NOT contain the artist and painting name but only focuses on the painting itself.
+
+artist: ${artwork.artistName.trim()}
+name: ${artwork.paintingLabel.trim()}
+movement: ${artwork.movementLabel.trim()}${inception ? `\ninception: ${inception}` : ""}
+keywords: ${depicts || "unknown"}
+tags: ${descriptionFromImage}
+
+Description 1: The painting ${artwork.paintingLabel.trim()} is by ${artwork.artistName.trim()}.
+
+Description 2:`
+
+  const description = await llama3(descriptionPrompt, {
+    top_p: 0.9,
+    temperature: 0.85,
+    length_penalty: 0.85,
+    max_tokens: 200,
+    min_tokens: 0,
+    prompt_template: "{prompt}",
+    stop_sequences: "Description 3",
+    presence_penalty: 1.15,
+    log_performance_metrics: false,
+  })
 
   const promptAndDescription: ArtworkDescription = {
-    prompt: promptToReturn.trim().split("\n")[0],
-    description:
-      descriptionFromImage.split(",")[0] +
-      ". " +
-      descriptionToReturn.split(".")[0],
+    prompt: prompt.trim().split("\n")[0],
+    description: description.trim().split("\n")[0],
   }
   return promptAndDescription
 }
