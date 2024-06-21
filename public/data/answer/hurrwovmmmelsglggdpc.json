@@ -1,0 +1,42 @@
+{
+  "id": "hurrwovmmmelsglggdpc",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Edouard_Manet_-_On_the_Beach_-_Google_Art_Project.jpg",
+    "paintingLabel": "Sur la plage",
+    "artistName": "Édouard Manet",
+    "date_of_birth": "1832",
+    "date_of_death": "1883",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg",
+    "movementLabel": "Impressionism",
+    "width": "735",
+    "height": "600",
+    "description": "painting by Édouard Manet",
+    "depicts": [
+      "woman",
+      "beach",
+      "parasol",
+      "child",
+      "sea",
+      "dress",
+      "sailing ship",
+      "Berck",
+      "entertainment",
+      "profil perdu",
+      "foam",
+      "English Channel",
+      "half reclining",
+      "beret",
+      "coif",
+      "wind wave",
+      "reading",
+      "brown hair",
+      "sailboat",
+      "beard",
+      "sitting",
+      "sky",
+      "man"
+    ]
+  },
+  "prompt": "Painting in the style of Édouard Manet. \"\n\nHere is a revised prompt that incorporates the requested details:\n\n\"Create a painting in the style of Édouard Manet's Impressionist era, circa [inception], depicting a serene summer scene at the beach in Berck, France",
+  "result": 0
+}
