@@ -1,0 +1,18 @@
+{
+  "id": "wjovunxrmxwttuoxrdub",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/99-44_XL-1024x1019.jpg",
+    "paintingLabel": "Blue Interior: Giverny (The Red Ribbon)",
+    "artistName": "Frederick Carl Frieseke",
+    "date_of_birth": "1874",
+    "date_of_death": "1939",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/24/Self-Portrait%2C_1901%2C_Frieseke.jpg",
+    "movementLabel": "Impressionism",
+    "width": "107.95",
+    "height": "107.95",
+    "description": "painting by Frederick Carl Frieseke",
+    "depicts": ["dress", "stripe", "ribbon", "White people", "woman"]
+  },
+  "prompt": "Painting in the style of Frederick Carl Frieseke.  \n\nIn this serene interior scene, a woman sits at a table in a cozy room, surrounded by lush greenery and flowers, with a red ribbon tied around her wrist",
+  "result": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "iwvtwlpxvidyyugtjxsv",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/The_Rouen_Cathedral_at_Noon_by_Claude_Monet%2C_1894%2C_Pushkin_Museum.JPG",
+    "paintingLabel": "Rouen Cathedral, Portal and Tower d'Albane, Midday",
+    "artistName": "Claude Monet",
+    "date_of_birth": "1840",
+    "date_of_death": "1926",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg",
+    "movementLabel": "Impressionism",
+    "description": "painting by Claude Monet, 1893",
+    "depicts": ["Rouen Cathedral"]
+  },
+  "prompt": "Painting in the style of Claude Monet.  \n\nA group of people are gathered at the base of a large stone tower, surrounded by intricate carvings and statues, with the bright blue sky above and a few buildings visible in the distance",
+  "result": 0
+}

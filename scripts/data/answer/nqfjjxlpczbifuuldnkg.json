@@ -1,0 +1,27 @@
+{
+  "id": "nqfjjxlpczbifuuldnkg",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Alfred_Sisley_048.jpg",
+    "paintingLabel": "Square in Argenteuil",
+    "artistName": "Alfred Sisley",
+    "date_of_birth": "1839",
+    "date_of_death": "1899",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/60/Pierre-Auguste_Renoir_110.jpg",
+    "movementLabel": "Impressionism",
+    "width": "66",
+    "height": "46",
+    "description": "painting by Alfred Sisley",
+    "abstract": "Rue de la Chaussée in Argenteuil or A Square in Argenteuil is an 1872 painting by Alfred Sisley, now in the Musée d'Orsay, where it has hung since 1986. It was left to the French state in 1906 by Étienne Moreau-Nélaton, who had bought it earlier that year from François Depeaux's collection via the art dealer Georges Petit.",
+    "depicts": [
+      "square",
+      "house",
+      "street",
+      "bell tower",
+      "landscape",
+      "Argenteuil",
+      "sky"
+    ]
+  },
+  "prompt": "Painting in the style of Alfred Sisley.  \n\nThe painting depicts a small, tranquil square in a French town, surrounded by buildings, trees, and a few people strolling or sitting, with a subtle play of light and shadow",
+  "result": 1
+}

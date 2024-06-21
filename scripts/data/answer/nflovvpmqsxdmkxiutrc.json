@@ -1,0 +1,16 @@
+{
+  "id": "nflovvpmqsxdmkxiutrc",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Rouen-cathedral-fog_W1349.jpg",
+    "paintingLabel": "Rouen Cathedral, Fog",
+    "artistName": "Claude Monet",
+    "date_of_birth": "1840",
+    "date_of_death": "1926",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg",
+    "movementLabel": "Impressionism",
+    "description": "painting by Claude Monet, 1893 - part of the Rouen Cathedral series",
+    "depicts": ["Rouen Cathedral"]
+  },
+  "prompt": "Painting in the style of Claude Monet.  \n\nHere is your answer:\n\nA misty, grey fog envelops the imposing Gothic architecture of Rouen Cathedral, shrouding its intricate stone carvings and towering spires in a veil of mystery",
+  "result": 1
+}

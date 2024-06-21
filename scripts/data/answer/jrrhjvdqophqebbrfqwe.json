@@ -1,0 +1,18 @@
+{
+  "id": "jrrhjvdqophqebbrfqwe",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Nicolae_Grigorescu_-_Taranca_voioasa.jpg",
+    "paintingLabel": "Cheerful peasant",
+    "artistName": "Nicolae Grigorescu",
+    "date_of_birth": "1838",
+    "date_of_death": "1907",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Nicolae_Grigorescu_-_Foto02.jpg",
+    "movementLabel": "Impressionism",
+    "width": "65",
+    "height": "134.5",
+    "description": "painting by Nicolae Grigorescu",
+    "depicts": []
+  },
+  "prompt": "Painting in the style of Nicolae Grigorescu.  \n\nA young woman, dressed in a bright blue dress with white apron and cap, stands in a lush green field, surrounded by a bouquet of flowers and holding a basket of fruit, with a warm and radiant smile on her face",
+  "result": 1
+}

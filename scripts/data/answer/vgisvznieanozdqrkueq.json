@@ -1,0 +1,18 @@
+{
+  "id": "vgisvznieanozdqrkueq",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pierre-Auguste_Renoir%2C_Portrait_of_Madame_Renoir_%28c._1885%2C_small%29.jpg",
+    "paintingLabel": "Portrait of Madame Renoir",
+    "artistName": "Pierre-Auguste Renoir",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "movementLabel": "Impressionism",
+    "width": "21.25",
+    "height": "25.75",
+    "description": "painting by Auguste Renoir",
+    "depicts": ["Aline Charigot", "straw hat", "rose", "sitting", "woman"]
+  },
+  "prompt": "Painting in the style of Pierre-Auguste Renoir.  \n\nA woman sits in a chair, looking directly at the viewer with a gentle, enigmatic smile, her face framed by a soft, golden light that illuminates her features",
+  "result": 1
+}

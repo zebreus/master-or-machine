@@ -1,0 +1,18 @@
+{
+  "id": "kiqgnnavfxulbcgxffrk",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Alfred_Sisley_039.jpg",
+    "paintingLabel": "The Church in Moret, Evening",
+    "artistName": "Alfred Sisley",
+    "date_of_birth": "1839",
+    "date_of_death": "1899",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/6/60/Pierre-Auguste_Renoir_110.jpg",
+    "movementLabel": "Impressionism",
+    "width": "64",
+    "height": "83",
+    "description": "painting by Alfred Sisley",
+    "depicts": ["église Notre-Dame", "Moret-sur-Loing", "evening"]
+  },
+  "prompt": "Painting in the style of Alfred Sisley.  A tranquil evening scene depicts a small stone church with a bell tower, surrounded by lush greenery and a distant landscape, bathed in warm golden light",
+  "result": 0
+}

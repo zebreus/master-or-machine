@@ -1,0 +1,19 @@
+{
+  "id": "htnvhtbzbygsjdqwueko",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Monet_Snow_at_Argenteuil_1875.jpg",
+    "paintingLabel": "Snow at Argenteuil",
+    "artistName": "Claude Monet",
+    "date_of_birth": "1840",
+    "date_of_death": "1926",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg",
+    "movementLabel": "Impressionism",
+    "width": "91.4",
+    "height": "71.1",
+    "description": "painting by Claude Monet",
+    "abstract": "Snow at Argenteuil  (French: Rue sous la neige, Argenteuil) is an oil-on-canvas landscape painting from the Impressionist artist Claude Monet. It is the largest of no fewer than eighteen works Monet painted of his home commune of Argenteuil  while it was under a blanket of snow during the winter of 1874–1875. This painting—number 352 in Wildenstein’s catalogue of the works of Monet—is the largest of the eighteen. The attention to detail evident in the smaller paintings is less evident in this larger picture. Instead, Monet has rendered large areas of the canvas in closely like tones and colours of blue and grey. The application of smaller strokes of greens, yellows, reds and darker blues breaks up these large expanses, and the almost choreographed dispersal of these various colours helps bind the picture together. Paint at the depicted road surface is thicker than elsewhere in the painting, and impasto is suggestive of the feel of disturbed snow.Most of Monet’s Snow at Argenteuil pictures from the winter of 1874–1875 were painted from locations close to the house on the boulevard Saint-Denis (now number 21 boulevard Karl Marx) into which Monet and his family had just moved. This particular painting shows the boulevard Saint-Denis looking in the direction of the junction with the rue de la Voie-des-Bans, with the river Seine out of sight to the rear, and the local railway station behind Monet’s back as he painted.In December 1879 the painting was acquired from Monet by Théodore Duret. Recalling a conversation with the artist Édouard Manet, Duret years later reported that, ‘One winter he [Manet] wanted to paint a snow scene. I had in my possession just such a piece from Monet. After seeing it, he said “It is perfect! I would not know how to do better”, whereupon he gave up painting snow.’ The picture was acquired from Duret by the art dealers Boussod, Valadon et Cie of Paris in 1892; then by Harris Whittemore of Naugatuck, Connecticut in 1893. Acquavella Galleries of New York acquired the painting in the early 1970s, and then it was purchased by Simon Sainsbury in or around 1973. It was bequeathed by him to the National Gallery, London, in 2006 and it has remained there since.",
+    "depicts": ["Argenteuil", "snow"]
+  },
+  "prompt": "Painting in the style of Claude Monet.  \n\nA group of people, including a woman pushing a baby stroller and children playing, are gathered near a frozen pond surrounded by snow-covered trees and buildings on a cold winter day",
+  "result": 1
+}
