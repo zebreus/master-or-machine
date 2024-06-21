@@ -42,8 +42,9 @@ const img2prompt = async (url: string, paintingLabel: string) => {
   return descriptionFromImage
 }
 
-const llama3 = async (prompt: string) => {
-  const generalInput = {
+const llama3 = async (
+  prompt: string,
+  generalInput: any = {
     top_k: 0,
     top_p: 0.9,
     prompt: "",
@@ -54,15 +55,15 @@ const llama3 = async (prompt: string) => {
     max_new_tokens: 120,
     prompt_template: "{prompt}",
     presence_penalty: 1.15,
-  }
-
+  },
+) => {
   if (!process.env.REPLICATE_TOKEN) {
     throw new Error("You need an API token from replicate.com")
   }
   console.log("✨ llama 3 prompt: ", prompt)
 
   const result = await predict({
-    model: "meta/meta-llama-3-8b-instruct", // The model name
+    model: "meta/meta-llama-3-70b", // The model name
     //model: "meta/meta-llama-3-8b", // The model name
     input: { ...generalInput, prompt }, // The model specific input
     token: process.env.REPLICATE_TOKEN, // You need a token from replicate.com
@@ -91,8 +92,30 @@ export const imageToDescription = async (
     artwork.paintingLabel,
   )
 
+  const depictsIsString = z.string().safeParse(artwork.depicts)
+  const depictsIsStringArray = z.array(z.string()).safeParse(artwork.depicts)
+  const depicts = depictsIsString.success
+    ? depictsIsString.data
+    : depictsIsStringArray.success
+      ? depictsIsStringArray.data.join(" ")
+      : ""
+
   const promptString =
     "Write a prompt for the epicrealismxl-lightning-hades model that will help the model to generate a painting that looks like the original. The image to be generated should depict '[depicts]' in the style of [artist] in the style of [movement] from the year [inception]."
+
+  const inception = artwork.inception ? artwork.inception.trim() : ""
+  const zebreusPrompt = `
+Task 1 of 1:
+In the lecture you learned how to write good prompts for image generation models. Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. You will be graded by how good images created with the prompt replicate the original painting. You will also be awarded an extra point if your prompts use very different approaches.
+
+artist: ${artwork.artistName.trim()}
+name: ${artwork.paintingLabel.trim()}
+movement: ${artwork.movementLabel.trim()}${inception ? `\ninception: ${inception}` : ""}
+content: ${depicts || "unknown"}
+
+Prompt 1: ${descriptionFromImage}
+Prompt 2:
+`
 
   // JÖRN CURRENT
   //const descriptionString =
@@ -117,14 +140,7 @@ export const imageToDescription = async (
   promptValues.movement = artwork.movementLabel
   promptValues.inception = artwork.inception ? artwork.inception : ""
 
-  const depictsIsString = z.string().safeParse(artwork.depicts)
-  const depictsIsStringArray = z.array(z.string()).safeParse(artwork.depicts)
-
-  promptValues.depicts = depictsIsString.success
-    ? depictsIsString.data
-    : depictsIsStringArray.success
-      ? depictsIsStringArray.data.join(" ")
-      : descriptionFromImage
+  promptValues.depicts = depicts || descriptionFromImage
 
   const updatedDescriptionString = fillPrompt(
     descriptionString,
@@ -132,13 +148,21 @@ export const imageToDescription = async (
   )
   const updatedPromptString = fillPrompt(promptString, promptValues)
 
-  const promptToReturn = await llama3(updatedPromptString)
+  const promptToReturn = await llama3(zebreusPrompt, {
+    top_p: 0.9,
+    temperature: 0.85,
+    length_penalty: 0.9,
+    max_tokens: 100,
+    min_tokens: 0,
+    prompt_template: "{prompt}",
+    stop_sequences: "Prompt 3",
+    presence_penalty: 1.15,
+    log_performance_metrics: false,
+  })
   const descriptionToReturn = await llama3(updatedDescriptionString)
 
   const promptAndDescription: ArtworkDescription = {
-    prompt:
-      `Painting in the style of ${artwork.artistName}. ` +
-      promptToReturn.split(".")[0],
+    prompt: promptToReturn.trim().split("\n")[0],
     description:
       descriptionFromImage.split(",")[0] +
       ". " +
