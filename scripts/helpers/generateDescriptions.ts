@@ -1,6 +1,8 @@
 import { writeFile } from "fs/promises"
 import { Artwork } from "../artwork"
 import { loadFile, predict } from "replicate-api"
+import { downloadOriginalImage } from "./downloadImage"
+import { z } from "zod"
 
 export interface ArtworkDescription {
   prompt: string
@@ -11,12 +13,8 @@ function fillPrompt(prompt: string, value: { [x: string]: string }) {
   return prompt.replace(/\[(.+?)\]/g, (match, p1) => value[p1] || match)
 }
 
-export const imageToDescription = async (
-  artwork: Artwork,
-): Promise<ArtworkDescription> => {
-  const image = await fetch(artwork.image)
-  const buffer = await image.arrayBuffer()
-  await writeFile("./temp.png", Buffer.from(buffer))
+const img2prompt = async (url: string, paintingLabel: string) => {
+  const tempImage = await downloadOriginalImage(url, "./temp")
 
   if (!process.env.REPLICATE_TOKEN) {
     throw new Error("You need an API token from replicate.com")
@@ -25,10 +23,10 @@ export const imageToDescription = async (
   // TODO: put into seperate helper!!!
   let descriptionFromImage
   //if (!artwork.depicts || artwork.depicts.length == 0) {
-  console.log("✨ Generating prompt from image for ", artwork.paintingLabel)
+  console.log("✨ Generating prompt from image for ", paintingLabel)
   const prediction = await predict({
     model: "methexis-inc/img2prompt", // The model name
-    input: { image: await loadFile("./temp.png") }, // The model specific input
+    input: { image: await loadFile(tempImage) }, // The model specific input
     token: process.env.REPLICATE_TOKEN, // You need a token from replicate.com
     poll: true, // Wait for the model to finish
   })
@@ -41,7 +39,57 @@ export const imageToDescription = async (
 
   descriptionFromImage = prediction.output.replace(/(\r\n|\n|\r)/gm, "")
   console.log("✅ The image shows: ", descriptionFromImage)
+  return descriptionFromImage
+}
+
+const llama3 = async (prompt: string) => {
+  const generalInput = {
+    top_k: 0,
+    top_p: 0.9,
+    prompt: "",
+    temperature: 0.6,
+    //temperature: 0.9,
+    //length_penalty: 1,
+    length_penalty: 0.5,
+    max_new_tokens: 120,
+    prompt_template: "{prompt}",
+    presence_penalty: 1.15,
+  }
+
+  if (!process.env.REPLICATE_TOKEN) {
+    throw new Error("You need an API token from replicate.com")
+  }
+  console.log("✨ llama 3 prompt: ", prompt)
+
+  const result = await predict({
+    model: "meta/meta-llama-3-8b-instruct", // The model name
+    //model: "meta/meta-llama-3-8b", // The model name
+    input: { ...generalInput, prompt }, // The model specific input
+    token: process.env.REPLICATE_TOKEN, // You need a token from replicate.com
+    poll: true, // Wait for the model to finish
+  })
+
+  try {
+    const parsedOutput = z.array(z.string()).parse(result.output)
+    const joinedOutput = parsedOutput.join("")
+    console.log("✅ llama 3 result: ", joinedOutput)
+
+    return joinedOutput
+  } catch (e) {
+    throw new Error(
+      `Output is not a string array: ${typeof result.output} : ${result.output}`,
+    )
+  }
+}
+
+export const imageToDescription = async (
+  artwork: Artwork,
+): Promise<ArtworkDescription> => {
   //}
+  const descriptionFromImage = await img2prompt(
+    artwork.image,
+    artwork.paintingLabel,
+  )
 
   const promptString =
     "Write a prompt for the epicrealismxl-lightning-hades model that will help the model to generate a painting that looks like the original. The image to be generated should depict '[depicts]' in the style of [artist] in the style of [movement] from the year [inception]."
@@ -68,11 +116,15 @@ export const imageToDescription = async (
   promptValues.artist = artwork.artistName
   promptValues.movement = artwork.movementLabel
   promptValues.inception = artwork.inception ? artwork.inception : ""
-  if (artwork.depicts != null) {
-    promptValues.depicts = artwork.depicts.join(" ")
-  } else {
-    promptValues.depicts = descriptionFromImage.description
-  }
+
+  const depictsIsString = z.string().safeParse(artwork.depicts)
+  const depictsIsStringArray = z.array(z.string()).safeParse(artwork.depicts)
+
+  promptValues.depicts = depictsIsString.success
+    ? depictsIsString.data
+    : depictsIsStringArray.success
+      ? depictsIsStringArray.data.join(" ")
+      : descriptionFromImage
 
   const updatedDescriptionString = fillPrompt(
     descriptionString,
@@ -80,59 +132,10 @@ export const imageToDescription = async (
   )
   const updatedPromptString = fillPrompt(promptString, promptValues)
 
-  const generalInput = {
-    top_k: 0,
-    top_p: 0.9,
-    prompt: "",
-    temperature: 0.6,
-    //temperature: 0.9,
-    //length_penalty: 1,
-    length_penalty: 0.5,
-    max_new_tokens: 120,
-    prompt_template: "{prompt}",
-    presence_penalty: 1.15,
-  }
-
-  const promptInput = generalInput
-  const descriptionInput = generalInput
-  promptInput.prompt = updatedPromptString
-  descriptionInput.prompt = updatedDescriptionString
-
-  const promptPrediction = await predict({
-    model: "meta/meta-llama-3-8b-instruct", // The model name
-    //model: "meta/meta-llama-3-8b", // The model name
-    input: promptInput, // The model specific input
-    token: process.env.REPLICATE_TOKEN, // You need a token from replicate.com
-    poll: true, // Wait for the model to finish
-  })
-
-  const descriptionPrediction = await predict({
-    model: "meta/meta-llama-3-8b-instruct", // The model name
-    //model: "meta/meta-llama-3-8b", // The model name
-    input: descriptionInput, // The model specific input
-    token: process.env.REPLICATE_TOKEN, // You need a token from replicate.com
-    poll: true, // Wait for the model to finish
-  })
-
-  if (!Array.isArray(promptPrediction.output)) {
-    throw new Error(
-      `Output is not a string array: ${typeof promptPrediction.output} : ${promptPrediction.output}`,
-    )
-  }
-  const promptToReturn = promptPrediction.output.join("")
-  console.log("✅ prompt: ", promptToReturn)
-
-  if (!Array.isArray(descriptionPrediction.output)) {
-    throw new Error(
-      `Output is not a string array: ${typeof descriptionPrediction.output} : ${descriptionPrediction.output}`,
-    )
-  }
-  const descriptionToReturn = descriptionPrediction.output.join("")
-  console.log("✅ description: ", descriptionToReturn)
+  const promptToReturn = await llama3(updatedPromptString)
+  const descriptionToReturn = await llama3(updatedDescriptionString)
 
   const promptAndDescription: ArtworkDescription = {
-    //prompt: promptToReturn,
-    //description: descriptionToReturn,
     prompt:
       `Painting in the style of ${artwork.artistName}. ` +
       promptToReturn.split(".")[0],
