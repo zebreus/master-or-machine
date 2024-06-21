@@ -1,37 +1,6 @@
 import SparqlClient from "sparql-http-client"
 import z, { ZodType } from "zod"
-
-export interface ResultSchema {
-  image: string
-  paintingLabel: string
-  artistName: string
-  date_of_birth?: string
-  date_of_death?: string
-  image_of_artist?: string
-  movementLabel: string
-  width?: string
-  height?: string
-  creationYear?: string
-  description?: string
-  abstract?: string
-  depicts?: string[]
-}
-
-export const resultSchema = z.object({
-  image: z.string(),
-  paintingLabel: z.string(),
-  artistName: z.string(),
-  date_of_birth: z.string().optional(),
-  date_of_death: z.string().optional(),
-  image_of_artist: z.string().optional(),
-  movementLabel: z.string(),
-  width: z.string().optional(),
-  height: z.string().optional(),
-  creationYear: z.string().optional(),
-  description: z.string().optional(),
-  abstract: z.string().optional(),
-  depicts: z.array(z.string()).optional(),
-})
+import { Artwork, artworkSchema } from "./artwork"
 
 // TODO: remove, once figured out, why sparqlQuery function produces build error
 const sparqlQueryTest = <ResultType>(
@@ -76,8 +45,8 @@ const sparqlQueryTest = <ResultType>(
 export const getArtworksByMovement = async (
   movementName: string,
   num: number,
-): Promise<ResultSchema[]> => {
-  const results = await sparqlQueryTest<ResultSchema>(
+): Promise<Artwork[]> => {
+  const results = await sparqlQueryTest<Artwork>(
     `
     PREFIX : <http://h-da.de/fbi/art/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -108,7 +77,7 @@ export const getArtworksByMovement = async (
     LIMIT ${num}
 
     `,
-    resultSchema,
+    artworkSchema,
   )
 
   // Format the console output for better readability and prepare for the second query

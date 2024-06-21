@@ -7,14 +7,15 @@ export const descriptionToImage = async (
   prompt: string,
   filebase: string,
 ): Promise<{
-  file:  string,
-  id:string
+  file: string
+  id: string
 }> => {
   if (!process.env.REPLICATE_TOKEN) {
     throw new Error("You need an API token from replicate.com")
   }
 
-  console.log("✨ Generating image for prompt: ", prompt)
+  console.log(`✨ Generating image for prompt: `)
+  console.log({ prompt })
   const prediction = await predict({
     model: "fofr/epicrealismxl-lightning-hades", // The model name
     input: {
@@ -44,6 +45,6 @@ export const descriptionToImage = async (
   const downloadedImage = await downloadImage(url, filename)
   return {
     file: downloadedImage,
-    id: prediction.id
+    id: prediction.id,
   }
 }

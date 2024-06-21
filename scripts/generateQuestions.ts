@@ -4,15 +4,12 @@ import { imageToDescription } from "./helpers/generateDescriptions"
 import { writeDataFile } from "./helpers/writeDataFile"
 import { camelCase } from "./helpers/camelCase"
 import { downloadImage } from "./helpers/downloadImage"
-import {
-  getArtworksByMovement,
-  resultSchema,
-  ResultSchema,
-} from "./getNumOfRandomArtworksByMovement"
+import { getArtworksByMovement } from "./getNumOfRandomArtworksByMovement"
+import { Artwork, artworkSchema } from "./artwork"
 
 const getEligibleArtworks = async () => {
   //const artworks = await getArtworksForAMovement("Cubism")
-  const artworks = await getArtworksByMovement("Impressionism", 10)
+  const artworks = await getArtworksByMovement("Impressionism", 3)
   const artworks2 = await getArtworksByMovement("Expressionism", 20)
 
   // return [artworks[0]]
@@ -28,7 +25,7 @@ export type Question = {
 
 export type Answer = {
   id: string
-  artwork: ResultSchema
+  artwork: Artwork
   prompt: string
   result: number // 0 | 1
 }
@@ -42,7 +39,7 @@ const questionSchema = z.object({
 
 const answerSchema = z.object({
   id: z.string(),
-  artwork: resultSchema,
+  artwork: artworkSchema,
   prompt: z.string(),
   result: z.number(),
 })
