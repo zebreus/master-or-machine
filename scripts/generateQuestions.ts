@@ -115,7 +115,19 @@ const generateQuestions = async () => {
   for (const [key, movement] of Object.entries(movements)) {
     await writeDataFile(`movement/${key}`, movement, movementSchema)
   }
-  await writeDataFile("movements", Object.keys(movements), z.array(z.string()))
+  await writeDataFile(
+    "movements",
+    Object.values(movements).map((movement) => ({
+      id: movement.id,
+      name: movement.name,
+    })),
+    z.array(
+      z.object({
+        id: z.string(),
+        name: z.string(),
+      }),
+    ),
+  )
 }
 
 generateQuestions()

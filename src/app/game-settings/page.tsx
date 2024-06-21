@@ -5,7 +5,7 @@ import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"
 import { useMemo, useState } from "react"
 import Image from "../../../node_modules/next/image"
-import allMovements from "../../../scripts/data/allMovements"
+import allMovements from "../../../scripts/data/movements"
 import Fuse from "fuse.js"
 
 const minRounds = 1
@@ -15,19 +15,19 @@ export default function Component() {
   const movementSearch = useMemo(
     () =>
       new Fuse(allMovements, {
-        keys: ["movementLabel"],
+        keys: ["name"],
       }),
     [],
   )
 
   const [rounds, setRounds] = useState(1)
   const [searchTerm, setSearchTerm] = useState("")
-  const [movements, setMovements] = useState<Array<string>>([])
+  const [movements, setMovements] = useState<Array<{id: string, name: string}>>([])
   const suggestedMovements = useMemo(
     () =>
       movementSearch
         .search(searchTerm)
-        .map((result) => result.item.movementLabel),
+        .map(result => result.item),
     [searchTerm, movementSearch],
   )
 
@@ -78,14 +78,14 @@ export default function Component() {
                 <div className="absolute mt-2 flex flex-col rounded-xl bg-darkBg border border-accentGreen">
                   {suggestedMovements.map((movement) => (
                     <div
-                      key={movement}
+                      key={movement.id}
                       className="cursor-pointer text-accentGreen p-2 break-words"
                       onClick={() => {
                         setMovements([...new Set([...movements, movement])])
                         setSearchTerm("")
                       }}
                     >
-                      {movement}
+                      {movement.name}
                     </div>
                   ))}
                 </div>
@@ -97,18 +97,18 @@ export default function Component() {
             <div className="flex flex-wrap justify-center gap-4 w-[70%]">
               {movements.map((movement) => (
                 <div
-                  key={movement}
+                  key={movement.id}
                   className="flex items-center gap-2 bg-white rounded-xl text-accentGreen p-2"
                 >
                   <div
                     className="cursor-pointer rounded-[100%] leading-[0.5] text-lg text-white bg-accentGreen p-1"
                     onClick={() => {
-                      setMovements(movements.filter((m) => m !== movement))
+                      setMovements(movements.filter((m) => m.id !== movement.id))
                     }}
                   >
                     -
                   </div>
-                  <div>{movement}</div>
+                  <div>{movement.name}</div>
                 </div>
               ))}
             </div>
@@ -116,7 +116,7 @@ export default function Component() {
 
           <div className="flex justify-center">
             <a
-              href={`./game?${new URLSearchParams([["rounds", "" + rounds], ...movements.map((m) => ["movements", m])]).toString()}`}
+              href={`./game?${new URLSearchParams([["rounds", "" + rounds], ...movements.map((m) => ["movements", m.id])]).toString()}`}
             >
               <Button buttonText="Play" size="big"></Button>
             </a>
