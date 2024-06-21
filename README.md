@@ -1,3 +1,8 @@
+## Install sdxl locally
+
+Follow instructions under [Fooocus Github](https://github.com/lllyasviel/Fooocus)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Extract data with SPARQL queries
