@@ -105,7 +105,7 @@ export const imageToDescription = async (
 
   const promptPrompt = `
 Task 1 of 1:
-In the lecture you learned how to write good prompts for image generation models. Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. You will be graded by how good images created with the prompt replicate the original painting. You will also be awarded an extra point if your second prompt is around 50 words long. Make sure that all prompts contain information about the size of the brushstrokes that is used.
+Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. The results should NOT look aesthetically pleasing, instead they should replicate the original paintings. You will be graded by how well images created with the prompt replicate the original painting. You will also be awarded an extra point if your second prompt contains more information than the first prompt. Avoid making the result too detailed.
 
 artist: ${artwork.artistName.trim()}
 name: ${artwork.paintingLabel.trim()}
@@ -118,19 +118,19 @@ Prompt 2:`
 
   const prompt = await llama3(promptPrompt, {
     top_p: 0.9,
-    temperature: 0.85,
-    length_penalty: 0.9,
+    temperature: 0.56,
+    length_penalty: 0.84,
     max_tokens: 100,
     min_tokens: 0,
     prompt_template: "{prompt}",
     stop_sequences: "Prompt 3",
-    presence_penalty: 1.15,
+    presence_penalty: 1.25,
     log_performance_metrics: false,
   })
 
   const descriptionPrompt = `
 Task 1 of 1:
-In the lecture you learned how to summarize the content of a painting in one sentenct. Write 3 different short description texts for the painting described by the keywords below. The texts will be displayed in a museum next to the painting. You will be graded by how good images created with the prompt replicate the original painting.  You will also be awarded an extra point if your first description text is short and only contains the artist and painting name. You will also be awarded an extra point if your second description text is around 50 words long and does NOT contain the artist and painting name but only focuses on the painting itself.
+In the lecture you learned how to summarize the content of a painting in one sentence. Write 3 different short description texts for the painting described by the keywords below. The texts will be displayed in a museum next to the painting. You will be graded by how good images created with the prompt replicate the original painting.  You will also be awarded an extra point if your first description text is short and only contains the artist and painting name. You will also be awarded an extra point if your second description text is around 50 words long and does NOT contain the artist and painting name but only focuses on the painting itself.
 
 artist: ${artwork.artistName.trim()}
 name: ${artwork.paintingLabel.trim()}
