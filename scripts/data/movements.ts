@@ -7,6 +7,7 @@ export type Movements = {
 
 const movements: Movements = [
   { id: "impressionism", name: "Impressionism" },
+  { id: "expressionism", name: "expressionism" },
   { id: "artNouveau", name: "Art Nouveau" },
 ] satisfies Movements
 

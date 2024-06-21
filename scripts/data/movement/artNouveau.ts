@@ -10,11 +10,11 @@ const artNouveau: ArtNouveau = {
   id: "artNouveau",
   name: "Art Nouveau",
   questions: [
-    "xyhfljgurauxjimwetko",
-    "xycojojyrcweirkqicju",
-    "xtjqqhjsusmwtpodhplk",
-    "xhpqxmtviturlkyqwthx",
-    "qlsvccsgbcgutocvebff",
+    "nczldixgqhjdpldbqvzi",
+    "jxfveyhnjoetxtbjzsot",
+    "pwmpmbplwwytnhilwwdr",
+    "lhdpenchnzkbsiwqcpae",
+    "sxivoiolobmjsasdohqm",
   ],
 } satisfies ArtNouveau
 

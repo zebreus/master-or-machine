@@ -1,0 +1,35 @@
+{
+  "id": "pwmpmbplwwytnhilwwdr",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Barcelona_2_368.JPG",
+    "paintingLabel": "Desolation",
+    "artistName": "Josep Llimona i Bruguera",
+    "date_of_birth": "1864",
+    "date_of_death": "1934",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ramon_Casas_-_MNAC-_Josep_Llimona-_027286-D_006441.jpg",
+    "movementLabel": "Art Nouveau",
+    "width": "76",
+    "height": "67",
+    "description": "sculpture by Josep Llimona i Bruguera",
+    "abstract": "Desolation is a 1907 sculpture by Josep Llimona in the collection of the National Art Museum of Catalonia in Barcelona.",
+    "depicts": [
+      "kneeling",
+      "sorrow",
+      "crying",
+      "sadness",
+      "mourning",
+      "sole",
+      "Dimples of Venus",
+      "buttocks",
+      "back",
+      "glabrousness",
+      "umbilicus",
+      "breast",
+      "long hair",
+      "nudity",
+      "woman"
+    ]
+  },
+  "prompt": "a statue of a woman leaning over a ledge, a marble sculpture by Christian Jane Fergusson, cgsociety, academic art, marble sculpture, henry moore, academic art, 4k, hyperrealistic, high definition, masterpiece, octane render",
+  "result": 0
+}

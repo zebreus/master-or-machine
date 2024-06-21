@@ -1,0 +1,18 @@
+{
+  "id": "xnwnafnpaleegeiuqtcl",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Marc-red_and_blue_horses.jpg",
+    "paintingLabel": "Red and Blue Horses",
+    "artistName": "Franz Marc",
+    "date_of_birth": "1880",
+    "date_of_death": "1916",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/1/1c/FranzMarccropped.jpg",
+    "movementLabel": "expressionism",
+    "width": "34",
+    "height": "26.5",
+    "description": "Franz Marc painting",
+    "depicts": ["horse"]
+  },
+  "prompt": "a painting of a red horse and a blue horse, a cubist painting by Franz Marc, behance, orphism, cubism, fauvism, constructivism, in the style of Franz Marc",
+  "result": 1
+}

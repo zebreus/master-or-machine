@@ -1,0 +1,34 @@
+{
+  "id": "cmfoefrkmqvfbvegyipg",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Manet%2C_Edouard_-_Blonde_Woman_with_Bare_Breasts.jpg",
+    "paintingLabel": "La Blonde aux seins nus",
+    "artistName": "Édouard Manet",
+    "date_of_birth": "1832",
+    "date_of_death": "1883",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg",
+    "movementLabel": "Impressionism",
+    "width": "52",
+    "height": "62.5",
+    "description": "painting by Edouard Manet",
+    "abstract": "Blonde Woman with Bare Breasts (French: La Blonde aux seins nus) is a c.1878 painting by Édouard Manet, now in the Musée d'Orsay in Paris Contrary to its title, it shows a brunette.",
+    "depicts": [
+      "flower",
+      "veil",
+      "chestnut hair",
+      "areola",
+      "shirt",
+      "toplessness",
+      "nipple",
+      "blond",
+      "breast",
+      "standing",
+      "hat",
+      "long hair",
+      "nudity",
+      "woman"
+    ]
+  },
+  "prompt": "a painting of a woman with a flower in her hair by Édouard Manet, pixiv, american barbizon school, impressionism, fauvism, pre-raphaelite, chestnut hair, areola, shirt, toplessness, nipple, blond, breast, standing, hat, long hair, nudity, woman",
+  "result": 0
+}

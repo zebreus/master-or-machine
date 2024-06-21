@@ -1,0 +1,31 @@
+{
+  "id": "nczldixgqhjdpldbqvzi",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ramon_Casas_-_Ramon_Casas_and_Pere_Romeu_in_an_Automobile_-_Google_Art_Project.jpg",
+    "paintingLabel": "Ramon Casas and Pere Romeu in an Automobile",
+    "artistName": "Ramon Casas i Carbó",
+    "date_of_birth": "1866",
+    "date_of_death": "1932",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ramon_Casas_-_Self-portrait_-_Google_Art_Project_%28559678%29.jpg",
+    "movementLabel": "Art Nouveau",
+    "width": "291",
+    "height": "208",
+    "description": "painting by Ramon Casas i Carbó",
+    "abstract": "Ramon Casas and Pere Romeu in an Automobile is a painting by Ramon Casas that is exhibited at the National Art Museum of Catalonia in Barcelona.",
+    "depicts": [
+      "tree",
+      "car",
+      "dog",
+      "Pere Romeu i Borràs",
+      "Ramon Casas i Carbó",
+      "cigar",
+      "cap",
+      "smoking",
+      "pipe",
+      "beard",
+      "man"
+    ]
+  },
+  "prompt": "a painting of a man driving a car with a dog on the back, an ultrafine detailed painting by James Tissot, behance, american impressionism, matte drawing, creative commons attribution, impressionism, a man driving a car with a dog on the back, an ultrafine detailed painting by James Tissot, behance, american impressionism, matte drawing, creative commons attribution, impressionism",
+  "result": 0
+}

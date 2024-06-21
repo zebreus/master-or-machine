@@ -1,0 +1,18 @@
+{
+  "id": "sxivoiolobmjsasdohqm",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/La_Sargantain.JPG",
+    "paintingLabel": "La Sargantaine (Portrait of Júlia Peraire)",
+    "artistName": "Ramon Casas i Carbó",
+    "date_of_birth": "1866",
+    "date_of_death": "1932",
+    "image_of_artist": "https://upload.wikimedia.org/wikipedia/commons/d/da/Ramon_Casas_-_Self-portrait_-_Google_Art_Project_%28559678%29.jpg",
+    "movementLabel": "Art Nouveau",
+    "width": "63",
+    "height": "91",
+    "description": "painting by Ramon Casas i Carbó",
+    "depicts": ["woman"]
+  },
+  "prompt": "a painting of a woman in a yellow dress, an oil on canvas painting by Augustus John, cg society, american barbizon school, studio portrait, chiaroscuro, oil on canvas, woman in a yellow dress, oil on canvas, by Augustus John, cg society, american barbizon school, studio portrait, chiaroscuro, oil on canvas, woman in a yellow dress, oil on canvas, by Augustus John, cg society, american barbizon school, studio",
+  "result": 0
+}
