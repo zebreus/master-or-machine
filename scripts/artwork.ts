@@ -41,26 +41,7 @@ export const getArtworksForAMovement = async (movement: string) => {
   return results
 }
 
-export interface ResultSchema {
-  image: string
-  paintingLabel: string
-  artistName: string
-  date_of_birth?: string
-  date_of_death?: string
-  image_of_artist?: string
-  movementLabel: string
-  width?: string
-  height?: string
-  inception?: string
-  description?: string
-  abstract?: string
-  depicts?: string
-  country?: string
-}
-
-export type Artwork = ResultSchema
-
-const resultSchema = z.object({
+export const artworkSchema = z.object({
   image: z.string(),
   paintingLabel: z.string(),
   artistName: z.string(),
@@ -73,8 +54,7 @@ const resultSchema = z.object({
   inception: z.string().optional(),
   description: z.string().optional(),
   abstract: z.string().optional(),
-  depicts: z.string().optional(),
+  depicts: z.string().or(z.array(z.string())).optional(),
   country: z.string().optional(),
 })
-
-export const artworkSchema = resultSchema
+export type Artwork = z.infer<typeof artworkSchema>
