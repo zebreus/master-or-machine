@@ -12,10 +12,11 @@ import {
 
 const getEligibleArtworks = async () => {
   //const artworks = await getArtworksForAMovement("Cubism")
-  const artworks = await getArtworksByMovement("Impressionism", 3)
+  const artworks = await getArtworksByMovement("Impressionism", 10)
+  const artworks2 = await getArtworksByMovement("Expressionism", 20)
 
   // return [artworks[0]]
-  return artworks
+  return [...artworks]
 }
 
 export type Question = {
@@ -73,11 +74,7 @@ const generateQuestions = async () => {
         `${questionId}-${randomString(5)}`,
       )
 
-      // const description = await imageToDescription(artwork)
-      const description = {
-        prompt: "a cool cat",
-        description: "a cool cat",
-      }
+      const description = await imageToDescription(artwork)
 
       const generated = await descriptionToImage(
         description.prompt,
