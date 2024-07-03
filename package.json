@@ -9,13 +9,17 @@
     "lint": "next lint",
     "data": "tsx scripts/extractArtworks.ts",
     "artwork_by_movement": "tsx scripts/extractFeaturesByMovement",
-    "movements": "tsx scripts/extractAllMovements"
+    "movements": "tsx scripts/extractAllMovements",
+    "batch-llama-call": "tsx scripts/LocalLlamaBatchCall"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
+    "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
     "fuse.js": "^7.0.0",
     "lucide-react": "^0.379.0",
     "next": "14.2.3",
@@ -27,6 +31,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.12.12",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
