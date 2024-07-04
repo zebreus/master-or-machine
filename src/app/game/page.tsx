@@ -117,6 +117,8 @@ export default function Component() {
                       className="object-cover"
                       fetchPriority="high"
                       decoding="async"
+                      width="512"
+                      height="512"
                     />
                   ) : (
                     <span className="loader"></span>
@@ -139,6 +141,8 @@ export default function Component() {
                       className="object-cover"
                       fetchPriority="high"
                       decoding="async"
+                      width="512"
+                      height="512"
                     />
                   ) : (
                     <span className="loader"></span>
@@ -198,6 +202,8 @@ export default function Component() {
                       className="object-cover"
                       fetchPriority="high"
                       decoding="async"
+                      width="512"
+                      height="512"
                     />
                   ) : undefined}
                 </div>
