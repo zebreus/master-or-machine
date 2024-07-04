@@ -12,6 +12,7 @@ import classNames from "../../../node_modules/classnames/index"
 import { useMovement } from "@/lib/useMovement"
 import { useQuestion } from "@/lib/useQuestion"
 import { useAnswer } from "@/lib/useAnswer"
+import logo from "@/../public/logo.png"
 
 enum GameState {
   ROUND = "round",
@@ -115,9 +116,8 @@ export default function Component() {
                     }}
                     src={question.image1}
                     alt="Image to identify"
-                    layout="fill"
-                    objectFit="cover"
-                    sizes="32rem"
+                    className="object-cover"
+                    fill
                     priority
                   />
                 </div>
@@ -134,8 +134,9 @@ export default function Component() {
                     }}
                     src={question.image2}
                     alt="Image to identify"
-                    layout="fill"
-                    objectFit="cover"
+                    className="object-cover"
+                    fill
+                    priority
                   />
                 </div>
               </div>
@@ -188,8 +189,8 @@ export default function Component() {
                         : question.image2
                     }
                     alt="Selected image"
-                    layout="fill"
-                    objectFit="cover"
+                    className="object-cover"
+                    fill
                     sizes="32rem"
                   />
                 </div>
@@ -220,8 +221,8 @@ export default function Component() {
                                 "/placeholder.svg"
                               }
                               alt="Image to identify"
-                              layout="fill"
-                              objectFit="cover"
+                              className="object-cover"
+                              fill
                             />
                           </div>
                         )}
@@ -255,9 +256,9 @@ export default function Component() {
                         <div className="relative h-40 w-32 mb-2">
                           <Image
                             alt="Machine hand with brush logo"
-                            src="/logo.png"
-                            layout="fill"
-                            objectFit="contain"
+                            src={logo}
+                            className="object-contain"
+                            fill
                           />
                         </div>
 

@@ -3,6 +3,7 @@ import { Button } from "./button"
 import Link from "../../node_modules/next/link"
 import { Tab } from "@/types/Tab"
 import Image from "../../node_modules/next/image"
+import logoWhite from "@/../public/logo-white.png"
 
 interface IProps {
   currentTab: Tab
@@ -20,9 +21,10 @@ export const Header = ({ currentTab, round, roundsTotal }: IProps) => {
         <div className="relative h-10 w-10">
           <Image
             alt="Machine hand with brush logo"
-            src="/logo-white.png"
-            layout="fill"
-            objectFit="contain"
+            src={logoWhite}
+            className="object-contain"
+            fill
+            priority
           />
         </div>
         <div>Master or Machine</div>

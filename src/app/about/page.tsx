@@ -3,6 +3,7 @@
 import Image from "../../../node_modules/next/image"
 import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"
+import logo from "@/../public/logo.png"
 
 export default function Component() {
   return (
@@ -54,9 +55,10 @@ export default function Component() {
           <div className="relative h-80 w-full">
             <Image
               alt="Machine hand with brush logo"
-              src="/logo.png"
-              layout="fill"
-              objectFit="contain"
+              src={logo}
+              className="object-contain"
+              fill
+              priority
             />
           </div>
         </div>

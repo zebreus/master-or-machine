@@ -7,6 +7,7 @@ import { useMemo, useState } from "react"
 import Image from "../../../node_modules/next/image"
 import allMovements from "../../../public/data/movements"
 import Fuse from "fuse.js"
+import logo from "@/../public/logo.png"
 
 const minRounds = 1
 const defaultRounds = 10
@@ -23,12 +24,11 @@ export default function Component() {
 
   const [rounds, setRounds] = useState(defaultRounds)
   const [searchTerm, setSearchTerm] = useState("")
-  const [movements, setMovements] = useState<Array<{id: string, name: string}>>([])
+  const [movements, setMovements] = useState<
+    Array<{ id: string; name: string }>
+  >([])
   const suggestedMovements = useMemo(
-    () =>
-      movementSearch
-        .search(searchTerm)
-        .map(result => result.item),
+    () => movementSearch.search(searchTerm).map((result) => result.item),
     [searchTerm, movementSearch],
   )
 
@@ -43,9 +43,9 @@ export default function Component() {
           <div className="relative h-40 w-full mb-8">
             <Image
               alt="Machine hand with brush logo"
-              src="/logo.png"
-              layout="fill"
-              objectFit="contain"
+              src={logo}
+              className="object-contain"
+              fill
             />
           </div>
 
@@ -76,20 +76,22 @@ export default function Component() {
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                {suggestedMovements.length ? <div className="absolute mt-2 flex flex-col rounded-xl bg-darkBg border border-accentGreen">
-                  {suggestedMovements.map((movement) => (
-                    <div
-                      key={movement.id}
-                      className="cursor-pointer text-accentGreen p-2 break-words"
-                      onClick={() => {
-                        setMovements([...new Set([...movements, movement])])
-                        setSearchTerm("")
-                      }}
-                    >
-                      {movement.name}
-                    </div>
-                  ))}
-                </div> : null}
+                {suggestedMovements.length ? (
+                  <div className="absolute mt-2 flex flex-col rounded-xl bg-darkBg border border-accentGreen">
+                    {suggestedMovements.map((movement) => (
+                      <div
+                        key={movement.id}
+                        className="cursor-pointer text-accentGreen p-2 break-words"
+                        onClick={() => {
+                          setMovements([...new Set([...movements, movement])])
+                          setSearchTerm("")
+                        }}
+                      >
+                        {movement.name}
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
               </div>
             </div>
 
@@ -102,7 +104,9 @@ export default function Component() {
                   <div
                     className="cursor-pointer rounded-[100%] leading-[0.5] text-lg text-white bg-accentGreen p-1"
                     onClick={() => {
-                      setMovements(movements.filter((m) => m.id !== movement.id))
+                      setMovements(
+                        movements.filter((m) => m.id !== movement.id),
+                      )
                     }}
                   >
                     -
@@ -117,7 +121,11 @@ export default function Component() {
             <a
               href={`./game?${new URLSearchParams([["rounds", "" + rounds], ...movements.map((m) => ["movements", m.id])]).toString()}`}
             >
-              <Button buttonText="Play" size="big" disabled={!movements.length}></Button>
+              <Button
+                buttonText="Play"
+                size="big"
+                disabled={!movements.length}
+              ></Button>
             </a>
           </div>
         </div>

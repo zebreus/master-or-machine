@@ -1,4 +1,5 @@
 import Image from "../../node_modules/next/image"
+import defaultProfile from "@/../public/default-profile.png"
 
 interface IProps {
   place: number
@@ -12,7 +13,7 @@ export const Player = ({ place, playerName, score }: IProps) => {
       <div className="flex gap-x-2 items-center">
         <div>#{place}</div>
         <Image
-          src="/default-profile.png"
+          src={defaultProfile}
           alt="Standard profile image"
           height={64}
           width={64}
