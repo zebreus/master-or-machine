@@ -9,12 +9,13 @@ import { Artwork, artworkSchema } from "./artwork"
 
 const getEligibleArtworks = async () => {
   //const artworks = await getArtworksForAMovement("Cubism")
-  const artworks = await getArtworksByMovement("Impressionism", 5)
-  const artworks2 = await getArtworksByMovement("expressionism", 5)
-  const artworks3 = await getArtworksByMovement("Art Nouveau", 5)
+  const artworks = await getArtworksByMovement("Impressionism", 10)
+  const artworks2 = await getArtworksByMovement("expressionism", 10)
+  const artworks3 = await getArtworksByMovement("Art Nouveau", 10)
+  const artworks4 = await getArtworksByMovement("neoclassicism", 10)
 
-  return [artworks[0]]
-  // return [...artworks, ...artworks2, ...artworks3]
+  // return [...artworks4]
+  return [...artworks, ...artworks2, ...artworks3, ...artworks4]
 }
 /** How many questions will be generated in parallel */
 const PARALLEL_TASKS = 5

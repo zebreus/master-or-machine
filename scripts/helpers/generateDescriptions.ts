@@ -88,7 +88,7 @@ export const imageToDescription = async (
 
   const promptPrompt = `
 Task 1 of 1:
-Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. The results should NOT look aesthetically pleasing, instead they should replicate the original paintings. You will be graded by how well images created with the prompt replicate the original painting. You will also be awarded an extra point if your second prompt contains more information than the first prompt. Avoid making the result too detailed. Dont forget to include the materials and methods in the prompt
+Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. The results should NOT look aesthetically pleasing, instead they should replicate the original paintings. You will be graded by how well images created with the prompt replicate the original painting. You will also be awarded an extra point if your second prompt contains more information than the first prompt. Avoid making the result too detailed. Include only the most relevant keywords.
 
 ${Object.entries({
   type: "painting",
@@ -116,7 +116,7 @@ Prompt 2:`
     temperature: 0.56,
     length_penalty: 0.84,
     max_tokens: 100,
-    min_tokens: 0,
+    min_tokens: 60,
     prompt_template: "{prompt}",
     stop_sequences: "Prompt 3",
     presence_penalty: 1.25,

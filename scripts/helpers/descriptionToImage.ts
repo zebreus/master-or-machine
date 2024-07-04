@@ -17,15 +17,21 @@ export const descriptionToImage = async (
   console.log(`✨ Generating image for prompt: `)
   console.log({ prompt })
   const prediction = await predict({
-    model: "fofr/epicrealismxl-lightning-hades", // The model name
+    model: "stability-ai/sdxl", // The model name
     input: {
       width: 1024,
       height: 1024,
       prompt: prompt,
-      output_format: "webp",
-      output_quality: 80,
-      negative_prompt: "",
-      number_of_images: 1,
+      negative_prompt: "photograph",
+      refine: "expert_ensemble_refiner",
+      scheduler: "K_EULER",
+      lora_scale: 0.6,
+      num_outputs: 1,
+      guidance_scale: 7.5,
+      apply_watermark: false,
+      high_noise_frac: 0.8,
+      prompt_strength: 0.8,
+      num_inference_steps: 25,
       disable_safety_checker: true,
     },
     token: process.env.REPLICATE_TOKEN, // You need a token from replicate.com
