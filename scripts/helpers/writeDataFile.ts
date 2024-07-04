@@ -34,8 +34,8 @@ export const writeDataFile = async <ResultType>(
   assert(name, "You have to pass a name")
   const directory = filename.split("/").slice(0, -1).join("/")
   const fileName = camelCase(name)
-  console.log(`Writing ${name} to scripts/data/${fileName}`)
-  const directoryPath = `${module.path}/../data/${directory}`
+  console.log(`Writing ${name} to public/data/${fileName}`)
+  const directoryPath = `${module.path}/../../public/data/${directory}`
   const tsFilePath = `${directoryPath}/${fileName}.ts`
   const jsonFilePath = `${directoryPath}/${fileName}.json`
 

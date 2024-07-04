@@ -5,7 +5,7 @@ import { Header } from "@/components/header"
 import { Tab } from "@/types/Tab"
 import { useMemo, useState } from "react"
 import Image from "../../../node_modules/next/image"
-import allMovements from "../../../scripts/data/movements"
+import allMovements from "../../../public/data/movements"
 import Fuse from "fuse.js"
 
 const minRounds = 1

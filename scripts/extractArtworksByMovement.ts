@@ -2,7 +2,7 @@ import SparqlClient from "sparql-http-client"
 import z, { ZodType } from "zod"
 import { sparqlQuery } from "./helpers/sparqlQuery"
 import { writeDataFile } from "./helpers/writeDataFile"
-import allMovements from "./data/allMovements"
+import allMovements from "../public/data/allMovements"
 import { Artwork, artworkSchema, getArtworksForAMovement } from "./artwork"
 
 const extractArtworksForAMovement = async (movement: string) => {
