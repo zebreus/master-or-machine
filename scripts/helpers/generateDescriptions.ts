@@ -86,31 +86,26 @@ export const imageToDescription = async (
     artwork.paintingLabel,
   )
 
-  const depictsIsString = z.string().safeParse(artwork.depicts)
-  const depictsIsStringArray = z.array(z.string()).safeParse(artwork.depicts)
-  const depicts = depictsIsString.success
-    ? depictsIsString.data
-    : depictsIsStringArray.success
-      ? depictsIsStringArray.data.join(" ")
-      : ""
-
-  const inception = artwork.inception ? artwork.inception.trim() : ""
-
-  // const promptString =
-  //   "Write a prompt for the epicrealismxl-lightning-hades model that will help the model to generate a painting that looks like the original. The image to be generated should depict '[depicts]' in the style of [artist] in the style of [movement] from the year [inception]."
-
-  // JÖRN CURRENT
-  //const descriptionString =
-  //  "Write an artwork description (and nothing else) where you only know the depicts to see and a few more information I will give you. (made in = [made_in], genre = portrait, depicts to see = [depicts]). Don't research more information and write maximum three sentences."
-
   const promptPrompt = `
 Task 1 of 1:
-Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. The results should NOT look aesthetically pleasing, instead they should replicate the original paintings. You will be graded by how well images created with the prompt replicate the original painting. You will also be awarded an extra point if your second prompt contains more information than the first prompt. Avoid making the result too detailed.
+Write 3 different prompts for an image generation model to replicate the famous painting matching the following keywords as close as possible. The results should NOT look aesthetically pleasing, instead they should replicate the original paintings. You will be graded by how well images created with the prompt replicate the original painting. You will also be awarded an extra point if your second prompt contains more information than the first prompt. Avoid making the result too detailed. Dont forget to include the materials and methods in the prompt
 
-artist: ${artwork.artistName.trim()}
-name: ${artwork.paintingLabel.trim()}
-movement: ${artwork.movementLabel.trim()}${inception ? `\ninception: ${inception}` : ""}
-keywords: ${depicts || "unknown"}
+${Object.entries({
+  type: "painting",
+  name: artwork.paintingLabel.trim(),
+  artist: artwork.artistName.trim(),
+  main_movement: artwork.movementLabel.trim(),
+  painted_in: [artwork.inception, artwork.country].filter((v) => v).join(", "),
+  height: artwork.height ? `${artwork.height}cm` : "",
+  width: artwork.width ? `${artwork.width}cm` : "",
+  keywords: artwork.motifs.join(", "),
+  genres: artwork.genres.join(", "),
+  material: artwork.materials.join(", "),
+})
+  .flatMap(([key, value]) =>
+    value && value.length ? [`${key}: ${value}`] : [],
+  )
+  .join("\n")}
 
 Prompt 1: ${descriptionFromImage}
 
@@ -132,11 +127,22 @@ Prompt 2:`
 Task 1 of 1:
 In the lecture you learned how to summarize the content of a painting in one sentence. Write 3 different short description texts for the painting described by the keywords below. The texts will be displayed in a museum next to the painting. You will be graded by how good images created with the prompt replicate the original painting.  You will also be awarded an extra point if your first description text is short and only contains the artist and painting name. You will also be awarded an extra point if your second description text is around 50 words long and does NOT contain the artist and painting name but only focuses on the painting itself.
 
-artist: ${artwork.artistName.trim()}
-name: ${artwork.paintingLabel.trim()}
-movement: ${artwork.movementLabel.trim()}${inception ? `\ninception: ${inception}` : ""}
-keywords: ${depicts || "unknown"}
-tags: ${descriptionFromImage}
+${Object.entries({
+  type: "painting",
+  name: artwork.paintingLabel.trim(),
+  artist: artwork.artistName.trim(),
+  main_movement: artwork.movementLabel.trim(),
+  painted_in: [artwork.inception, artwork.country].filter((v) => v).join(", "),
+  height: artwork.height ? `${artwork.height}cm` : "",
+  width: artwork.width ? `${artwork.width}cm` : "",
+  keywords: artwork.motifs.join(", "),
+  genres: artwork.genres.join(", "),
+  material: artwork.materials.join(", "),
+})
+  .flatMap(([key, value]) =>
+    value && value.length ? [`${key}: ${value}`] : [],
+  )
+  .join("\n")}
 
 Description 1: The painting ${artwork.paintingLabel.trim()} is by ${artwork.artistName.trim()}.
 

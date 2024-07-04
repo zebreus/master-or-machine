@@ -1,6 +1,12 @@
 import SparqlClient from "sparql-http-client"
 import z, { ZodType } from "zod"
-import { Artwork, artworkSchema } from "./artwork"
+import {
+  Artwork,
+  RawArtwork,
+  artworkSchema,
+  processRawArtwork,
+  rawArtworkSchema,
+} from "./artwork"
 
 // TODO: remove, once figured out, why sparqlQuery function produces build error
 const sparqlQueryTest = <ResultType>(
@@ -46,17 +52,20 @@ export const getArtworksByMovement = async (
   movementName: string,
   num: number,
 ): Promise<Artwork[]> => {
-  const results = await sparqlQueryTest<Artwork>(
+  const rawArtworks = await sparqlQueryTest<RawArtwork>(
     `
     PREFIX : <http://h-da.de/fbi/art/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-    SELECT DISTINCT ?image ?paintingLabel ?artistName ?date_of_birth ?date_of_death (STR(?artist_img) AS ?image_of_artist) ?movementLabel ?width ?height ?year ?description ?abstract WHERE {
+    SELECT DISTINCT ?image ?paintingLabel ?artistName ?date_of_birth ?date_of_death ?artist_img ?movementLabel ?width ?height ?inception ?country ?description ?abstract (GROUP_CONCAT(DISTINCT ?motif; SEPARATOR="|") AS ?motifs) (GROUP_CONCAT(DISTINCT ?genre; SEPARATOR="|") AS ?genres) (GROUP_CONCAT(DISTINCT ?material; SEPARATOR="|") AS ?materials) WHERE {
       ?painting a :artwork;
         rdfs:label ?paintingLabel;
         :image ?image;
-        :movement ?movement.
+        :movement ?movement;
+        :genre/rdfs:label ?genre;
+        :motif/rdfs:label ?motif;
+        :material/rdfs:label ?material.
 
       ?movement rdfs:label ?movementLabel.
       FILTER(?movementLabel = "${movementName}")  # Ensure this is how you filter movements.
@@ -69,49 +78,19 @@ export const getArtworksByMovement = async (
 
       OPTIONAL { ?painting :width ?width. }
       OPTIONAL { ?painting :height ?height. }
-      OPTIONAL { ?painting :inception ?year. }
+      OPTIONAL { ?painting :inception ?inception. }
       OPTIONAL { ?painting :description ?description. }
       OPTIONAL { ?painting :abstract ?abstract. }
-    } 
+      OPTIONAL { ?painting :country ?country. }
+    }
+    GROUP BY ?image ?paintingLabel ?artistName ?date_of_birth ?date_of_death ?artist_img ?movementLabel ?width ?height ?inception ?country ?description ?abstract
     ORDER BY RAND()
     LIMIT ${num}
-
     `,
-    artworkSchema,
+    rawArtworkSchema,
   )
 
-  // Format the console output for better readability and prepare for the second query
-  if (results.length > 0) {
-    // Define a schema for motifs
-    const motifsSchema = z.object({
-      motif: z.string(),
-    })
+  const artworks = rawArtworks.map(processRawArtwork)
 
-    for (const artwork of results) {
-      // Execute the second query to get motifs
-      const motifResults = await sparqlQueryTest(
-        `
-      PREFIX : <http://h-da.de/fbi/art/>
-      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-      SELECT DISTINCT ?motif
-      WHERE {
-        ?artwork a :artwork;
-            rdfs:label "${artwork.paintingLabel}";
-          :motif/rdfs:label ?motif;
-      }
-      `,
-        motifsSchema,
-      )
-
-      // Add motifs to the artwork object
-      artwork.depicts = motifResults.map((m) => m.motif)
-    }
-
-    return results
-  } else {
-    console.log("No results found for the specified movement.")
-    return []
-  }
+  return artworks
 }

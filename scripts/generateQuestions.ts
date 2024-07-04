@@ -13,8 +13,8 @@ const getEligibleArtworks = async () => {
   const artworks2 = await getArtworksByMovement("expressionism", 5)
   const artworks3 = await getArtworksByMovement("Art Nouveau", 5)
 
-  // return [artworks[0]]
-  return [...artworks, ...artworks2, ...artworks3]
+  return [artworks[0]]
+  // return [...artworks, ...artworks2, ...artworks3]
 }
 /** How many questions will be generated in parallel */
 const PARALLEL_TASKS = 5
