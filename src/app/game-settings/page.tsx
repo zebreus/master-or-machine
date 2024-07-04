@@ -9,6 +9,7 @@ import allMovements from "../../../scripts/data/movements"
 import Fuse from "fuse.js"
 
 const minRounds = 1
+const defaultRounds = 10
 const maxRounds = 10
 
 export default function Component() {
@@ -20,7 +21,7 @@ export default function Component() {
     [],
   )
 
-  const [rounds, setRounds] = useState(1)
+  const [rounds, setRounds] = useState(defaultRounds)
   const [searchTerm, setSearchTerm] = useState("")
   const [movements, setMovements] = useState<Array<{id: string, name: string}>>([])
   const suggestedMovements = useMemo(
@@ -75,7 +76,7 @@ export default function Component() {
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
-                <div className="absolute mt-2 flex flex-col rounded-xl bg-darkBg border border-accentGreen">
+                {suggestedMovements.length ? <div className="absolute mt-2 flex flex-col rounded-xl bg-darkBg border border-accentGreen">
                   {suggestedMovements.map((movement) => (
                     <div
                       key={movement.id}
@@ -88,10 +89,8 @@ export default function Component() {
                       {movement.name}
                     </div>
                   ))}
-                </div>
+                </div> : null}
               </div>
-
-              <Button buttonText="All"></Button>
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 w-[70%]">
@@ -118,7 +117,7 @@ export default function Component() {
             <a
               href={`./game?${new URLSearchParams([["rounds", "" + rounds], ...movements.map((m) => ["movements", m.id])]).toString()}`}
             >
-              <Button buttonText="Play" size="big"></Button>
+              <Button buttonText="Play" size="big" disabled={!movements.length}></Button>
             </a>
           </div>
         </div>
