@@ -1,0 +1,38 @@
+{
+  "id": "hcgjpyhtjaseuhwqphlz",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Chicos_en_la_playa%2C_por_Joaqu%C3%ADn_Sorolla.jpg",
+    "paintingLabel": "Chicos en la playa",
+    "artistName": "Joaquín Sorolla",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1863",
+    "date_of_death": "1923",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Joaquin_Sorolla_Bastida_por_Jose_Jimenez_Aranda.jpg",
+    "width": "185",
+    "height": "118",
+    "inception": "1910",
+    "description": "painting by Joaquín Sorolla",
+    "motifs": [
+      "beach",
+      "lying",
+      "sea bathing",
+      "Mediterranean Sea",
+      "eye contact",
+      "summer",
+      "sole",
+      "nude swimming",
+      "intergluteal cleft",
+      "buttocks",
+      "back",
+      "toe",
+      "blond",
+      "brown hair",
+      "nudity",
+      "boy"
+    ],
+    "genres": ["nude", "genre art"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a man and a boy in the water, an ultrafine detailed painting by Joaquín Sorolla, tumblr contest winner, american impressionism, impressionism, fine art, art, the man is wearing a straw hat and the boy is wearing a blue shirt",
+  "result": 1
+}

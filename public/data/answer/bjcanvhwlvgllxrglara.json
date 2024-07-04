@@ -1,0 +1,50 @@
+{
+  "id": "bjcanvhwlvgllxrglara",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ingres_Venere_Anadiomene.jpg",
+    "paintingLabel": "Vénus Anadyomène",
+    "artistName": "Jean Auguste Dominique Ingres",
+    "movementLabel": "neoclassicism",
+    "date_of_birth": "1780",
+    "date_of_death": "1867",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ingres%2C_Self-portrait.jpg",
+    "width": "92",
+    "height": "163",
+    "inception": "1808",
+    "description": "painting by Jean-Auguste-Dominique Ingres",
+    "abstract": "Venus Anadyomene is a painting by the French painter Jean-Auguste-Dominique Ingres. It is now held at the Musée Condé, Chantilly, France. It is a female nude of the Venus Anadyomene type, showing the goddess Venus rising from the sea.",
+    "motifs": [
+      "mirror",
+      "sea",
+      "hairstyle",
+      "naiad",
+      "caress",
+      "dolphin",
+      "Titian hair",
+      "twilight",
+      "Eros",
+      "bow",
+      "Aphrodite",
+      "contrapposto",
+      "armpit",
+      "mons pubis",
+      "glabrousness",
+      "putto",
+      "Venus",
+      "Cupid",
+      "umbilicus",
+      "long hair",
+      "nudity",
+      "woman"
+    ],
+    "genres": [
+      "full-frontal portrait",
+      "full-length portrait",
+      "nude",
+      "mythological painting"
+    ],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a naked woman surrounded by other people by Jean Auguste Dominique Ingres, reddit, neoclassicism, renaissance painting, masterpiece, fine art, Vénus Anadyomène, mirror, sea, hairstyle, naiad, caress, dolphin, Titian hair, twilight, Eros, bow, Aphrodite, contrapposto, armpit, mons pubis, glabrousness, putto, Venus, Cupid, umb",
+  "result": 1
+}

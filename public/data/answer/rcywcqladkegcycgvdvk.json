@@ -1,0 +1,32 @@
+{
+  "id": "rcywcqladkegcycgvdvk",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Jacques-Louis_David_-_Mars_desarme_par_Venus.JPG",
+    "paintingLabel": "Mars Being Disarmed by Venus",
+    "artistName": "Jacques-Louis David",
+    "movementLabel": "neoclassicism",
+    "date_of_birth": "1748",
+    "date_of_death": "1825",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/David_Self_Portrait.jpg",
+    "width": "265",
+    "height": "308",
+    "inception": "1824",
+    "description": "painting by Jacques-Louis David",
+    "abstract": "Mars Being Disarmed by Venus is the last painting produced by the French artist Jacques-Louis David. He began it in 1822 (aged 73) during his exile in Brussels and completed it three years later, before dying in an accident in 1825. He sent it to an exhibition in Paris from his exile, knowing that by then Romanticism was ascendant in the Salon. In 2007 it was displayed in the main hall of the Royal Museums of Fine Arts of Belgium in Brussels, close to the entrance.  \\nAt over 3 m (10 ft) high it is an imposing work. Set before a temple floating in the clouds, Venus the goddess of love and her followers, the three Graces and Cupid, are shown taking away the weapons, helmet, shield and armour of Mars the god of war. He allows himself to be disarmed and gives in to Venus's charms. Most of David's models for it were figures involved in the Théâtre de la Monnaie: Venus was modelled by the actress Marie Lesueur, Cupid by Lucien Petipa, Mars by a subscriber or 'abonné', and one of the Graces by the Prince of Orange's mistress.",
+    "motifs": [
+      "Mars",
+      "clothed male, naked female",
+      "back",
+      "Venus",
+      "Cupid",
+      "umbilicus",
+      "nudity",
+      "sitting",
+      "woman"
+    ],
+    "genres": ["nude", "mythological painting"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a group of naked people by Élisabeth Vigée Le Brun, cgsociety, neoclassicism, rococo, creative commons attribution, detailed painting, high resolution, 8k, 16k",
+  "result": 0
+}

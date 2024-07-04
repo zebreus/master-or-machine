@@ -1,0 +1,22 @@
+{
+  "id": "nbdxefptldxepbgblsqw",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Paisatge_nocturn_amb_dues_noies_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "paintingLabel": "Nightscape with Two Girls",
+    "artistName": "Joan Brull Vinyoles",
+    "movementLabel": "Art Nouveau",
+    "date_of_birth": "1863",
+    "date_of_death": "1912",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Autoretrat_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "width": "80",
+    "height": "63",
+    "inception": "1900",
+    "country": "Spain",
+    "description": "painting by Joan Brull",
+    "motifs": ["tree", "dress", "Moon", "girl", "woman"],
+    "genres": ["genre art", "landscape art"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of two women in a field, a pastel by Henry Wallis, flickr contest winner, american barbizon school, impressionism, pre-raphaelite, fine art",
+  "result": 1
+}

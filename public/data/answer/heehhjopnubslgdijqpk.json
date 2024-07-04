@@ -1,0 +1,21 @@
+{
+  "id": "heehhjopnubslgdijqpk",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Harbor_at_Lormont_-_Eugene_Louis_Boudin.jpg",
+    "paintingLabel": "Harbor at Lormont",
+    "artistName": "Eugène Boudin",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1824",
+    "date_of_death": "1898",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Boudin-eugene-c-face-half.jpg",
+    "width": "80",
+    "height": "50.8",
+    "inception": "1875",
+    "description": "painting by Eugène Boudin",
+    "motifs": ["harbor", "water", "ship", "Lormont", "sky"],
+    "genres": ["landscape art"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a boat in the water by Anton Mauve, cgsociety, barbizon school, impressionism, dutch golden age, oil on canvas, 1875, 50.8cm x 80cm",
+  "result": 1
+}

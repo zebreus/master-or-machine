@@ -1,0 +1,22 @@
+{
+  "id": "rusvbdxmhriguybbaupq",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Egon_Schiele_069.jpg",
+    "paintingLabel": "Portrait of Wally",
+    "artistName": "Egon Schiele",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1890",
+    "date_of_death": "1918",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/1/14/Egon_Schiele_photo.jpg",
+    "width": "39.8",
+    "height": "32.7",
+    "inception": "1912",
+    "description": "painting by Egon Schiele",
+    "abstract": "Portrait of Wally is a 1912 oil painting by Austrian painter Egon Schiele of Walburga 'Wally' Neuzil, a woman whom he met in 1911 when he was 21 and she was 17. She became his lover and model for several years, depicted in a number of Schiele's most striking paintings. The painting was obtained by Rudolf Leopold in 1954 and became part of the collection of the Leopold Museum when it was established by the Austrian government, purchasing 5,000 pieces that Leopold had owned. Near the end of a 1997–1998 exhibit of Schiele's work at the Museum of Modern Art in New York, the painting's ownership (provenance) history was revealed in an article published in The New York Times. After the publication, the heirs of Lea Bondi Jaray, to whom the work had belonged before World War II, contacted the New York County District Attorney who issued a subpoena forbidding its return to Austria. The work was tied up in litigation for years by Bondi's heirs, who claimed that the painting was Nazi plunder and should have been returned to them.\\nIn July 2010, the Leopold Museum agreed to pay $19 million to Bondi's heirs under an agreement that would address all outstanding claims on the painting.",
+    "motifs": ["Wally Neuzil"],
+    "genres": ["portrait"],
+    "materials": ["oil paint", "wood"]
+  },
+  "prompt": "a painting of a woman with a red hat, a character portrait by Egon Schiele, pinterest, barbizon school, pre-raphaelite, academic art, studio portrait, the background is a dark green color, the woman is wearing a black dress, the woman is holding a white handkerchief, the woman is looking at the viewer, the woman has a sad expression on her face, the woman has long brown hair, the woman is wearing a red hat, the woman is",
+  "result": 1
+}

@@ -1,5 +1,6 @@
 [
   { "id": "impressionism", "name": "Impressionism" },
   { "id": "expressionism", "name": "expressionism" },
-  { "id": "artNouveau", "name": "Art Nouveau" }
+  { "id": "artNouveau", "name": "Art Nouveau" },
+  { "id": "neoclassicism", "name": "neoclassicism" }
 ]

@@ -9,6 +9,7 @@ const movements: Movements = [
   { id: "impressionism", name: "Impressionism" },
   { id: "expressionism", name: "expressionism" },
   { id: "artNouveau", name: "Art Nouveau" },
+  { id: "neoclassicism", name: "neoclassicism" },
 ] satisfies Movements
 
 // Export as default value to avoid a weird bug where json files are sometimes preferred over ts files

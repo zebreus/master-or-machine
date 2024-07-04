@@ -1,0 +1,21 @@
+{
+  "id": "dseudiqmlvmtlxixffbt",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Claude_Monet_-_Waterloo-Br%C3%BCcke_-_1903.jpeg",
+    "paintingLabel": "Waterloo Bridge",
+    "artistName": "Claude Monet",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1840",
+    "date_of_death": "1926",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg",
+    "width": "101",
+    "height": "65.3",
+    "inception": "1903",
+    "description": "painting by Claude Monet, 1903",
+    "motifs": ["Waterloo Bridge"],
+    "genres": ["cityscape"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a foggy sky with boats in the water, an impressionist painting by Blanche Hoschedé Monet, pixiv, impressionism, impressionism, mist, made of mist, oil paint, canvas, 65.3cm, 101cm",
+  "result": 0
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vdchzmbekpibpjxaaoix",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Jacques-Louis_David_-_Equestrian_portrait_of_Stanis%C5%82aw_Kostka_Potocki_-_Google_Art_Project.jpg",
+    "paintingLabel": "Portrait of Count Stanislas Potocki",
+    "artistName": "Jacques-Louis David",
+    "movementLabel": "neoclassicism",
+    "date_of_birth": "1748",
+    "date_of_death": "1825",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/David_Self_Portrait.jpg",
+    "width": "218",
+    "height": "304",
+    "inception": "1780",
+    "description": "painting by Jacques-Louis David",
+    "abstract": "The Portrait of Count Stanislas Potocki is a 1781 equestrian portrait of the Polish patron, politician, writer and Prime Minister of Poland Stanisław Kostka Potocki by the French painter Jacques-Louis David. It was painted in Rome when the artist and subject met during David's stay at the Villa Medici after winning the first prize for painting in the Prix de Rome, and chronologically after his Saint Roch interceding with the Virgin for the Plague-Stricken and before Belisarius begging for alms. Its equestrian format is owed to influences from Rubens.Potocki, the subject of the painting, displayed it at Wilanów Palace, his residence near Warsaw.  Ownership passed to the Branicki family in 1892. During the Second World War it was looted by the German forces, then passed into Soviet Russian hands after the war, before being repatriated to Poland in 1956. It is now on show in the Museum of King John III's Palace at Wilanów.",
+    "motifs": ["horse", "Stanisław Kostka Potocki", "equestrianism"],
+    "genres": ["equestrian portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a man riding a horse, an ultrafine detailed painting by Jacques-Louis David, behance, rococo, rococo, flemish baroque, detailed painting",
+  "result": 1
+}

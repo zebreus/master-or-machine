@@ -1,0 +1,22 @@
+{
+  "id": "ibpqkyxvjurdxnklddsw",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pierre-Auguste_Renoir%27s_%27Paysage_Bords_de_Seine%27%2C_The_Potomack_Company_auction_gallery_in_Alexandria%2C_VA.jpg",
+    "paintingLabel": "On the Shore of the Seine",
+    "artistName": "Pierre-Auguste Renoir",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "width": "23.2",
+    "height": "14",
+    "inception": "1879",
+    "description": "painting by Pierre-Auguste Renoir",
+    "abstract": "Paysage Bords de Seine  (On the Shore of the Seine or Landscape on the Banks of the Seine) is an 1879 oil painting by Pierre-Auguste Renoir. It was stolen in 1951 from the Baltimore Museum of Art and resurfaced in 2012.\\n\\n",
+    "motifs": ["Seine", "sailboat"],
+    "genres": ["landscape art"],
+    "materials": ["oil paint", "linen"]
+  },
+  "prompt": "a painting of a river surrounded by trees, an impressionist painting by William McTaggart, Artstation, impressionism, impressionism, oil on canvas, watercolor, boats, sailboats, sailboat, sails, boat, sailing, sailor, sailors, seaman, seamen, sea, ocean, waves, wave, water, river, rivers, stream, streams, creek, creeks, pond, ponds, lake, lakes, reservoir, reservoirs, estuary, estu",
+  "result": 0
+}

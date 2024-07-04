@@ -1,0 +1,23 @@
+{
+  "id": "apqgpwforturulzrfvhh",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Gerstl_-_Die_Familie_Sch%C3%B6nberg.jpg",
+    "paintingLabel": "Schönberg family",
+    "artistName": "Richard Gerstl",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1883",
+    "date_of_death": "1908",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Gerstl_-_Selbstbildnis.jpg",
+    "width": "88.80",
+    "height": "109.70",
+    "inception": "1907",
+    "country": "Austria",
+    "description": "painting by Richard Gerstl",
+    "abstract": "Schönberg Family is a painting by Richard Gerstl, from 1907.\\n\\n",
+    "motifs": ["family", "Arnold Schoenberg"],
+    "genres": ["family portrait", "group portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a man and two children by Isaac Soyer, featured on dribble, american scene painting, oil on canvas, academic art, studio portrait, oil on canvas, expressionism, Arnold Schoenberg, family, group portrait, family portrait, Austria, 1907, Richard Gerstl, Schönberg family, 109.70cm, 88.80cm, oil paint, canvas",
+  "result": 0
+}

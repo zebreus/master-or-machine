@@ -1,0 +1,22 @@
+{
+  "id": "jlmplrldbhibfqwdyrog",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Portrait_of_Richard_Gallo%2C_Gustave_Caillebotte%2C_1881_-_Nelson-Atkins_Museum_of_Art_-_DSC08993.JPG",
+    "paintingLabel": "Portrait of Richard Gallo",
+    "artistName": "Gustave Caillebotte",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1848",
+    "date_of_death": "1894",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Caillebotteautoportrait.jpg",
+    "width": "116.52",
+    "height": "97.16",
+    "inception": "1881",
+    "description": "painting by Gustave Caillebotte",
+    "abstract": "The Portrait of Richard Gallo is an oil on canvas painting by French painter Gustave Caillebotte in the Nelson-Atkins Museum of Art. The painting measures 97 × 116 cm. and dates from 1881, and is part of a series of seven portraits of Richard Gallo, one of the best childhood friends of the artist, composed between 1878 and 1884.\\n'This series demonstrates with great artistic coherence how personal contribution of the artist to express an impressionistic point of view on the modern world'.",
+    "motifs": ["Le Figaro", "Richard Gallo", "couch"],
+    "genres": ["portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a man sitting on a couch, a detailed painting by Gustave Caillebotte, pixiv contest winner, art informel, fauvism, impressionism, maximalist, 8k, trending on artstation",
+  "result": 1
+}

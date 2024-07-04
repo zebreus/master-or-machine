@@ -10,11 +10,16 @@ const expressionism: Expressionism = {
   id: "expressionism",
   name: "expressionism",
   questions: [
-    "qoglsxjhxrvfvvszbjoe",
-    "xnwnafnpaleegeiuqtcl",
-    "osxqvtgoteuguklojkdk",
-    "dpxfxcerqtifouimiflq",
-    "jyqijyscmeoxoritxdyv",
+    "qglfbwvpwognpxhgqvpb",
+    "apqgpwforturulzrfvhh",
+    "efuezxnfhkxatrwjlott",
+    "yljdzntxgcrdtgjpwgqb",
+    "zwoxtbqeoqujcurbrbvl",
+    "bfkpcofttsvajefidepa",
+    "rusvbdxmhriguybbaupq",
+    "ldcsdylorsoygeqlcwhe",
+    "kkqfqnwyjgxwibveborj",
+    "rprdmdscgqdeyhzwbrqk",
   ],
 } satisfies Expressionism
 

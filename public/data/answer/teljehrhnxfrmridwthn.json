@@ -1,0 +1,21 @@
+{
+  "id": "teljehrhnxfrmridwthn",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Van_Gogh_-_Stillleben_mit_Skabiosen_und_Ranunkeln.jpeg",
+    "paintingLabel": "Still Life with Scabiosa and Ranunculus",
+    "artistName": "Vincent van Gogh",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1853",
+    "date_of_death": "1890",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Vincent_van_Gogh_-_Self-portrait_with_grey_felt_hat_-_Google_Art_Project.jpg",
+    "width": "20",
+    "height": "26",
+    "inception": "1886",
+    "description": "painting by Vincent van Gogh",
+    "motifs": ["Scabiosa", "Ranunculus"],
+    "genres": ["floral painting"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a bunch of flowers in a vase, a flemish Baroque by Matthijs Maris, pixiv, pre-raphaelitism, wimmelbilder, fresco, high detail, 26cm x 20cm, oil paint, canvas",
+  "result": 0
+}

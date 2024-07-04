@@ -1,0 +1,19 @@
+{
+  "id": "onucluqthrigsulxjosa",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/BMVB_-_Manuel_Cus%C3%AD_Ferret_-_Retrat_de_Mag%C3%AD_Pers_i_Ramona_-_8597.jpg",
+    "paintingLabel": "Portrait of Magin Pers Y Ramona",
+    "artistName": "Manuel Cusí i Ferret",
+    "movementLabel": "Art Nouveau",
+    "date_of_birth": "1857",
+    "date_of_death": "1919",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ramon_Casas_-_MNAC-_Manuel_Cus%C3%AD-_027275-D_006427.jpg",
+    "inception": "1875",
+    "description": "painting by Manuel Cusí Ferret",
+    "motifs": ["Magí Pers i Ramona", "laurel wreath"],
+    "genres": ["portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a portrait of a man with a beard, a character portrait by Dionisio Baixeras Verdaguer, cgsociety, rayonism, fresco, detailed painting, oil on canvas, Magí Pers i Ramona, laurel wreath",
+  "result": 1
+}

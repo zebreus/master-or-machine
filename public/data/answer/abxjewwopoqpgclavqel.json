@@ -1,0 +1,22 @@
+{
+  "id": "abxjewwopoqpgclavqel",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Retrat_de_la_nena_Ros%C3%B3_Gali%C3%A0_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "paintingLabel": "Portrait of the Girl Rosó Galia",
+    "artistName": "Joan Brull Vinyoles",
+    "movementLabel": "Art Nouveau",
+    "date_of_birth": "1863",
+    "date_of_death": "1912",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Autoretrat_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "width": "30",
+    "height": "37",
+    "inception": "1896",
+    "country": "Spain",
+    "description": "painting by Joan Brull",
+    "motifs": ["girl"],
+    "genres": ["portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a young girl with red hair by Helene Schjerfbeck, pixiv, american barbizon school, impressionism, oil on canvas, studio portrait, 1896, Spain, 37cm, 30cm, Art Nouveau",
+  "result": 0
+}

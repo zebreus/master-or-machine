@@ -1,0 +1,21 @@
+{
+  "id": "nupfqnmyicweeqraaiys",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Rosalia_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "paintingLabel": "Rosalia",
+    "artistName": "Joan Brull Vinyoles",
+    "movementLabel": "Art Nouveau",
+    "date_of_birth": "1863",
+    "date_of_death": "1912",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Autoretrat_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "width": "38",
+    "height": "46",
+    "inception": "1894",
+    "description": "painting by Joan Brull",
+    "motifs": ["girl"],
+    "genres": ["portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of a woman wearing a bow tie by Hubert von Herkomer, cgsociety, american barbizon school, oil on canvas, studio portrait, chiaroscuro, painted in 1894",
+  "result": 1
+}

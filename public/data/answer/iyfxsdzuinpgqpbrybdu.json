@@ -1,0 +1,21 @@
+{
+  "id": "iyfxsdzuinpgqpbrybdu",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Josep_Armet_Portanell-_Paisatge_catal%C3%A0-_3820.JPG",
+    "paintingLabel": "Catalan Landscape",
+    "artistName": "José Armet Portanell",
+    "movementLabel": "Art Nouveau",
+    "date_of_birth": "1843",
+    "date_of_death": "1911",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Armet_Portanell.jpg",
+    "width": "1165",
+    "height": "775",
+    "inception": "1884",
+    "description": "painting by Josep Armet Portanell",
+    "motifs": ["horse", "building", "stream", "poplar", "farmer", "woman"],
+    "genres": ["landscape art"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "a painting of people and animals in a wooded area, a detailed matte painting by Asher Brown Durand, cgsociety, hudson river school, matte painting, matte drawing, detailed painting, Catalan Landscape, José Armet Portanell, Art Nouveau, 1884, oil paint, canvas, landscape art",
+  "result": 1
+}
