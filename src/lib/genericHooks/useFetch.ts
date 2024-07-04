@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
-export const useFetch = (url: string) => {
-  const [result, setResult] = useState<string>()
+export const useFetch = (url: string, defaultValue?: string) => {
+  const [result, setResult] = useState<{ url: string; content: string }>()
 
   useEffect(() => {
     const asyncFn = async () => {
@@ -15,11 +15,15 @@ export const useFetch = (url: string) => {
         setResult(undefined)
         return
       }
-      const result = await response.text()
-      setResult(result)
+      const content = await response.text()
+      setResult({ url, content })
     }
     asyncFn()
   }, [url])
 
-  return result
+  const contentOrDefault = useMemo(() => {
+    return url === result?.url ? result?.content : defaultValue
+  }, [url, result])
+
+  return contentOrDefault
 }

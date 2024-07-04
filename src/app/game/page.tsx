@@ -78,9 +78,6 @@ export default function Component() {
   if (questionIds && questionIds.length === 0)
     return <div className="text-5xl text-white">No Artworks found</div>
 
-  // TODO: loading animation
-  if (!question || !answer) return <div>Loading</div>
-
   return (
     <>
       <Header
@@ -105,49 +102,57 @@ export default function Component() {
 
               <div className="grid grid-cols-2 gap-16 w-full mb-8">
                 <div
-                  className="cursor-pointer relative h-96 w-full"
+                  className="cursor-pointer relative w-full"
                   onClick={() =>
                     setGameState({ state: GameState.RESULT, selected: 0 })
                   }
                 >
-                  <Image
-                    style={{
-                      borderRadius: "10px",
-                    }}
-                    src={question.image1}
-                    alt="Image to identify"
-                    className="object-cover"
-                    fill
-                    priority
-                  />
+                  {question ? (
+                    <img
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                      src={question.image1}
+                      alt="Image to identify"
+                      className="object-cover"
+                      fetchPriority="high"
+                      decoding="async"
+                    />
+                  ) : (
+                    <span className="loader"></span>
+                  )}
                 </div>
 
                 <div
-                  className="cursor-pointer relative h-96 w-full"
+                  className="cursor-pointer relative w-full"
                   onClick={() =>
                     setGameState({ state: GameState.RESULT, selected: 1 })
                   }
                 >
-                  <Image
-                    style={{
-                      borderRadius: "10px",
-                    }}
-                    src={question.image2}
-                    alt="Image to identify"
-                    className="object-cover"
-                    fill
-                    priority
-                  />
+                  {question ? (
+                    <img
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                      src={question.image2}
+                      alt="Image to identify"
+                      className="object-cover"
+                      fetchPriority="high"
+                      decoding="async"
+                    />
+                  ) : (
+                    <span className="loader"></span>
+                  )}
                 </div>
               </div>
 
               <article className="z-10 text-center text-white w-[75%] p-8">
-                &quot;{question.description}&quot;
+                {question ? <>&quot;{question.description}&quot;</> : null}
               </article>
             </>
           )}
 
-          {gameState.state === GameState.RESULT && (
+          {gameState.state === GameState.RESULT && answer && (
             <div className="z-10 flex flex-col items-center w-full">
               {gameState.selected === answer.result && (
                 <div>
@@ -175,24 +180,26 @@ export default function Component() {
 
               <div className="grid grid-cols-2 gap-16 w-full mb-8">
                 <div
-                  className={classNames("cursor-pointer relative h-96 w-full", {
+                  className={classNames("cursor-pointer relative w-full", {
                     "order-2": gameState.selected === 1,
                   })}
                 >
-                  <Image
-                    style={{
-                      borderRadius: "10px",
-                    }}
-                    src={
-                      gameState.selected === 0
-                        ? question.image1
-                        : question.image2
-                    }
-                    alt="Selected image"
-                    className="object-cover"
-                    fill
-                    sizes="32rem"
-                  />
+                  {question ? (
+                    <img
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                      src={
+                        gameState.selected === 0
+                          ? question.image1
+                          : question.image2
+                      }
+                      alt="Selected image"
+                      className="object-cover"
+                      fetchPriority="high"
+                      decoding="async"
+                    />
+                  ) : undefined}
                 </div>
 
                 <div
@@ -297,6 +304,45 @@ export default function Component() {
           )}
         </div>
       </main>
+
+      <style jsx>{`
+        .loader {
+          width: 48px;
+          height: 48px;
+          display: block;
+          position: absolute;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          top: 50%;
+        }
+        .loader::after,
+        .loader::before {
+          content: "";
+          box-sizing: border-box;
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          border: 2px solid #fff;
+          position: absolute;
+          left: 0;
+          top: 0;
+          animation: animloader 2s linear infinite;
+        }
+        .loader::after {
+          animation-delay: 1s;
+        }
+
+        @keyframes animloader {
+          0% {
+            transform: scale(0);
+            opacity: 1;
+          }
+          100% {
+            transform: scale(1);
+            opacity: 0;
+          }
+        }
+      `}</style>
     </>
   )
 }
