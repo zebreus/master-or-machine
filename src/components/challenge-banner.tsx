@@ -1,38 +1,38 @@
 "use client"
 
-import { useRouter } from "../../node_modules/next/navigation"
-import { useState } from "react"
 import { Button } from "./button"
 
-interface IProps {
-  bannerText: string
+interface ChallengeBannerProps {
+  movement: string
+  label: string
+  exampleArtworkUrl: string
 }
 
-export const ChallengeBanner = ({ bannerText }: IProps) => {
-  const router = useRouter()
-  const [hover, setHover] = useState(false)
-
+export const ChallengeBanner = ({
+  movement,
+  label,
+  exampleArtworkUrl,
+}: ChallengeBannerProps) => {
   return (
-    <div
-      className="cursor-pointer flex justify-center items-center rounded-xl h-72 w-full bg-cover"
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      onClick={() => router.push("./game-settings")}
-      style={{
-        backgroundImage: `url("placeholder-artwork.jpeg")`,
-      }}
+    <a
+      href={`./game?${new URLSearchParams([
+        ["rounds", "10"],
+        ["movements", movement],
+      ])}`}
     >
-      {!hover && (
-        <div className="flex text-3xl text-white justify-center items-center h-16 w-full bg-accentGreen">
-          {bannerText}
+      <div
+        className="cursor-pointer flex justify-center items-center rounded-xl h-72 w-full bg-cover group"
+        style={{
+          backgroundImage: `url("${exampleArtworkUrl}")`,
+        }}
+      >
+        <div className="flex text-3xl text-white justify-center items-center h-16 w-full bg-accentGreen group-hover:hidden">
+          <span>{label}</span>
         </div>
-      )}
-
-      {hover && (
-        <div className="flex text-3xl text-white justify-center items-center">
+        <div className="flex text-3xl text-white justify-center items-center hidden group-hover:block ">
           <Button buttonText="Play"></Button>
         </div>
-      )}
-    </div>
+      </div>
+    </a>
   )
 }

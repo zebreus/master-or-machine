@@ -5,6 +5,8 @@ interface ButtonProps {
   color?: string
   size?: string
   clicked?: () => void
+  disabled?: boolean | undefined
+  className?: string
 }
 
 export const Button = ({
@@ -12,15 +14,19 @@ export const Button = ({
   color = "green",
   size = "regular",
   clicked,
+  disabled,
+  className = "",
 }: ButtonProps) => {
   return (
     <button
       onClick={() => {
         clicked ? clicked() : {}
       }}
+      disabled={disabled}
       type="button"
       className={classNames(
-        "flex justify-center items-center rounded-xl h-fit py-2 px-4 text-white",
+        "flex justify-center items-center rounded-xl h-fit py-2 px-4 text-white disabled:bg-slate-700 disabled:text-slate-400 ",
+        className,
         {
           "bg-accentGreen": color === "green",
           "bg-darkBg": color === "dark",
