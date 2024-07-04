@@ -10,7 +10,12 @@ export const useImport = <ExpectedType>(path: string) => {
         return
       }
       try {
-        const response = await import(path)
+        const response = (
+          await import(
+            /* webpackIgnore: true */
+            path
+          )
+        ).default
         if (!response) {
           console.error("Failed to import ", path)
           setResult(undefined)

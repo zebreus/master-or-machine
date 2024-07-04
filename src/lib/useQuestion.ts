@@ -2,9 +2,9 @@ import { Ahgohebhbilyngcklepl as Question } from "../../public/data/question/ahg
 import { useTypedFetch } from "./genericHooks/useTypedFetch"
 
 /** Use a specific question. Use useQuestions to get a list of all questions */
-export const useQuestions = (question: string) => {
+export const useQuestion = (question: string | undefined) => {
   const questions = useTypedFetch<Question>(
-    question && `/data/question/${question}.json`,
+    question ? `/data/question/${question}.json` : "",
   )
   return questions
 }

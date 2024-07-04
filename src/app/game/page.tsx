@@ -9,6 +9,9 @@ import { Button } from "@/components/button"
 import { useSearchParams } from "next/navigation"
 import { Answer, Question } from "../../../scripts/generateQuestions"
 import classNames from "../../../node_modules/classnames/index"
+import { useMovement } from "@/lib/useMovement"
+import { useQuestion } from "@/lib/useQuestion"
+import { useAnswer } from "@/lib/useAnswer"
 
 enum GameState {
   ROUND = "round",
@@ -51,22 +54,11 @@ export default function Component() {
     const movementParams = searchParams.get("movements")
     const movements: string[] = movementParams ? movementParams.split(",") : []
     if (movements.length === 0) {
-      return ["Impressionism"]
+      return ["impressionism"]
     }
     return movements
   }, [searchParams])
-  const numRounds = Number.parseInt(searchParams.get("rounds") || "10")
-
-  // TODO: integrate properly, just for testing
-  // const questions = shuffle(questionsTest).slice(0, numRounds)
-  // const answerIds = questions.map((question) => question.id)
-  // const answers = []
-  // for (const id of answerIds) {
-  //   answers.push(answersTest[id])
-  // }
-
-  //console.log(questions)
-  //console.log(answers)
+  const roundsFromUrl = Number.parseInt(searchParams.get("rounds") || "10")
 
   const [round, setRound] = useState(1)
   const [gameState, setGameState] = useState<{
@@ -74,57 +66,26 @@ export default function Component() {
     selected: number
   }>({ state: GameState.ROUND, selected: -1 })
   // TODO: integrate properly, just for testing
-  const [artworks, setArtworks] = useState<Question[] | undefined>(undefined)
-  const [results, setResults] = useState<Answer[] | undefined>(undefined)
+  const movement = useMovement(movements[0])
+  const questionIds = movement?.questions.slice(0, roundsFromUrl)
+  const questionId = questionIds?.[round - 1]
 
-  useEffect(() => {
-    ;(async () => {
-      // TODO: handle error, if movements do not exist (currenty just takes movements from URL)
-      /*const artworkPromises = movements.map(
-        (movement) =>
-          import(`../../../scripts/data/by-movement/${camelCase(movement)}`),
-      )
-      const artworks = (await Promise.all(artworkPromises)).flatMap(
-        (module) => module.default,
-      )
-      await setArtworks(shuffle(artworks).slice(0, numRounds))*/
-      const possibleQuestions = []
-      for (const movement of movements) {
-        const json = (
-          await import(`../../../scripts/data/movement/${movement}`)
-        ).default
-        possibleQuestions.push(...json.questions)
-      }
-      const questionIds = shuffle(possibleQuestions).slice(0, numRounds)
-      const questions = []
-      const answers = []
-      for (const id of questionIds) {
-        const questionJson = (
-          await import(`../../../scripts/data/question/${id}`)
-        ).default
-        const answerJson = (await import(`../../../scripts/data/answer/${id}`))
-          .default
-        questions.push(questionJson)
-        answers.push(answerJson)
-      }
-      await setArtworks(questions)
-      await setResults(answers)
-    })()
-  }, [movements, numRounds])
-
-  // TODO: loading animation
-  if (!artworks || !results) return <div>Loading</div>
+  const question = useQuestion(questionId)
+  const answer = useAnswer(questionId)
 
   // TODO: handle error
-  if (artworks.length === 0 || results.length === 0)
+  if (questionIds && questionIds.length === 0)
     return <div className="text-5xl text-white">No Artworks found</div>
+
+  // TODO: loading animation
+  if (!question || !answer) return <div>Loading</div>
 
   return (
     <>
       <Header
         currentTab={Tab.GAME}
         round={round}
-        roundsTotal={numRounds}
+        roundsTotal={roundsFromUrl}
       ></Header>
 
       <main className="flex max-w-5xl mx-auto">
@@ -152,7 +113,7 @@ export default function Component() {
                     style={{
                       borderRadius: "10px",
                     }}
-                    src={artworks[round - 1].image1}
+                    src={question.image1}
                     alt="Image to identify"
                     layout="fill"
                     objectFit="cover"
@@ -171,7 +132,7 @@ export default function Component() {
                     style={{
                       borderRadius: "10px",
                     }}
-                    src={artworks[round - 1].image2}
+                    src={question.image2}
                     alt="Image to identify"
                     layout="fill"
                     objectFit="cover"
@@ -180,27 +141,26 @@ export default function Component() {
               </div>
 
               <article className="z-10 text-center text-white w-[75%] p-8">
-                &quot;{artworks[round - 1].description}&quot;
+                &quot;{question.description}&quot;
               </article>
             </>
           )}
 
           {gameState.state === GameState.RESULT && (
             <div className="z-10 flex flex-col items-center w-full">
-              {gameState.selected === results[round - 1].result && (
+              {gameState.selected === answer.result && (
                 <div>
                   <h1 className="font-semibold text-center text-2xl text-white mb-4">
                     You are correct!
                   </h1>
 
                   <article className="text-slate-300 text-center mb-8">
-                    This is a painting by{" "}
-                    {results[round - 1].artwork.artistName}
+                    This is a painting by {answer.artwork.artistName}
                   </article>
                 </div>
               )}
 
-              {gameState.selected !== results[round - 1].result && (
+              {gameState.selected !== answer.result && (
                 <div>
                   <h1 className="font-semibold text-center text-2xl text-white mb-4">
                     Sorry! You&apos;ve been fooled!
@@ -224,8 +184,8 @@ export default function Component() {
                     }}
                     src={
                       gameState.selected === 0
-                        ? artworks[round - 1].image1
-                        : artworks[round - 1].image2
+                        ? question.image1
+                        : question.image2
                     }
                     alt="Selected image"
                     layout="fill"
@@ -247,16 +207,16 @@ export default function Component() {
                       },
                     )}
                   >
-                    {gameState.selected === results[round - 1].result && (
+                    {gameState.selected === answer.result && (
                       <div>
-                        {results[round - 1].artwork.image_of_artist && (
+                        {answer.artwork.image_of_artist && (
                           <div className="relative h-40 w-32 mb-2">
                             <Image
                               style={{
                                 borderRadius: "10px",
                               }}
                               src={
-                                results[round - 1].artwork.image_of_artist ||
+                                answer.artwork.image_of_artist ||
                                 "/placeholder.svg"
                               }
                               alt="Image to identify"
@@ -271,26 +231,26 @@ export default function Component() {
                             <p className="font-semibold text-slate-300">
                               Artist:
                             </p>
-                            {results[round - 1].artwork.artistName}
+                            {answer.artwork.artistName}
                           </div>
                           <div>
                             <p className="font-semibold text-slate-300">
                               Painting:
                             </p>
-                            &quot;{results[round - 1].artwork.paintingLabel}
+                            &quot;{answer.artwork.paintingLabel}
                             &quot;
                           </div>
                           <div>
                             <p className="font-semibold text-slate-300">
                               Movement:
                             </p>
-                            {results[round - 1].artwork.movementLabel}
+                            {answer.artwork.movementLabel}
                           </div>
                         </div>
                       </div>
                     )}
 
-                    {gameState.selected !== results[round - 1].result && (
+                    {gameState.selected !== answer.result && (
                       <div>
                         <div className="relative h-40 w-32 mb-2">
                           <Image
@@ -312,7 +272,7 @@ export default function Component() {
                             <p className="font-semibold text-slate-300">
                               Prompt:
                             </p>
-                            &quot;{results[round - 1].prompt}
+                            &quot;{answer.prompt}
                             &quot;
                           </div>
                         </div>
@@ -322,7 +282,7 @@ export default function Component() {
                 </div>
               </div>
 
-              {round < numRounds && (
+              {round < roundsFromUrl && (
                 <div
                   onClick={() => {
                     setGameState({ state: GameState.ROUND, selected: -1 }),
