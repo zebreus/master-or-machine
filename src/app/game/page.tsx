@@ -7,6 +7,7 @@ import { Tab } from "@/types/Tab"
 
 import { Button } from "@/components/button"
 import { useSearchParams } from "next/navigation"
+import Link from "next/link"
 import { Answer, Question } from "../../../scripts/generateQuestions"
 import classNames from "../../../node_modules/classnames/index"
 import { useMovement } from "@/lib/useMovement"
@@ -305,6 +306,11 @@ export default function Component() {
                 >
                   <Button buttonText="Next" color="dark"></Button>
                 </div>
+              )}
+              {round == roundsFromUrl && (
+                <Link href="/game-settings">
+                  <Button buttonText="New Game" size="big"></Button>
+                </Link>
               )}
             </div>
           )}

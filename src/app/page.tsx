@@ -2,9 +2,7 @@
 
 import { ChallengeBanner } from "@/components/challenge-banner"
 import { Header } from "@/components/header"
-import { useMovements } from "@/lib/useMovements"
 import { Tab } from "@/types/Tab"
-import { useMemo } from "react"
 
 export default function Component() {
   return (
@@ -20,17 +18,22 @@ export default function Component() {
           <ChallengeBanner
             movement="impressionism"
             label="Impressionism"
-            exampleArtworkUrl="placeholder-artwork.jpeg"
+            exampleArtworkUrl="impressionism-banner.jpeg"
           ></ChallengeBanner>
           <ChallengeBanner
             movement="expressionism"
             label="Expressionism"
-            exampleArtworkUrl="placeholder-artwork.jpeg"
+            exampleArtworkUrl="expressionism-banner.jpeg"
           ></ChallengeBanner>
           <ChallengeBanner
             movement="artNouveau"
             label="Art Nouveau"
-            exampleArtworkUrl="placeholder-artwork.jpeg"
+            exampleArtworkUrl="art-nouveau-banner.jpeg"
+          ></ChallengeBanner>
+          <ChallengeBanner
+            movement="neoclassicism"
+            label="Neoclassicism"
+            exampleArtworkUrl="neoclassicism-banner.jpeg"
           ></ChallengeBanner>
         </div>
       </main>
