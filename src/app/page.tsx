@@ -10,9 +10,14 @@ export default function Component() {
       <Header currentTab={Tab.HOME}></Header>
 
       <main className="flex flex-col max-w-5xl mx-auto">
-        <h1 className="text-xl text-accentGreen mb-8">
-          Most popular challenges
+        <h1 className="text-xl text-accentGreen mb-2">
+          2024 original: made with Stable Diffusion
         </h1>
+        <p className="text-slate-300 mb-8">
+          The original challenges. An image captioning model and Llama 3 wrote a
+          prompt for each painting, and Stable Diffusion XL painted the AI image
+          from that prompt.
+        </p>
 
         <div className="grid grid-cols-2 gap-12 w-full">
           <ChallengeBanner
