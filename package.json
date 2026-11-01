@@ -10,7 +10,8 @@
     "data": "tsx scripts/extractArtworks.ts",
     "artwork_by_movement": "tsx scripts/extractFeaturesByMovement",
     "movements": "tsx scripts/extractAllMovements",
-    "batch-llama-call": "tsx scripts/LocalLlamaBatchCall"
+    "batch-llama-call": "tsx scripts/LocalLlamaBatchCall",
+    "import-manual-challenges": "tsx scripts/importManualChallenges.ts"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",

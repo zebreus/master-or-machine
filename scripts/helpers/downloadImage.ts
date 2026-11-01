@@ -58,17 +58,23 @@ export const downloadImage = async (
   url: string,
   filestem: string,
 ): Promise<string> => {
-  const directoryPath = `${module.path}/../../public/images`
-  await mkdir(directoryPath, { recursive: true })
-
   const image = await fetch(url)
 
   if (image.status !== 200) {
     throw new Error("❌ Failed to download image " + url)
   }
-  const buffer = await image.arrayBuffer()
+  return saveImage(await image.arrayBuffer(), filestem, url.split(".").pop())
+}
 
-  const extension = url.split(".").pop()
+/** Store the raw image and a square 512px webp version in public/images */
+export const saveImage = async (
+  buffer: ArrayBuffer | Buffer,
+  filestem: string,
+  extension: string | undefined,
+): Promise<string> => {
+  const directoryPath = `${module.path}/../../public/images`
+  await mkdir(directoryPath, { recursive: true })
+
   const rawFilename = `${filestem}_raw.${extension}`
   const rawFilepath = `${directoryPath}/${rawFilename}`
   const sharpFilename = `${filestem}.webp`
@@ -78,7 +84,7 @@ export const downloadImage = async (
   const metadata = await sharp(buffer, { limitInputPixels: false }).metadata()
   const { width, height } = metadata
   if (!width || !height) {
-    throw new Error(`Failed to read image metadata for ${filestem} from ${url}`)
+    throw new Error(`Failed to read image metadata for ${filestem}`)
   }
   // Calculate the size of the square crop
   // Subtract 10% to remove any borders the original image might have

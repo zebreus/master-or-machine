@@ -5,7 +5,14 @@ import { writeDataFile } from "./helpers/writeDataFile"
 import { camelCase } from "./helpers/camelCase"
 import { downloadImage } from "./helpers/downloadImage"
 import { getArtworksByMovement } from "./getNumOfRandomArtworksByMovement"
-import { Artwork, artworkSchema } from "./artwork"
+import { Artwork } from "./artwork"
+import { randomString } from "./helpers/randomString"
+import {
+  answerSchema,
+  movementSchema,
+  movementsSchema,
+  questionSchema,
+} from "./schemas"
 
 const getEligibleArtworks = async () => {
   //const artworks = await getArtworksForAMovement("Cubism")
@@ -32,32 +39,6 @@ export type Answer = {
   artwork: Artwork
   prompt: string
   result: number // 0 | 1
-}
-
-const questionSchema = z.object({
-  id: z.string(),
-  image1: z.string(),
-  image2: z.string(),
-  description: z.string(),
-})
-
-const answerSchema = z.object({
-  id: z.string(),
-  artwork: artworkSchema,
-  prompt: z.string(),
-  result: z.number(),
-})
-
-const movementSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  questions: z.array(z.string()),
-})
-
-const randomString = (length: number) => {
-  return [...Array(length)]
-    .map(() => String.fromCodePoint(Math.round(97 + Math.random() * 25)))
-    .join("")
 }
 
 export const processPromisesBatch = async <In, Out>(
@@ -158,12 +139,7 @@ const generateQuestions = async () => {
       id: movement.id,
       name: movement.name,
     })),
-    z.array(
-      z.object({
-        id: z.string(),
-        name: z.string(),
-      }),
-    ),
+    movementsSchema,
   )
 }
 
