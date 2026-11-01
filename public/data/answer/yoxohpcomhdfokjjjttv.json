@@ -1,0 +1,22 @@
+{
+  "id": "yoxohpcomhdfokjjjttv",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Retrat_de_la_filla_de_l%27artista_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "paintingLabel": "Portrait of the artist's daughter",
+    "artistName": "Joan Brull Vinyoles",
+    "movementLabel": "Art Nouveau",
+    "date_of_birth": "1863",
+    "date_of_death": "1912",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Autoretrat_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "width": "377",
+    "height": "58",
+    "inception": "1900",
+    "country": "Spain",
+    "description": "painting by Joan Brull",
+    "motifs": ["doll", "girl"],
+    "genres": ["portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "Reproduce a square image matching a vertical oil portrait on canvas of a young girl seated against a dark brown-black background. She faces front with large dark eyes, a pale rounded face, and straight medium-brown hair with bangs falling to the shoulders. She wears a loose grey dress with soft folds and holds a pale doll across her lap; the doll’s head or bonnet glows with warm yellow-orange highlights at the right side. Her small hands, tinted pink, clasp the doll. Use soft, hazy brushwork with limited detail, a subdued tonal range, worn edges, visible canvas texture, and a slightly cloudy aged varnish. Include the signature near the lower right area.",
+  "result": 0
+}

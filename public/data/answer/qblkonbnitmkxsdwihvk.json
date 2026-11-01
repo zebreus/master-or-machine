@@ -1,0 +1,21 @@
+{
+  "id": "qblkonbnitmkxsdwihvk",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Franz_Marc_-_Akt_mit_Katze_-_G_12762_-_Lenbachhaus.jpg",
+    "paintingLabel": "nude with Cat",
+    "artistName": "Franz Marc",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1880",
+    "date_of_death": "1916",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/1/1c/FranzMarccropped.jpg",
+    "width": "82",
+    "height": "88",
+    "inception": "1910",
+    "description": "Franz Marc painting",
+    "motifs": ["house cat", "woman"],
+    "genres": ["nude"],
+    "materials": ["color", "canvas"]
+  },
+  "prompt": "Reproduce an early 1910s European Expressionist oil painting on canvas, nearly square composition. A pale, nude red-haired woman crouches compactly on a striped blanket, viewed slightly from above, her broad back and rounded left hip dominating the picture. Her head bends downward toward a tiny yellow-and-white cat curled on a white saucer at lower right. One hand reaches across her ankles toward the saucer, the other gently touches the cat. Her knees are tightly folded, bare feet visible below. Use creamy ivory flesh with coral-red outlines, mint-green shadows, orange hair, turquoise, violet, lemon-yellow and emerald-green surroundings. Loose chalky brushwork, exposed canvas weave, worn matte pigments, subtle aging.",
+  "result": 1
+}

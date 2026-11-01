@@ -1,0 +1,18 @@
+{
+  "id": "hyivapdttjqounemvict",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Retrat_de_noia_-_Joan_Brull%2C_Museu_Abell%C3%B3_1662.png",
+    "paintingLabel": "Portrait of girl",
+    "artistName": "Joan Brull Vinyoles",
+    "movementLabel": "Art Nouveau",
+    "date_of_birth": "1863",
+    "date_of_death": "1912",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Autoretrat_-_Joan_Brull_i_Vinyoles_%281863-1912%29.jpg",
+    "description": "painting by Joan Brull",
+    "motifs": ["woman"],
+    "genres": ["portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "Create a faithful square reproduction of a late-19th-century oil on canvas portrait, preserving a vertical composition centered in the square. Show the head and upper torso of a young girl emerging from an unfinished pale garment. Her dark hair is loosely gathered back; her head tilts slightly to her right while she looks outward with large grey-brown eyes and small red lips. The face is softly modeled with peach and pink tones against a muted olive-grey and cream background. Leave the lower portion sketchy and unresolved, with thin underdrawing at right. Use delicate, powdery brushwork, visible canvas weave, subdued light, and a slightly aged varnished surface.",
+  "result": 1
+}

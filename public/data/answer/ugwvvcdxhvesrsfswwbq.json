@@ -1,0 +1,21 @@
+{
+  "id": "ugwvvcdxhvesrsfswwbq",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ernst_Ludwig_Kirchner%2C_1913%2C_Street%2C_Berlin%2C_oil_on_canvas%2C_120.6_x_91.1_cm%2C_MoMA.jpg",
+    "paintingLabel": "Street Berlin",
+    "artistName": "Ernst Ludwig Kirchner",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1880",
+    "date_of_death": "1938",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Kirchner_1919_portrait.jpg",
+    "width": "91.1",
+    "height": "120.6",
+    "inception": "1913",
+    "description": "painting by Ernst Ludwig Kirchner",
+    "motifs": [],
+    "genres": [],
+    "materials": []
+  },
+  "prompt": "Paint \"Street, Berlin\" by Ernst Ludwig Kirchner (1913) from memory, as faithfully to the original as you can: the same composition, colors and brushwork. Do not search the web. Square image.",
+  "result": 0
+}

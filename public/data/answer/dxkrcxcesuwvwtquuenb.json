@@ -1,0 +1,22 @@
+{
+  "id": "dxkrcxcesuwvwtquuenb",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Londres_tate_modern_kirchner_baigneurs.jpg",
+    "paintingLabel": "Bathers at Moritzburg",
+    "artistName": "Ernst Ludwig Kirchner",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1880",
+    "date_of_death": "1938",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Kirchner_1919_portrait.jpg",
+    "width": "199.7",
+    "height": "151.1",
+    "inception": "1926",
+    "country": "United Kingdom",
+    "description": "painting by Ernst Ludwig Kirchner",
+    "motifs": ["Moritzburg"],
+    "genres": ["nude"],
+    "materials": ["oil paint"]
+  },
+  "prompt": "Recreate a German Expressionist bathing scene in oil, a crowded horizontal woodland-and-lake composition adapted to square format without isolating any figure. Around thirteen nude bathers occupy a grassy bank beside intensely cobalt-blue water. Foreground left: three seated women with green-yellow skin and dark reddish hair. Foreground right: a reclining figure with knees raised and another lying face-down beside a white cloth. Midground center: a reclining bather, standing orange-gold figures, and a swimmer in blue water. Dark pine-green woods fill the top, with a sweeping branch carrying acid-yellow foliage. Bodies are angular, simplified and outlined reddish brown, painted in unnatural citron, ochre, lime and orange. Broad unblended strokes, canvas texture, thin scratches, old varnish, no photographic modeling.",
+  "result": 1
+}

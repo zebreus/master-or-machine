@@ -1,0 +1,21 @@
+{
+  "id": "jgpjoqcxwhlekvkubdcb",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Temp%C3%AAte%2C_c%C3%B4tes_de_Belle-%C3%8Ele_-_Claude.jpg",
+    "paintingLabel": "Tempête, côtes de Belle-Ile",
+    "artistName": "Claude Monet",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1840",
+    "date_of_death": "1926",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg",
+    "width": "81.5",
+    "height": "65.4",
+    "inception": "1886",
+    "description": "painting by Claude Monet, 1886",
+    "motifs": ["littoral zone", "landscape", "Belle Île", "storm", "wind wave"],
+    "genres": ["marine art", "landscape art"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "Create a square image that reproduces a late-19th-century Impressionist oil painting of a stormy seascape. Show foaming surf filling almost the entire picture, with three dark jagged rock masses across the upper middle being struck by white breakers. In the lower foreground place several smaller rocks, including one tall dark rock at bottom left and another upright rock near bottom center. Use a pale, cool palette of silvery gray, seafoam green, misty blue, lavender, and off-white. Paint with rapid broken brushstrokes and visible impasto, soft atmospheric light, no horizon emphasis, and a slightly aged canvas surface with subtle varnish dullness.",
+  "result": 0
+}

@@ -1,0 +1,29 @@
+{
+  "id": "nsibhqwtlmxkwarcgbjx",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/David-Antiochus_et_Stratonice.jpg",
+    "paintingLabel": "Erasistratus Discovering the Cause of Antiochus' Disease",
+    "artistName": "Jacques-Louis David",
+    "movementLabel": "neoclassicism",
+    "date_of_birth": "1748",
+    "date_of_death": "1825",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/David_Self_Portrait.jpg",
+    "width": "155",
+    "height": "120",
+    "inception": "1774",
+    "description": "painting by Jacques-Louis David",
+    "abstract": "Erasistratus Discovering the Cause of Antiochus' Disease (French: Érasistrate découvrant la cause de la maladie d’Antiochius dans son amour pour Stratonice) is a 1774 oil painting by French neoclassical artist Jacques-Louis David. The work is a history painting depicting an episode from Plutarch's Lives in which Greek court physician Erasistratus diagnoses the illness of Antiochus, the son of Seleucus I, as lovesickness for his stepmother Stratonice.  The painting was awarded the 1774 Prix de Rome by the Académie royale de peinture et de sculpture.",
+    "motifs": [
+      "disease",
+      "Erasistratus",
+      "Seleucus I Nicator",
+      "Antiochus I Soter",
+      "love",
+      "physician"
+    ],
+    "genres": ["history painting"],
+    "materials": ["oil paint"]
+  },
+  "prompt": "Paint \"Erasistratus Discovering the Cause of Antiochus' Disease\" by Jacques-Louis David (1774) from memory, as faithfully to the original as you can: the same composition, colors and brushwork. Do not search the web. Square image.",
+  "result": 0
+}

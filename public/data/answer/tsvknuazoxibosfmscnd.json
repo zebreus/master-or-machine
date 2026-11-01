@@ -1,0 +1,21 @@
+{
+  "id": "tsvknuazoxibosfmscnd",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Edvard_Munch%2C_Hjemvendende_arbejdere%2C_1914%2C_KMS3823%2C_SMK.jpg",
+    "paintingLabel": "Workers on their Way Home",
+    "artistName": "Edvard Munch",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1863",
+    "date_of_death": "1944",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Edvard_Munch_1933-2.jpg",
+    "width": "160.8",
+    "height": "130.7",
+    "inception": "1914",
+    "description": "painting by Edvard Munch (1914)",
+    "motifs": ["group of humans", "house", "sett", "beard", "hat", "man"],
+    "genres": ["genre art"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "Paint \"Workers on their Way Home\" by Edvard Munch (1914) from memory, as faithfully to the original as you can: the same composition, colors and brushwork. Do not search the web. Square image.",
+  "result": 0
+}

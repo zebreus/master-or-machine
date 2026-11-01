@@ -1,0 +1,21 @@
+{
+  "id": "zaqilkmuqvcyfhqahkiw",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Harbor_at_Lormont_-_Eugene_Louis_Boudin.jpg",
+    "paintingLabel": "Harbor at Lormont",
+    "artistName": "Eugène Boudin",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1824",
+    "date_of_death": "1898",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Boudin-eugene-c-face-half.jpg",
+    "width": "80",
+    "height": "50.8",
+    "inception": "1875",
+    "description": "painting by Eugène Boudin",
+    "motifs": ["harbor", "water", "ship", "Lormont", "sky"],
+    "genres": ["landscape art"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "Generate a square reproduction of a harbor scene painted in a restrained plein-air manner. In the foreground, show muddy shore and wooden structures, including a prominent slanted ladder or gangway rising near the center-left. Several sailing vessels and masts occupy the middle ground, the largest dark ship moored just right of center. To the left are low industrial or dockside buildings and a hint of smoke. Calm pale water extends to the right with smaller boats in the distance under a cloudy gray-cream sky. Use muted greens, tans, grays, and soft blues, brisk naturalistic brushwork, and the slightly dry, timeworn surface of an older oil painting.",
+  "result": 1
+}

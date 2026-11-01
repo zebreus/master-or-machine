@@ -1,0 +1,21 @@
+{
+  "id": "pjjtjvqwfedoxxgkhjwb",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ernst_Ludwig_Kirchner%2C_1913%2C_Street%2C_Berlin%2C_oil_on_canvas%2C_120.6_x_91.1_cm%2C_MoMA.jpg",
+    "paintingLabel": "Street Berlin",
+    "artistName": "Ernst Ludwig Kirchner",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1880",
+    "date_of_death": "1938",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Kirchner_1919_portrait.jpg",
+    "width": "91.1",
+    "height": "120.6",
+    "inception": "1913",
+    "description": "painting by Ernst Ludwig Kirchner",
+    "motifs": [],
+    "genres": [],
+    "materials": []
+  },
+  "prompt": "Generate an early German Expressionist urban street painting from 1913, originally tall vertical, fitted into a square image while preserving full figures. Two fashionably dressed women dominate the left and center foreground, walking toward the viewer with angular bodies, elongated faces, dark eyes, enormous feathered hats and luxurious white fur collars. The left woman wears a deep violet coat and cream-plumed hat; the center woman wears a black teal coat and black hat. Behind them loom several tall men in black overcoats and bowler hats, one prominent at center-right, another partly cropped on the far right. A sharply tilted magenta-pink pavement and turquoise corners contrast with black, purple and petrol-blue forms. Rapid flat brushwork, jagged contours, matte aged oil.",
+  "result": 0
+}

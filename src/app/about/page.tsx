@@ -51,6 +51,22 @@ export default function Component() {
                 manually. We are happy with the results. Are you?
               </article>
             </div>
+
+            <div>
+              <h2 className="text-3xl text-accentGreen mb-8">
+                The 2026 rematch
+              </h2>
+              <article className="text-white">
+                Two years later, we played the same game again with the same
+                paintings. This time ChatGPT did all the AI work, by hand in the
+                web app. It looked at each painting, wrote the description and a
+                prompt, and then painted a new image from the prompt alone. We
+                also added two experiments. In The Forger, ChatGPT sees the
+                painting and has to make a faithful copy. In From Memory, it
+                only gets the title, the artist and the year. Even the banners
+                of the new challenges were painted by ChatGPT from memory.
+              </article>
+            </div>
           </div>
 
           <div className="relative h-80 w-full">

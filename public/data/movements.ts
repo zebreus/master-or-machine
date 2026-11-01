@@ -10,6 +10,12 @@ const movements: Movements = [
   { id: "expressionism", name: "expressionism" },
   { id: "artNouveau", name: "Art Nouveau" },
   { id: "neoclassicism", name: "neoclassicism" },
+  { id: "impressionismChatgpt", name: "Impressionism (ChatGPT)" },
+  { id: "expressionismChatgpt", name: "Expressionism (ChatGPT)" },
+  { id: "artNouveauChatgpt", name: "Art Nouveau (ChatGPT)" },
+  { id: "neoclassicismChatgpt", name: "Neoclassicism (ChatGPT)" },
+  { id: "theForger", name: "The Forger" },
+  { id: "fromMemory", name: "From Memory" },
 ] satisfies Movements
 
 // Export as default value to avoid a weird bug where json files are sometimes preferred over ts files

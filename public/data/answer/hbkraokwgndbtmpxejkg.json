@@ -1,0 +1,22 @@
+{
+  "id": "hbkraokwgndbtmpxejkg",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pierre-Auguste_Renoir%27s_%27Paysage_Bords_de_Seine%27%2C_The_Potomack_Company_auction_gallery_in_Alexandria%2C_VA.jpg",
+    "paintingLabel": "On the Shore of the Seine",
+    "artistName": "Pierre-Auguste Renoir",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1841",
+    "date_of_death": "1919",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Pierre-Auguste_Renoir_-_Autoportrait_%281876%29.jpg",
+    "width": "23.2",
+    "height": "14",
+    "inception": "1879",
+    "description": "painting by Pierre-Auguste Renoir",
+    "abstract": "Paysage Bords de Seine  (On the Shore of the Seine or Landscape on the Banks of the Seine) is an 1879 oil painting by Pierre-Auguste Renoir. It was stolen in 1951 from the Baltimore Museum of Art and resurfaced in 2012.\\n\\n",
+    "motifs": ["Seine", "sailboat"],
+    "genres": ["landscape art"],
+    "materials": ["oil paint", "linen"]
+  },
+  "prompt": "Generate a square image that closely matches a small Impressionist riverside landscape. The composition should feel panoramic but set within a square, with the left and center occupied by a softly glowing bank of foliage in yellow-green, mint, and pale pink. A calm river or inlet appears behind the vegetation, with a few vertical reeds or slender branches rising near the center. In the distance at far left, include faint dark tree forms or poplar-like silhouettes. Use feathery, blurred brushstrokes and a light, hazy atmosphere. Add tiny red accents among the greenery, a cream-toned ground, and a slightly aged linen texture.",
+  "result": 1
+}

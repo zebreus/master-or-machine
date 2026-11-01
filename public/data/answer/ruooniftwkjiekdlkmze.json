@@ -1,0 +1,21 @@
+{
+  "id": "ruooniftwkjiekdlkmze",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Van_Gogh_-_Stillleben_mit_Skabiosen_und_Ranunkeln.jpeg",
+    "paintingLabel": "Still Life with Scabiosa and Ranunculus",
+    "artistName": "Vincent van Gogh",
+    "movementLabel": "Impressionism",
+    "date_of_birth": "1853",
+    "date_of_death": "1890",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Vincent_van_Gogh_-_Self-portrait_with_grey_felt_hat_-_Google_Art_Project.jpg",
+    "width": "20",
+    "height": "26",
+    "inception": "1886",
+    "description": "painting by Vincent van Gogh",
+    "motifs": ["Scabiosa", "Ranunculus"],
+    "genres": ["floral painting"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "Generate a square reproduction of a vertical still life of wildflowers in a small unseen container against a brown-gray ground. Several long, thin stems rise upward, carrying pinkish-purple scabiosa heads, a yellow ranunculus bloom at lower left center, darker buds, and reddish flowers clustered near the middle. The flowers are spaced irregularly across the composition, with many stems exposed. Use earthy muted colors—olive, ocher, dusty pink, russet, and gray-brown—and loose, slightly rough brushwork. The paint should appear matte and textured, with the modest intimacy of a small canvas and an aged late-19th-century surface.",
+  "result": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "chktneitpoipbfhtxjlo",
+  "artwork": {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Girl_in_the_shirt_%28Red-haired_girl%29_by_Amedeo_Modigliani.jpg",
+    "paintingLabel": "Girl in the shirt (Red-haired girl)",
+    "artistName": "Amedeo Modigliani",
+    "movementLabel": "expressionism",
+    "date_of_birth": "1884",
+    "date_of_death": "1920",
+    "artist_img": "https://upload.wikimedia.org/wikipedia/commons/0/07/Amedeo-modigliani-identification-photo-nice-1918.jpg",
+    "width": "50",
+    "height": "73",
+    "inception": "1918",
+    "description": "painting by Amedeo Modigliani",
+    "motifs": [
+      "chemise",
+      "blue",
+      "red hair",
+      "White people",
+      "breast",
+      "woman"
+    ],
+    "genres": ["nude", "portrait"],
+    "materials": ["oil paint", "canvas"]
+  },
+  "prompt": "Recreate a 1918 School of Paris modernist portrait, upright figure composition adapted to square format with shoulders and hands preserved. A slender young red-haired woman sits frontally against a flat mottled warm gray-green wall. Her long oval face tilts gently toward the viewer's right, with a narrow elongated nose, tiny dark-red mouth, pale almond-shaped blue-green eyes lacking defined pupils, and short wavy auburn hair falling in strands beside her neck. She wears a thin white chemise slipped off her left shoulder, exposing part of her chest; her right hand holds fabric at the breast, left forearm rests diagonally across her lap. Flesh warm peach and dusty rose, subtle black contours, delicate scumbled paint, dry chalky canvas texture, softly yellowed old varnish.",
+  "result": 0
+}
